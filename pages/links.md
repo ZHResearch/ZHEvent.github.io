@@ -1,28 +1,38 @@
 ---
 layout: page
 title: Links
-description: 没有链接的博客是孤独的
-keywords: 友情链接
-comments: true
+description: 学习常用网站
+keywords: 链接
+comments: false
 menu: 链接
 permalink: /links/
 ---
 
-> God made relatives. Thank God we can choose our friends.
+> 没有灵感？看论文吧
 
 <ul>
 {% for link in site.data.links %}
-  {% if link.src == 'life' %}
+  {% if link.src == 'paper' %}
   <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
   {% endif %}
 {% endfor %}
 </ul>
 
-> 友情链接
+> 看看别人在搞啥
 
 <ul>
 {% for link in site.data.links %}
-  {% if link.src == 'www' %}
+  {% if link.src == 'other' %}
+  <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+> 学习资源
+
+<ul>
+{% for link in site.data.links %}
+  {% if link.src == 'learn' %}
   <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
   {% endif %}
 {% endfor %}

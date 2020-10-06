@@ -1,71 +1,43 @@
-- name: 码志
-  url: http://mazhuang.org
-  src: life
+- name: ACL Anthology
+  url: https://www.aclweb.org/anthology/
+  src: paper
 
-- name: Connie 酱
-  url: https://connie99.github.io
-  src: life
+- name: Semantic Scholar
+  url: https://www.semanticscholar.org/
+  src: paper
 
-- name: 只宁静不致远
-  url: http://zxning.github.io
-  src: life
+- name: dblp
+  url: https://dblp.uni-trier.de/
+  src: paper
 
-- name: Blog Something
-  url: http://chenxiaoyoyo.github.io
-  src: life
+- name: Paper Weekly
+  url: http://www.paperweekly.site/
+  src: other
 
-- name: 日新亭
-  url: http://www.fengerzh.com/
-  src: life
+- name: 科学空间
+  url: https://kexue.fm/
+  src: other
 
-- name: wanandroid
-  url: http://www.wanandroid.com/
-  src: life
+- name: Machine Learning Mastery
+  url: https://machinelearningmastery.com/blog/
+  src: other
 
-- name: ZZY补完计划
-  url: https://zzycreate.github.io/
-  src: life
+- name: 简单粗暴 TensorFlow 2
+  url: https://tf.wiki/zh_hans/
+  src: learn
 
-- name: 村农
-  url: http://www.why-dong.com/
-  src: life
+- name: Keras 深度学习库
+  url: https://keras-zh.readthedocs.io/
+  src: learn
 
-- name: 求生之路
-  url: http://blog.xiaolaoni.xin/
-  src: life
+- name: 慕课网
+  url: https://www.imooc.com/
+  src: learn
 
-- name: 王玉超
-  url: https://yuchao.wang/
-  src: life
+- name: 极客学院
+  url: https://wiki.jikexueyuan.com/
+  src: learn
 
-- name: 董小姐的草原
-  url: https://candy961.github.io/
-  src: life
-
-- name: 水寒的博客
-  url: https://dp2px.com
-  src: www
-
-- name: 孙不服的博客
-  url: https://www.sunbufu.club/
-  src: www
-
-- name: HwiLu's 博客
-  url: https://hwilu.github.io/
-  src: www
-
-- name: 有次博客
-  url: http://you.ci/
-  src: www
-
-- name: 呓城之城
-  url: http://yicheng.zdyrs.com/
-  src: www
-
-- name: 秦大圣的博客
-  url: https://qinjisheng.top/
-  src: www
-
-- name: 大白技术控
-  url: https://www.geekplayers.com/
-  src: www
+- name: labuladong 的算法小抄
+  url: https://labuladong.gitbook.io/algo/
+  src: learn
