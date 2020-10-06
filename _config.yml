@@ -1,7 +1,7 @@
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
-baseurl: "/papernote"
+baseurl: ""
 url:
 date_format: "ordinal"
 title: 论文笔记
@@ -11,7 +11,7 @@ keywords: NLP, Event Relation
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
-repository: jsksxs360/papernote
+repository: ZHEvent/ZHEvent.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -38,12 +38,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: 
-organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+author: 事件关系抽取小分队
+organization: 苏州大学
+organization_url: http://www.suda.edu.cn/
+github_username: ZHEvent
+location: 苏州，中国
+email: jsksxs360@163.com
 
 # ---------------- #
 #    Navigation    #
@@ -73,9 +73,9 @@ navs:
     href: /links/
     label: 链接
 
-  -
-    href: /about/
-    label: 关于
+  # -
+  #   href: /about/
+  #   label: 关于
 
 # ---------------- #
 #       RSS        #
@@ -146,10 +146,10 @@ simple_jekyll_search:
 # ---------------- #
 #      Google      #
 # ---------------- #
-google:
-    analytics_id: UA-80669434-1
-    adsense:
-        footer: true
-        sidebar: true 
-        content_header: true
-        content_footer: false
+# google:
+#     analytics_id: UA-80669434-1
+#     adsense:
+#         footer: true
+#         sidebar: true 
+#         content_header: true
+#         content_footer: false
