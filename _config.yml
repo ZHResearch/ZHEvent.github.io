@@ -4,7 +4,7 @@
 baseurl: ""
 url:
 date_format: "ordinal"
-title: 论文笔记
+title: 学习博客
 subtitle: "事件关系抽取小分队"
 description: "事件关系论文笔记"
 keywords: NLP, Event Relation
@@ -42,7 +42,7 @@ author: 事件关系抽取小分队
 organization: 苏州大学
 organization_url: http://www.suda.edu.cn/
 github_username: ZHEvent
-location: 苏州，中国
+location: 苏州
 email: jsksxs360@163.com
 
 # ---------------- #
