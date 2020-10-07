@@ -23,17 +23,25 @@ GPT 不是凭空而出，它是经过了很多人的努力，以及很长一段�
 
 为了更好地给 GPT 建立一个“家谱”，也让你们知道这篇文章会涉及什么内容，首先要宏观的比较一下这个庞大的家族各个成员的出生时间（图 1）。
 
+<<<<<<< HEAD:_posts/2020-10-07-from-word2vec-to-gpt3.md
 <div style="text-align: center;">
 <img src="/images/blog/from-word2vec-to-gpt-1.png" width="500px"/>
 </div>
+=======
+![1](/images/blog/from-word2vec-to-gpt-1.png)
+>>>>>>> c33e62f7277a64c6fe4dc9034dbcb163f9acde2d:_posts/2020-10-06-from-word2vec-to-gpt3.md
 
 <center>图 1：家族成员出生日期。</center>
 
 有了这个出生时间表，再对他们有一定的了解（本文的主要目的），它们的关系其实就很好确定了，所以这个庞大家族的族谱大概可以画成图 2 的这个样子。
 
+<<<<<<< HEAD:_posts/2020-10-07-from-word2vec-to-gpt3.md
 <div style="text-align: center;">
 <img src="/images/blog/from-word2vec-to-gpt-2.png" width="600px"/>
 </div>
+=======
+![2](/images/blog/from-word2vec-to-gpt-2.png)
+>>>>>>> c33e62f7277a64c6fe4dc9034dbcb163f9acde2d:_posts/2020-10-06-from-word2vec-to-gpt3.md
 
 <center>图 2：GPT 族谱。</center>
 
@@ -53,7 +61,7 @@ Word Embedding（词嵌入）作为这个庞大家族集团的创始人，为整
 
 <center>图 3：“stick”的词向量 （图源：[15]）</center>
 
-## **ELMo [3] —— 语境很重要！**
+## ELMo [3] —— 语境很重要！
 
 在爷爷创建了这个家族企业之后，后续也有很多很多后代在对其进行发展，GPT 的近亲中也有这么一位——ELMo (2018 年 2 月)。这位 GPT-3 的叔叔在 2018 年跟 GPT-1 一起被 BERT 拉出来示众（作比较），所以大家应该也比较耳熟。ELMo 创业的时候，Transformer 还未经打磨，Transformer 的儿子 Transformer-decoder（2018 年 1 月）同样还没有火起来，所以他还没有用 Transformer（也因此被 BERT 在最开始的论文里拉出来作对比），但是他注意到了词向量不能是不变的，比如一开始学习词嵌入的时候是用下面这两句话：
 
@@ -70,7 +78,7 @@ Word Embedding（词嵌入）作为这个庞大家族集团的创始人，为整
 
 最终，这些思想都给他的侄子们（GPT，BERT 等）带来了很大的启发。如果对 ELMo 的计算细节感兴趣，本文最后也贴了 reference，可以去看一下原论文，还是有很多很聪明的想法的，不过它不是我们今天的主角，因此这里就不多做赘述了。
 
-## 【旁支】Attention
+## 旁支 Attention
 
 在说完 ELMo 之后，本来就应该开始介绍现在家族集团的中流砥柱 BERT 和 GPT 了，但是在这之前还是要简要回顾一下 attention 和 self attention，我猜很多加入 NLP 不久的人应该跟我一样，一上来从各大科普文中接收到的概念就是 self-attention 和 self-attention 的计算过程，对于 self-attention 名字的由来还是很迷糊，甚至很多科普文的作者对这个概念都是迷迷糊糊的，导致我在求证自己的理解的时候都发现很多不同的版本，不过我们还是要忠于原论文，因此这个问题还是从最开始论文对 Attention 的定义开始说起，很多 attention 的科普文的第一部分都会对 attention 的原理进行很形象的描述，顾名思义就是我们希望我们的模型在给我们结果的时候不要傻乎乎的给它什么他就都看，而是只看重要的那一点，机器之心对于注意力还有很多很有趣的解释，这里就不浪费篇幅做重复的工作了，直接上正式的定义：
 
@@ -90,17 +98,25 @@ Word Embedding（词嵌入）作为这个庞大家族集团的创始人，为整
 
 在原始的方案中，待翻译的序列（X）的信息被总结在最后一个 hidden state（hm）中，身负重任（带着原始句子的所有信息）的 hm 最终被用来生成被翻译的语言（Y），这个方案的问题很明显，hm 的能力有限，当句子很长的时候，很容易丢失重要信息。问题提出来了，Attention 给出了怎样的解决方案呢？
 
+<<<<<<< HEAD:_posts/2020-10-07-from-word2vec-to-gpt3.md
 <div style="text-align: center;">
 <img src="/images/blog/from-word2vec-to-gpt-5.png" width="280px"/>
 </div>
+=======
+![5](/images/blog/from-word2vec-to-gpt-5.png)
+>>>>>>> c33e62f7277a64c6fe4dc9034dbcb163f9acde2d:_posts/2020-10-06-from-word2vec-to-gpt3.md
 
 <center>图 5：Attention 给出的最终方案 （图源：[13]）</center>
 
 在正式介绍 Attention 给出的方案之前，还是简单回顾一下 Attention 的计算过程（这里提到的 Attention 在 Transformer 中被称为 Scaled Dot-Product Attention）。
 
+<<<<<<< HEAD:_posts/2020-10-07-from-word2vec-to-gpt3.md
 <div style="text-align: center;">
 <img src="/images/blog/from-word2vec-to-gpt-6.png" width="250px" />
 </div>
+=======
+![6](/images/blog/from-word2vec-to-gpt-6.png)
+>>>>>>> c33e62f7277a64c6fe4dc9034dbcb163f9acde2d:_posts/2020-10-06-from-word2vec-to-gpt3.md
 
 <center>图 6：Attention 计算过程 （图源：[4]）</center>
 
@@ -123,7 +139,7 @@ Attention 在外包自己的业务的时候，其优秀的外包方案引起了 
 
 然后，Transformer 公司应运而生了！
 
-## 【中兴之祖】Transformer：Attention 就够了！
+## 中兴之祖 Transformer：Attention 就够了！
 
 **承前启后 —— self-attention**
 
@@ -147,25 +163,37 @@ Attention 在外包自己的业务的时候，其优秀的外包方案引起了 
 
 但是，对于 self-attention 理解在后面理解这些兄弟们企业核心的区别很重要，所以这里我们占用篇幅搬运一个具体的计算例子（来自 Jalammar 的多篇文章，如果已经理解了可以跳过）：第一步，先是通过 $$X_i$$ 和各个 $$W$$（可训练的权重矩阵）的相乘得到 query, key 和 value 矩阵（如图 8 所示）：
 
+<<<<<<< HEAD:_posts/2020-10-07-from-word2vec-to-gpt3.md
 <div style="text-align: center;">
 <img src="/images/blog/from-word2vec-to-gpt-8.png" width="700px" />
 </div>
+=======
+![8](/images/blog/from-word2vec-to-gpt-8.png)
+>>>>>>> c33e62f7277a64c6fe4dc9034dbcb163f9acde2d:_posts/2020-10-06-from-word2vec-to-gpt3.md
 
 <center>图 8：self-attention 原始矩阵（图源：http://jalammar.github.io/illustrated-transformer/）</center>
 
 然后就是按照图 9 所示的步骤一步一步先计算 score，再 normalize (divide 那一步)，最后用 softmax 得到 attention score，然后用这个 attetion 作为权重求 $$v_1$$ 和 $$v_2$$ 的加权和，就得到最终的 self-attention 在这个位置（thinking 这个词）的输出值了。
 
+<<<<<<< HEAD:_posts/2020-10-07-from-word2vec-to-gpt3.md
 <div style="text-align: center;">
 <img src="/images/blog/from-word2vec-to-gpt-9.png" width="600px" />
 </div>
+=======
+![9](/images/blog/from-word2vec-to-gpt-9.png)
+>>>>>>> c33e62f7277a64c6fe4dc9034dbcb163f9acde2d:_posts/2020-10-06-from-word2vec-to-gpt3.md
 
 <center>图 9：self-attention 计算流程（图源：http://jalammar.github.io/illustrated-transformer/）</center>
 
 图 10 是一个具体的 self-attention 的例子，可以看到 it 这个词对自己的 attention 其实很小，更多的注意力放在了 a robot 上，因为 it 本身没有意思，它主要是指代前面的 a robot。**所以一个词的 query 和 key 是不同的**（相同的话相似度肯定是最大的，这样百分百的注意力都在自己身上），在做计算的时候是一视同仁的，虽然都是来自于 it 这个词，但是这里 it 的 key 告诉我们的信息就是它并不重要。
 
+<<<<<<< HEAD:_posts/2020-10-07-from-word2vec-to-gpt3.md
 <div style="text-align: center;">
 <img src="/images/blog/from-word2vec-to-gpt-10.png" width="700px" />
 </div>
+=======
+![10](/images/blog/from-word2vec-to-gpt-10.png)
+>>>>>>> c33e62f7277a64c6fe4dc9034dbcb163f9acde2d:_posts/2020-10-06-from-word2vec-to-gpt3.md
 
 <center>图 10：self-attention 矩阵细节（图源：http://jalammar.github.io/）</center>
 
@@ -173,7 +201,7 @@ Attention 在外包自己的业务的时候，其优秀的外包方案引起了 
 
 前面介绍了那么多，甚至贴上了论文的原文，一个很重要的目的是为了强调 self-attention 层在 encoder 和 decoder 中是不一样的！encoder 在做 self-attention 的时候可以“attend to all positions”，而 decoder 只能“attend to all positions in the decoder up to and including that position”（划重点，涉及到 BERT 和 GPT 的一个重要区别）。简单来说，就是 decoder 跟过去的 Language model 一样，只能看到前面的信息，但是 encoder 可以看到完整的信息（双向信息）。具体细节在介绍到 BERT 和 GPT 的时候会详细介绍。
 
-## 【后浪时代】BERT & GPT & 其他
+## 后浪时代 BERT & GPT & 其他
 
 如果你足够细心的话，可以看到前面我提到的例子几乎都是机器翻译相关的，这是因为 Transformer 的 encoder-decoder 结构给其带来了很大的局限性。如果你想要做文本分类任务，使用 Transformer 的困难就很大，你也很难预训练好这个模型然后再在各种下游任务上 fine-tune。因此，Transformer 的儿子们给我们带来了令人惊喜的后浪时代。
 
@@ -185,9 +213,13 @@ Transformer 的大儿子首先发现了父亲公司的冗余机制，然后打�
 
 可以看出大儿子是个黑心老板，他发现只需要用一部分 Transformer，就可以做成他想做的 language modelling，因此它只保留了 decoder，因为 decoder 在 Transformer 里的工作就是根据前面的词预测后面的词（跟 Language modelling 的任务一样）。但是如前文所述（图 11），Transformer 除了其提出的 self-attention 以外，还保留了过去的 encoder-decoder attetion，而现在因为没有 encoder 了，所以 encoder-decoder attention 层这里就没有了。
 
+<<<<<<< HEAD:_posts/2020-10-07-from-word2vec-to-gpt3.md
 <div style="text-align: center;">
 <img src="/images/blog/from-word2vec-to-gpt-11.png" width="700px" />
 </div>
+=======
+![11](/images/blog/from-word2vec-to-gpt-11.png)
+>>>>>>> c33e62f7277a64c6fe4dc9034dbcb163f9acde2d:_posts/2020-10-06-from-word2vec-to-gpt3.md
 
 <center>图 11：Transformer 的 encoder-decoder 结构细节（图源：http://jalammar.github.io/）</center>
 
@@ -213,9 +245,13 @@ GPT-1 从大哥 Transoformer-decoder 的成功中看到了机会，并且挖掘�
 
 具体 GPT-1 的具体工作流程如图 13 所示：
 
+<<<<<<< HEAD:_posts/2020-10-07-from-word2vec-to-gpt3.md
 <div style="text-align: center;">
 <img src="/images/blog/from-word2vec-to-gpt-13.png" width="700px" />
 </div>
+=======
+![13](/images/blog/from-word2vec-to-gpt-13.png)
+>>>>>>> c33e62f7277a64c6fe4dc9034dbcb163f9acde2d:_posts/2020-10-06-from-word2vec-to-gpt3.md
 
 <center>图 13：如何使用 GPT（OpenAI Transformer）进行 Finetune（图源：http://jalammar.github.io/）</center>
 
@@ -251,7 +287,7 @@ $$\max_{\theta}\quad \log p_\theta(\bar{\textbf{x}}\mid \hat{\textbf{x}}) \appro
 
 他的哥哥们之所以选择 AR 模型，是因为 AR 模型在生成任务中表现得更好，因为生成任务一般都是单向且正向的，而且 GPT 的招牌中就明确写出了他们的主要工作是 Gnereative pretraining。因此 AR 和 AE，具体来说就是选择 encoder 还是 decoder，其实最本质还是一种权衡利弊，最适合自己的就是最好的。
 
-## 【外传】Transformer 的私生子们
+## 外传 Transformer 的私生子们
 
 私生子们因为不受到重视，反而就会格外努力去遵循父亲的指导，尽心尽力去改进父亲的不足。Transformer 的其中一个私生子，transformer XL[17]（XL 的意思是 extra long），表现很出色（主要是他的儿子 XLNet[16]出色），让 transformer 回归了 AR 的本性，也让 Transformer 可以处理的序列更长了，前面也说过 AR 模型的优势。但是 AR 模型之所以没有这些缺陷是因为他们没有使用 Masked LM 方法，而 Masked LM 的提出正是为了解决 AR 模型的限制之一——AR 语言模型仅被训练用于编码单向语境（前向或后向），而下游语言理解任务通常需要双向语境信息。可见 AR 阵营本身有自己的优势，但如果想要获得更大的胜利，就必须找到一个比 Masked LM 更好的办法来解决双向语境问题。
 
@@ -263,7 +299,7 @@ $$\max_{\theta}\quad \log p_\theta(\bar{\textbf{x}}\mid \hat{\textbf{x}}) \appro
 
 一开始 AR 模式不是只能单向工作吗？那就把输入乱序，找到所有的排列组合，并按照这些排列组合进行因式分解。当然这样计算量很大，XLNet 也想到了很好的方式来解决，具体怎么解决的这里就不说了，可以去原论文看一下，但是 XLNet 确实在当时也引起了不小的波澜，也算是私生子们一场不小的胜利了。
 
-##【现代】GPT2 & 3 —— 大即正义 (Bigger than bigger)
+## 现代 GPT2 & 3 —— 大即正义 (Bigger than bigger)
 
 最后回到当下，也是现在的 GPT2 和 GPT3，读到这里，其实 GPT2 和 GPT3 就没什么技术细节可以讲了，他们发现父辈们已经开创了一个时代，比如 BERT 打破了自然语言处理领域模型在各项任务中的记录，而且在描述模型的论文发布后不久，该团队还开源了该模型的代码，并提供了已经在大量数据集上进行了预训练的模型。这是一项重要的发展，因为它使任何构建涉及语言处理的机器学习模型的人都可以使用此强大的功能作为随时可用的组件，从而节省了从训练语言处理模型上来的时间，精力，知识和资源（如图 17 所示）。
 
