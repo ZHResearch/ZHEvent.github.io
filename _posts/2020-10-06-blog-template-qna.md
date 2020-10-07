@@ -5,6 +5,7 @@ categories: GitHub
 description: 使用这个博客时可能会遇到的问题的汇总。
 keywords: Jekyll, GitHub Pages
 topmost: true
+original: true
 ---
 
 ## 是否支持画流程图、时序图、mermaid 和 MathJax
