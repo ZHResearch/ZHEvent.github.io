@@ -23,13 +23,17 @@ GPT 不是凭空而出，它是经过了很多人的努力，以及很长一段�
 
 为了更好地给 GPT 建立一个“家谱”，也让你们知道这篇文章会涉及什么内容，首先要宏观的比较一下这个庞大的家族各个成员的出生时间（图 1）。
 
-<img src="/images/blog/from-word2vec-to-gpt-1.png" width="500px" />
+<div style="text-align: center;">
+<img src="/images/blog/from-word2vec-to-gpt-1.png" width="500px"/>
+</div>
 
 <center>图 1：家族成员出生日期。</center>
 
 有了这个出生时间表，再对他们有一定的了解（本文的主要目的），它们的关系其实就很好确定了，所以这个庞大家族的族谱大概可以画成图 2 的这个样子。
 
-<img src="/images/blog/from-word2vec-to-gpt-2.png" width="600px" />
+<div style="text-align: center;">
+<img src="/images/blog/from-word2vec-to-gpt-2.png" width="600px"/>
+</div>
 
 <center>图 2：GPT 族谱。</center>
 
@@ -86,13 +90,17 @@ Word Embedding（词嵌入）作为这个庞大家族集团的创始人，为整
 
 在原始的方案中，待翻译的序列（X）的信息被总结在最后一个 hidden state（hm）中，身负重任（带着原始句子的所有信息）的 hm 最终被用来生成被翻译的语言（Y），这个方案的问题很明显，hm 的能力有限，当句子很长的时候，很容易丢失重要信息。问题提出来了，Attention 给出了怎样的解决方案呢？
 
-<img src="/images/blog/from-word2vec-to-gpt-5.png" width="280px" />
+<div style="text-align: center;">
+<img src="/images/blog/from-word2vec-to-gpt-5.png" width="280px"/>
+</div>
 
 <center>图 5：Attention 给出的最终方案 （图源：[13]）</center>
 
 在正式介绍 Attention 给出的方案之前，还是简单回顾一下 Attention 的计算过程（这里提到的 Attention 在 Transformer 中被称为 Scaled Dot-Product Attention）。
 
+<div style="text-align: center;">
 <img src="/images/blog/from-word2vec-to-gpt-6.png" width="250px" />
+</div>
 
 <center>图 6：Attention 计算过程 （图源：[4]）</center>
 
@@ -139,19 +147,25 @@ Attention 在外包自己的业务的时候，其优秀的外包方案引起了 
 
 但是，对于 self-attention 理解在后面理解这些兄弟们企业核心的区别很重要，所以这里我们占用篇幅搬运一个具体的计算例子（来自 Jalammar 的多篇文章，如果已经理解了可以跳过）：第一步，先是通过 $$X_i$$ 和各个 $$W$$（可训练的权重矩阵）的相乘得到 query, key 和 value 矩阵（如图 8 所示）：
 
+<div style="text-align: center;">
 <img src="/images/blog/from-word2vec-to-gpt-8.png" width="700px" />
+</div>
 
 <center>图 8：self-attention 原始矩阵（图源：http://jalammar.github.io/illustrated-transformer/）</center>
 
 然后就是按照图 9 所示的步骤一步一步先计算 score，再 normalize (divide 那一步)，最后用 softmax 得到 attention score，然后用这个 attetion 作为权重求 $$v_1$$ 和 $$v_2$$ 的加权和，就得到最终的 self-attention 在这个位置（thinking 这个词）的输出值了。
 
+<div style="text-align: center;">
 <img src="/images/blog/from-word2vec-to-gpt-9.png" width="600px" />
+</div>
 
 <center>图 9：self-attention 计算流程（图源：http://jalammar.github.io/illustrated-transformer/）</center>
 
 图 10 是一个具体的 self-attention 的例子，可以看到 it 这个词对自己的 attention 其实很小，更多的注意力放在了 a robot 上，因为 it 本身没有意思，它主要是指代前面的 a robot。**所以一个词的 query 和 key 是不同的**（相同的话相似度肯定是最大的，这样百分百的注意力都在自己身上），在做计算的时候是一视同仁的，虽然都是来自于 it 这个词，但是这里 it 的 key 告诉我们的信息就是它并不重要。
 
+<div style="text-align: center;">
 <img src="/images/blog/from-word2vec-to-gpt-10.png" width="700px" />
+</div>
 
 <center>图 10：self-attention 矩阵细节（图源：http://jalammar.github.io/）</center>
 
@@ -171,7 +185,9 @@ Transformer 的大儿子首先发现了父亲公司的冗余机制，然后打�
 
 可以看出大儿子是个黑心老板，他发现只需要用一部分 Transformer，就可以做成他想做的 language modelling，因此它只保留了 decoder，因为 decoder 在 Transformer 里的工作就是根据前面的词预测后面的词（跟 Language modelling 的任务一样）。但是如前文所述（图 11），Transformer 除了其提出的 self-attention 以外，还保留了过去的 encoder-decoder attetion，而现在因为没有 encoder 了，所以 encoder-decoder attention 层这里就没有了。
 
+<div style="text-align: center;">
 <img src="/images/blog/from-word2vec-to-gpt-11.png" width="700px" />
+</div>
 
 <center>图 11：Transformer 的 encoder-decoder 结构细节（图源：http://jalammar.github.io/）</center>
 
@@ -197,7 +213,9 @@ GPT-1 从大哥 Transoformer-decoder 的成功中看到了机会，并且挖掘�
 
 具体 GPT-1 的具体工作流程如图 13 所示：
 
+<div style="text-align: center;">
 <img src="/images/blog/from-word2vec-to-gpt-13.png" width="700px" />
+</div>
 
 <center>图 13：如何使用 GPT（OpenAI Transformer）进行 Finetune（图源：http://jalammar.github.io/）</center>
 
