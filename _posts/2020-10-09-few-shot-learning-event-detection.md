@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [ALC 2020]Extensively Matching for Few-shot Learning Event Detection
+title: ALC 2020 Extensively Matching for Few-shot Learning Event Detection
 categories: [Note, Event Detection]
 description: 用于小样本学习事件检测的广泛匹配 
 keywords: few-shot, event, detection
