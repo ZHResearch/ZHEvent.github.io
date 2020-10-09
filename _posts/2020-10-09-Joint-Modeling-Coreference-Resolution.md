@@ -55,16 +55,19 @@ $$
 $$
 \vec{d}_{Arg1}(m_{vi}) = \frac{1}{|c|}\sum_{m\in c}\vec{s}(m)
 $$
+
 否则，Arg1的向量为0。
 
 $$
 \vec{d}_{Arg1}(m_{vi}) = \vec{0}
 $$
+
 将上述四个论元的向量串联得
 
 $$
 \vec{d}(m_{vi}) = [\vec{d}_{Arg0}(m_{vi});\vec{d}_{Arg1}(m_{vi});\vec{d}_{loc}(m_{vi});\vec{d}_{time}(m_{vi})]
 $$
+
 最后，一个mention的向量表示为含有上述三个特征的向量：
 
 $$
