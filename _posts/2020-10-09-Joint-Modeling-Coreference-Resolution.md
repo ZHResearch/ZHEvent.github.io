@@ -6,8 +6,8 @@ description: 跨文档实体和事件同指消解的联合建模
 keywords: Joint Model,Cross-document,Coreference Resolution
 mathjax: true
 original: true
-author: 王亮
-authorurl: https://github.com/NeoAlice
+author: 黄琮程
+authorurl: https://github.com/Ottohcc
 ---
 
 > 2019 ACL《跨文档实体和事件同指消解的联合建模》[(Revisiting Joint Modeling of Cross-document Entity and Event Coreference Resolution Event Detection)](https://www.aclweb.org/anthology/P19-1409.pdf) 的阅读笔记
