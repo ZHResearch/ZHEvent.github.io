@@ -6,7 +6,6 @@ description:Extensively Matching for Few-shot Learning Event Detection
 keywords:Few-shot Learning,Event Detection,Loss Function
 mathjax:true
 original:true
-typora-root-url: ..\images\posts\markdown
 ---
 
 
