@@ -62,7 +62,7 @@ $$
 
 #### 4.Scorer
 
-<img style="width:400px;height:px" src="images/blog/notes_pics1/scorer.png"  align=center />
+<img style="width:400px;height:px" src="/images/blog/notes_pics1/scorer.png"  align=center />
 
  
 
@@ -80,7 +80,7 @@ $$
 
 ​		本质上是进行聚类。
 
-<img style="width:700px;height:px" src="images/blog/notes_pics1/algorithm.png"  align=center />
+<img style="width:700px;height:px" src="/images/blog/notes_pics1/algorithm.png"  align=center />
 
 
 
@@ -88,17 +88,17 @@ $$
 
 #### 1.结果
 
-<img style="width:700px;height:px" src="images/blog/notes_pics1/result1.png"  align=center />
+<img style="width:700px;height:px" src="/images/blog/notes_pics1/result1.png"  align=center />
 
 
 
-<img style="width:400px;height:px" src="images/blog/notes_pics1/result2.png"  align=center />
+<img style="width:400px;height:px" src="/images/blog/notes_pics1/result2.png"  align=center />
 
 
 
  #### 2.错误分析
 
-<img style="width:800px;height:px" src="images/blog/notes_pics1/analysis.png"  align=center />
+<img style="width:800px;height:px" src="/images/blog/notes_pics1/analysis.png"  align=center />
 
 （其中Patial argument coreference 主要源于相似事件发生时间不同）
 
@@ -106,15 +106,15 @@ $$
 
 #### 3.分离分析
 
-<img style="width:275px;height:px" src="images/blog/notes_pics1/component1.png"  align=center />
+<img style="width:275px;height:px" src="/images/blog/notes_pics1/component1.png"  align=center />
 
-<img style="width:275px;height:px" src="images/blog/notes_pics1/component2.png"  align=center />
+<img style="width:275px;height:px" src="/images/blog/notes_pics1/component2.png"  align=center />
 
-<img style="width:275px;height:px" src="images/blog/notes_pics1/component3.png"  align=center />
+<img style="width:275px;height:px" src="/images/blog/notes_pics1/component3.png"  align=center />
 
-<img style="width:300px;height:px" src="images/blog/notes_pics1/figure4.png"  align=center />
+<img style="width:300px;height:px" src="/images/blog/notes_pics1/figure4.png"  align=center />
 
- 		此处作者肯定了上下文对于同指识别的重要性；并且认为在脱离自身span向量及上下文的同时，仅靠语义相关性向量就获得相当程度的精度已经不易。
+​		此处作者肯定了上下文对于同指识别的重要性；并且认为在脱离自身span向量及上下文的同时，仅靠语义相关性向量就获得相当程度的精度已经不易。
 
  
 
