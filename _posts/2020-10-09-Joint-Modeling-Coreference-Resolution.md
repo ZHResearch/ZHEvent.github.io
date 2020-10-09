@@ -1,5 +1,4 @@
 ```
----
 layout: post
 title: 跨文档实体和事件同指解析的联合建模_论文笔记
 categories: Review
@@ -7,10 +6,7 @@ description: Revisiting Joint Modeling of Cross-document Entity and Event Corefe
 keywords: Joint Model,Cross-document,Coreference Resolution
 mathjax: true
 original: true
----
 ```
-
-
 
 # 跨文档实体和事件同指解析的联合建模
 
