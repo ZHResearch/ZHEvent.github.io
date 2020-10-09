@@ -115,7 +115,7 @@ $$
 
 
 
- #### 2.错误分析
+#### 2.错误分析
 
 <img width = 700px src="/images/blog/notes_pics1/analysis.png"  align=center />
 
