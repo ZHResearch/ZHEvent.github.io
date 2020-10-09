@@ -1,10 +1,10 @@
-#跨文档实体和事件同指解析的联合建模
+# 跨文档实体和事件同指解析的联合建模
 
 **Revisiting Joint Modeling of Cross-document Entity and Event Coreference Resolution**
 
 **ACL 2019**
 
-###一、问题
+### 一、问题
 
 ​		为解决跨文档实体和事件同指解析，本文提出一种实体、事件的联合模型，同时提高了实体同指和事件同指的识别正确率，是第一个在数据集ECB+上进行实体同指识别的模型。
 
@@ -12,9 +12,9 @@
 
  
 
-###二、方案
+### 二、方案
 
-####1.Span
+#### 1.Span
 
 ​		结合单词级和字符级的特征。
 
@@ -22,55 +22,61 @@
 
 ​		字符级与单词级互补，使用LSTM。
 
-​		$\vec{s}(m)$用表示串联单词级和字符级的向量。
+​		串联单词级和字符级的向量表示为:
+$$
+\vec{s}(m)
+$$
 
+
+#### 2.Context (上下文)
+
+​		使用ELMo，取结果的head word，将上下文向量表示为
+$$
+\vec{c}(m)
+$$
  
 
-####2.Context (上下文)
+#### 3.Semantic dependency to other mentions（对于其他指代的语义依赖）
 
-​		使用ELMo，取结果的head word，将上下文向量表示为$\vec{c}(m)$  
+​		对于一个给定事件mention vi ，提取四个论元：Arg0,Arg1,location,time。如果Arg1所在的slot与实体mention ej 所在的slot相同，且存在 ej 于实体簇c中，则将Arg1的向量设置为c中所有span向量的平均值：
 
-
-
-####3.Semantic dependency to other mentions（对于其他指代的语义依赖）
-
-​		对于一个给定事件mention $m_{vi}$ ，提取四个论元：Arg0,Arg1,location,time。如果Arg1所在的slot与实体mention $m_{ej}$ 所在的slot相同，且存在 $m_{ej}$ 于实体簇$c$中，则将Arg1的向量设置为 $c$ 中所有span向量的平均值：
-
-​																	$$\vec{d}_{Arg1}(m_{vi}) = \frac{1}{|c|}\sum_{m\in c}\vec{s}(m)$$
-
-
-
+$$
+\vec{d}_{Arg1}(m_{vi}) = \frac{1}{|c|}\sum_{m\in c}\vec{s}(m)
+$$
 否则，Arg1的向量为0。
 
-​																				$$\vec{d}_{Arg1}(m_{vi}) = \vec{0}$$
-
-
-
+$$
+\vec{d}_{Arg1}(m_{vi}) = \vec{0}
+$$
 将上述四个论元的向量串联得
 
-​													$\vec{d}(m_{vi}) = [\vec{d}_{Arg0}(m_{vi});\vec{d}_{Arg1}(m_{vi});\vec{d}_{loc}(m_{vi});\vec{d}_{time}(m_{vi})]$
-
- 
-
+$$
+\vec{d}(m_{vi}) = [\vec{d}_{Arg0}(m_{vi});\vec{d}_{Arg1}(m_{vi});\vec{d}_{loc}(m_{vi});\vec{d}_{time}(m_{vi})]
+$$
 最后，一个mention的向量表示为含有上述三个特征的向量：
 
-​																		$\vec{v}(m) = [\vec{c}(m);\vec{s}(m);\vec{d}(m)]$
+$$
+\vec{v}(m) = [\vec{c}(m);\vec{s}(m);\vec{d}(m)]
+$$
 
 
-
-####4.Scorer
+#### 4.Scorer
 
 <img style="width:400px;height:px" src="images/blog/notes_pics1/scorer.png"  align=center />
 
  
 
-​		图中 $S(m_i,m_j)$ 四个输入分别是：$[\vec{v}(m_i);\vec{v}(m_j);\vec{v}(m_i)\circ\vec{v}(m_j)]$ 圈乘代表的是按元素乘法。$f(i,j)$ 是一个50维的二进制向量，表示两个mention是否有同指的参数或谓词。
+​		图中Scorer输入为：
+$$
+[\vec{v}(m_i);\vec{v}(m_j);\vec{v}(m_i)\circ\vec{v}(m_j)]
+$$
+​		圈乘代表的是按元素乘法。f(i,j)是一个50维的二进制向量，表示两个mention是否有同指的参数或谓词。
 
 损失函数为二元交叉熵函数. 
 
 
 
-####5.算法
+#### 5.算法
 
 ​		本质上是进行聚类。
 
@@ -78,11 +84,11 @@
 
 
 
-###三、结果及分析
+### 三、结果及分析
 
 #### 1.结果
 
-​		 <img style="width:700px;height:px" src="images/blog/notes_pics1/result1.png"  align=center />
+<img style="width:700px;height:px" src="images/blog/notes_pics1/result1.png"  align=center />
 
 
 
