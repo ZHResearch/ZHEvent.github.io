@@ -57,9 +57,7 @@ $S={\{(s_{1}^{1},a_{1}^{1},t_{1}),...,(s_{1}^{K},a_{1}^{K},t_{1}),...\\(s_{N}^{1
 
 ## 三、实验
 
-![](\\Table12.jpg)
-
-
+<img style="width:px;height:px" src="\\images\\posts\\markdown\\Table12.jpg"  align=center />
 
 + 表1显示：
   + 5+1-Way 5-shot的表现总是优于10+1-Way 10-shot，因为后者中需要被分类的类的数量是前者的2倍之多
@@ -71,7 +69,7 @@ $S={\{(s_{1}^{1},a_{1}^{1},t_{1}),...,(s_{1}^{K},a_{1}^{K},t_{1}),...\\(s_{N}^{1
 
 ## 四、消融实验
 
-![](\\Table3.jpg)
+<img style="width:px;height:px" src="\\images\\posts\\markdown\\Table3.jpg"  align=center />
 
 上表显示了各个模型中未加入损失函数、只加入Inter、只加入Intra和同时加入Inter和Intra的结果，表明这两个损失函数对于结果都有明显的提升，且缺失任何一个，都会对结果造成较大精度损失。
 
