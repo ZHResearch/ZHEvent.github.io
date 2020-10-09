@@ -1,18 +1,14 @@
 ---
 layout: post
-title: 小样本学习事件检测的广泛匹配
-categories: Review
-description: Extensively Matching for Few-shot Learning Event Detection 
-keywords: Few-shot Learning,Event Detection,Loss Function
+title: [ALC 2020]Extensively Matching for Few-shot Learning Event Detection
+categories: [Note, Event Detection]
+description: 用于小样本学习事件检测的广泛匹配 
+keywords: few-shot, event, detection
 mathjax: true
 original: true
+author: 王亮
+authorurl: https://github.com/NeoAlice
 ---
-
-# 小样本学习事件检测的广泛匹配
-
-#### Extensively Matching for Few-shot Learning Event Detection  
-
-#### ALC 2020
 
 ## 一、现状和问题
 
@@ -31,10 +27,7 @@ $$S={\{(s_{1}^{1},a_{1}^{1},t_{1}),...,(s_{1}^{K},a_{1}^{K},t_{1}),...\\(s_{N}^{
 
 + 最大似然估计值
 
-  $$
-  L_{query}(x,S)=-logP(y=t|x,S)
-  $$
-  **（1）**
+  $$L_{query}(x,S)=-logP(y=t|x,S) \tag{1}$$
 
   where x,t,S are query instance,ground true label,and support set​
 
@@ -42,23 +35,23 @@ $$S={\{(s_{1}^{1},a_{1}^{1},t_{1}),...,(s_{1}^{K},a_{1}^{K},t_{1}),...\\(s_{N}^{
 
   相同类之间的向量是类似的，因此最小化它们的间距
 
-  $$L_{intra}=\sum\limits_{i=1}^{N}\sum\limits_{k=1}^{K}\sum\limits_{j=k+1}^{K}mse(v_{i}^{j},v_{i}^{k})$$     **(2)**
+  $$L_{intra}=\sum\limits_{i=1}^{N}\sum\limits_{k=1}^{K}\sum\limits_{j=k+1}^{K}mse(v_{i}^{j},v_{i}^{k}) \tag{2}$$
 
 + Inter-cluster information
 
   最大化类之间的距离
 
-  $$L_{inter}=1-\sum\limits_{i=1}^{N}\sum\limits_{j=i+1}^{N}cosine(c_{i},c_{j})$$   **(3)**
+  $$L_{inter}=1-\sum\limits_{i=1}^{N}\sum\limits_{j=i+1}^{N}cosine(c_{i},c_{j}) \tag{3}$$
 
 + 损失函数
 
   由(1)、(2)、(3)
 
-  $$L=L_{query}+\beta \hat{L}_{intra}+\gamma \hat{L}_{inter}$$    **(4)**
+  $$L=L_{query}+\beta \hat{L}_{intra}+\gamma \hat{L}_{inter} \tag{4}$$
 
 ## 三、实验
 
-<img style="width:px;height:px" src="/images/posts/markdown/Table12.jpg"  align=center />
+![1](/images/blog/few-shot-learning-event-detection-1.jpg)
 
 + 表1显示：
   + 5+1-Way 5-shot的表现总是优于10+1-Way 10-shot，因为后者中需要被分类的类的数量是前者的2倍之多
@@ -70,35 +63,6 @@ $$S={\{(s_{1}^{1},a_{1}^{1},t_{1}),...,(s_{1}^{K},a_{1}^{K},t_{1}),...\\(s_{N}^{
 
 ## 四、消融实验
 
-<img style="width:px;height:px" src="/images/posts/markdown/Table3.jpg"  align=center />
+![2](/images/blog/few-shot-learning-event-detection-2.jpg)
 
 上表显示了各个模型中未加入损失函数、只加入Inter、只加入Intra和同时加入Inter和Intra的结果，表明这两个损失函数对于结果都有明显的提升，且缺失任何一个，都会对结果造成较大精度损失。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
