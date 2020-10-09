@@ -22,18 +22,14 @@
 
 ​		字符级与单词级互补，使用LSTM。
 
-​		串联单词级和字符级的向量表示为:
-$$
-\vec{s}(m)
-$$
+​		串联单词级和字符级的向量表示为:<img src="http://chart.googleapis.com/chart?cht=tx&chl= \vec{s}(m)" style="border:none;">
+
 
 
 #### 2.Context (上下文)
 
-​		使用ELMo，取结果的head word，将上下文向量表示为
-$$
-\vec{c}(m)
-$$
+​		使用ELMo，取结果的head word，将上下文向量表示为<img src="http://chart.googleapis.com/chart?cht=tx&chl= \vec{c}(m)" style="border:none;">
+
  
 
 #### 3.Semantic dependency to other mentions（对于其他指代的语义依赖）
