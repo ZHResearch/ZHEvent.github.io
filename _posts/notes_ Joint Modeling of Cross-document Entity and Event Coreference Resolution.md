@@ -22,13 +22,13 @@
 
 ​		字符级与单词级互补，使用LSTM。
 
-​		串联单词级和字符级的向量表示为:<img src="http://chart.googleapis.com/chart?cht=tx&chl= vec{s}(m)" style="border:none;">vec{s}(m)
+​		串联单词级和字符级的向量表示为:<img src="http://chart.googleapis.com/chart?cht=tx&chl= \vec{s}(m)" style="border:none;">
 
 
 
 #### 2.Context (上下文)
 
-​		使用ELMo，取结果的head word，将上下文向量表示为http://latex.codecogs.com/gif.latex?\\vec{c}(m)
+​		使用ELMo，取结果的head word，将上下文向量表示为<img src="http://chart.googleapis.com/chart?cht=tx&chl= \vec{c}(m)" style="border:none;">
 
  
 
