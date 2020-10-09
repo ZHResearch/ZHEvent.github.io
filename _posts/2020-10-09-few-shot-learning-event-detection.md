@@ -2,13 +2,15 @@
 layout: post
 title: ALC 2020 Extensively Matching for Few-shot Learning Event Detection
 categories: [Note, Event Detection]
-description: 用于小样本学习事件检测的广泛匹配 
+description: 用于小样本学习事件检测的广泛匹配
 keywords: few-shot, event, detection
 mathjax: true
 original: true
 author: 王亮
 authorurl: https://github.com/NeoAlice
 ---
+
+> ACL 2020《用于小样本学习事件检测的广泛匹配》[(Extensively Matching for Few-shot Learning Event Detection)](https://www.aclweb.org/anthology/2020.nuse-1.5.pdf) 的阅读笔记
 
 ## 一、现状和问题
 
