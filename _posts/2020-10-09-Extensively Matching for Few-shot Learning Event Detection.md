@@ -22,16 +22,16 @@ original: true
 
 1.支撑集中添加NULL类 **N+1-way K-shot**，如下：
 
-$S={\{(s_{1}^{1},a_{1}^{1},t_{1}),...,(s_{1}^{K},a_{1}^{K},t_{1}),...\\(s_{N}^{1},a_{N}^{1},t_{N}),...,(s_{N}^{K},a_{N}^{K},t_{N}),...,\\(s_{N+1}^{1},a_{N+1}^{1},t_{null}),...,(s_{1}^{K},a_{N+1}^{K},t_{null})\}}$
+$$S={\{(s_{1}^{1},a_{1}^{1},t_{1}),...,(s_{1}^{K},a_{1}^{K},t_{1}),...\\(s_{N}^{1},a_{N}^{1},t_{N}),...,(s_{N}^{K},a_{N}^{K},t_{N}),...,\\(s_{N+1}^{1},a_{N+1}^{1},t_{null}),...,(s_{1}^{K},a_{N+1}^{K},t_{null})\}}$$
 
-+ $(t_{1},...,t_{N})$ positive labels
-+ $t_{null}$ a special label for non-event
++ $$(t_{1},...,t_{N})$$ positive labels
++ $$t_{null}$$ a special label for non-event
 
 2.利用查询实例和支撑集之间与支撑集内样本自身之间的匹配信息来训练ED模型，可以显著减少标注和训练代价，同时维持高准确率。具体的方法是通过在损失函数中添加辅助参数来抑制学习过程。
 
 + 最大似然估计值
 
-  $L_{query}(x,S)=-logP(y=t|x,S)$    **(1)**
+  $$L_{query}(x,S)=-logP(y=t|x,S)$$    **(1)**
 
   where x,t,S are query instance,ground true label,and support set​
 
@@ -39,19 +39,19 @@ $S={\{(s_{1}^{1},a_{1}^{1},t_{1}),...,(s_{1}^{K},a_{1}^{K},t_{1}),...\\(s_{N}^{1
 
   相同类之间的向量是类似的，因此最小化它们的间距
 
-  $L_{intra}=\sum\limits_{i=1}^{N}\sum\limits_{k=1}^{K}\sum\limits_{j=k+1}^{K}mse(v_{i}^{j},v_{i}^{k})$     **(2)**
+  $$L_{intra}=\sum\limits_{i=1}^{N}\sum\limits_{k=1}^{K}\sum\limits_{j=k+1}^{K}mse(v_{i}^{j},v_{i}^{k})$$     **(2)**
 
 + Inter-cluster information
 
   最大化类之间的距离
 
-  $L_{inter}=1-\sum\limits_{i=1}^{N}\sum\limits_{j=i+1}^{N}cosine(c_{i},c_{j})$   **(3)**
+  $$L_{inter}=1-\sum\limits_{i=1}^{N}\sum\limits_{j=i+1}^{N}cosine(c_{i},c_{j})$$   **(3)**
 
 + 损失函数
 
   由(1)、(2)、(3)
 
-  $L=L_{query}+\beta \hat{L}_{intra}+\gamma \hat{L}_{inter}$    **(4)**
+  $$L=L_{query}+\beta \hat{L}_{intra}+\gamma \hat{L}_{inter}$$    **(4)**
 
 ## 三、实验
 
