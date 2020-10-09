@@ -4,10 +4,12 @@ title:小样本学习事件检测的广泛匹配
 categories:review
 description:Extensively Matching for Few-shot Learning Event Detection 
 keywords:Few-shot Learning,Event Detection,Loss Function
-typora-root-url: ..\images\posts\markdown
-mathjax: true
+mathjax:true
 original:true
+typora-root-url: ..\images\posts\markdown
 ---
+
+
 
 # 小样本学习事件检测的广泛匹配
 
