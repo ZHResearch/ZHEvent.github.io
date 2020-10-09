@@ -1,3 +1,16 @@
+```
+---
+layout: post
+title: 跨文档实体和事件同指解析的联合建模
+categories: Review
+description: 从word2vec开始，从头到尾梳理了GPT的家谱
+keywords: word2vec, bert, gpt, attention
+mathjax: true
+---
+```
+
+
+
 # 跨文档实体和事件同指解析的联合建模
 
 **Revisiting Joint Modeling of Cross-document Entity and Event Coreference Resolution**
@@ -22,13 +35,19 @@
 
 ​		字符级与单词级互补，使用LSTM。
 
-​		串联单词级和字符级的向量表示为:<img src="http://chart.googleapis.com/chart?cht=tx&chl= \vec{s}(m)" style="border:none;">
-
+​		串联单词级和字符级的向量表示为: 
+$$
+\vec{s}(m)
+$$
 
 
 #### 2.Context (上下文)
 
-​		使用ELMo，取结果的head word，将上下文向量表示为<img src="http://chart.googleapis.com/chart?cht=tx&chl= \vec{c}(m)" style="border:none;">
+​		使用ELMo，取结果的head word，将上下文向量表示为:
+$$
+\vec{c}(m)
+$$
+
 
  
 
