@@ -8,11 +8,9 @@ mathjax:true
 original:true
 ---
 
-
-
 # 小样本学习事件检测的广泛匹配
 
-####Extensively Matching for Few-shot Learning Event Detection  
+#### Extensively Matching for Few-shot Learning Event Detection  
 
 #### ALC 2020
 
