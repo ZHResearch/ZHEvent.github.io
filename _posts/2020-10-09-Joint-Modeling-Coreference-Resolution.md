@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2019 ACL《Revisiting Joint Modeling of Cross-document Entity and Event》 Coreference Resolution
+title: 2019 ACL《Revisiting Joint Modeling of Cross-document Entity and Event Coreference Resolution》
 categories: [Note, Entity Coreference, Event Coreference]
 description: 跨文档实体和事件同指消解的联合建模
 keywords: Joint Model,Cross-document,Coreference Resolution
