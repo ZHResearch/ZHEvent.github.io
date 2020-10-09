@@ -1,11 +1,12 @@
 ```
 ---
 layout: post
-title: 跨文档实体和事件同指解析的联合建模
+title: 跨文档实体和事件同指解析的联合建模_论文笔记
 categories: Review
-description: 从word2vec开始，从头到尾梳理了GPT的家谱
-keywords: word2vec, bert, gpt, attention
+description: Revisiting Joint Modeling of Cross-document Entity and Event Coreference Resolution
+keywords: Joint Model,Cross-document,Coreference Resolution
 mathjax: true
+original: true
 ---
 ```
 
@@ -49,7 +50,7 @@ $$
 $$
 
 
- 
+
 
 #### 3.Semantic dependency to other mentions（对于其他指代的语义依赖）
 
