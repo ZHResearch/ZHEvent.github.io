@@ -31,7 +31,10 @@ $$S={\{(s_{1}^{1},a_{1}^{1},t_{1}),...,(s_{1}^{K},a_{1}^{K},t_{1}),...\\(s_{N}^{
 
 + 最大似然估计值
 
-  $$L_{query}(x,S)=-logP(y=t|x,S)$$    **(1)**
+  $$
+  L_{query}(x,S)=-logP(y=t|x,S)
+  $$
+  **（1）**
 
   where x,t,S are query instance,ground true label,and support set​
 
