@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 小样本学习事件检测的广泛匹配
-categories: review
+categories: Review
 description: Extensively Matching for Few-shot Learning Event Detection 
 keywords: Few-shot Learning,Event Detection,Loss Function
 mathjax: true
