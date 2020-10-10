@@ -14,41 +14,41 @@ authorurl: https://github.com/Ottohcc
 
 ## 一、问题
 
-​为解决跨文档实体和事件同指解析，本文提出一种实体、事件的联合模型，同时提高了实体同指和事件同指的识别正确率，是第一个在数据集ECB+上进行实体同指识别的模型。
+为解决跨文档实体和事件同指解析，本文提出一种实体、事件的联合模型，同时提高了实体同指和事件同指的识别正确率，是第一个在数据集 ECB+ 上进行实体同指识别的模型。
 
-​本文通过结合各实体和事件的mention、上下文（ELMo）、与其他mention的相互联系，提高了Lee等提出的联合模型的准确率。
+本文通过结合各实体和事件的 mention、上下文（ELMo）、与其他 mention 的相互联系，提高了 Lee. 提出的联合模型的准确率。
 
 ## 二、方案
 
 ### 1.Span
 
-​结合单词级和字符级的特征。
+结合单词级和字符级的特征。
 
-​单词级使用预训练embedding（表达event时，使用event mention的head word的embedding，表达entity时，使用span中所有word embedding的平均值）。
+单词级使用预训练 embedding（表达 event 时，使用 event mention 的 head word 的 embedding，表达 entity时，使用 span 中所有 word embedding 的平均值）。
 
-​字符级与单词级互补，使用LSTM。
+字符级与单词级互补，使用 LSTM。
 
-​串联单词级和字符级的向量表示为: $$\vec{s}(m)$$
+串联单词级和字符级的向量表示为： $$\vec{s}(m)$$。
 
 ### 2.Context (上下文)
 
-​使用ELMo，取结果的head word，将上下文向量表示为: $$\vec{c}(m)$$
+使用 ELMo，取结果的 head word，将上下文向量表示为： $$\vec{c}(m)$$。
 
 ### 3.Semantic dependency to other mentions（对于其他指代的语义依赖）
 
-​对于一个给定事件mention vi ，提取四个论元：Arg0,Arg1,location,time。如果Arg1所在的slot与实体mention ej 所在的slot相同，且存在 ej 于实体簇c中，则将Arg1的向量设置为c中所有span向量的平均值：
+对于一个给定事件 mention vi ，提取四个论元：Arg0,Arg1,location,time。如果 Arg1 所在的 slot 与实体mention ej  所在的 slot 相同，且存在  ej  于实体簇 c 中，则将 Arg1 的向量设置为 c 中所有 span 向量的平均值：
 
 $$\vec{d}_{Arg1}(m_{vi}) = \frac{1}{|c|}\sum_{m\in c}\vec{s}(m)$$
 
-否则，Arg1的向量为0。
+否则，Arg1 的向量为0。
 
 $$\vec{d}_{Arg1}(m_{vi}) = \vec{0}$$
 
-将上述四个论元的向量串联得
+将上述四个论元的向量串联得：
 
 $$\vec{d}(m_{vi}) = [\vec{d}_{Arg0}(m_{vi});\vec{d}_{Arg1}(m_{vi});\vec{d}_{loc}(m_{vi});\vec{d}_{time}(m_{vi})]$$
 
-最后，一个mention的向量表示为含有上述三个特征的向量：
+最后，一个 mention 的向量表示为含有上述三个特征的向量：
 
 $$\vec{v}(m) = [\vec{c}(m);\vec{s}(m);\vec{d}(m)]$$
 
@@ -58,17 +58,17 @@ $$\vec{v}(m) = [\vec{c}(m);\vec{s}(m);\vec{d}(m)]$$
 <img src="/images/blog/joint-modeling-coreference-resolution-1.png" width="400px"/>
 </div>
 
-​图中Scorer输入为：
+图中 Scorer 输入为：
 
 $$[\vec{v}(m_i);\vec{v}(m_j);\vec{v}(m_i)\circ\vec{v}(m_j)]$$
 
-​圈乘代表的是按元素乘法。f(i,j)是一个50维的二进制向量，表示两个mention是否有同指的参数或谓词。
+圈乘代表的是按元素乘法。f(i,j) 是一个 50 维的二进制向量，表示两个 mention 是否有同指的参数或谓词。
 
-损失函数为二元交叉熵函数. 
+损失函数为二元交叉熵函数。
 
 ### 5.算法
 
-​本质上是进行聚类。
+本质上是进行聚类。
 
 <div style="text-align: center;">
 <img src="/images/blog/joint-modeling-coreference-resolution-2.png" width="600px"/>
@@ -92,7 +92,7 @@ $$[\vec{v}(m_i);\vec{v}(m_j);\vec{v}(m_i)\circ\vec{v}(m_j)]$$
 <img src="/images/blog/joint-modeling-coreference-resolution-5.png" width="700px"/>
 </div>
 
-（其中Patial argument coreference 主要源于相似事件发生时间不同）
+（其中 Patial argument coreference 主要源于相似事件发生时间不同）
 
 ### 3.分离分析
 
@@ -112,4 +112,4 @@ $$[\vec{v}(m_i);\vec{v}(m_j);\vec{v}(m_i)\circ\vec{v}(m_j)]$$
 <img src="/images/blog/joint-modeling-coreference-resolution-9.png" width="350px"/>
 </div>
 
-​此处作者肯定了上下文对于同指识别的重要性；并且认为在脱离自身span向量及上下文的同时，仅靠语义相关性向量就获得相当程度的精度已经不易。
+此处作者肯定了上下文对于同指识别的重要性；并且认为在脱离自身 span 向量及上下文的同时，仅靠语义相关性向量就获得相当程度的精度已经不易。
