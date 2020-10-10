@@ -36,7 +36,7 @@ authorurl: https://github.com/Ottohcc
 
 ### 3.Semantic dependency to other mentions（对于其他指代的语义依赖）
 
-对于一个给定事件 mention vi ，提取四个论元：Arg0,Arg1,location,time。如果 Arg1 所在的 slot 与实体mention ej  所在的 slot 相同，且存在  ej  于实体簇 c 中，则将 Arg1 的向量设置为 c 中所有 span 向量的平均值：
+对于一个给定事件 mention vi ，提取四个论元：Arg0，Arg1，location，time。如果 Arg1 所在的 slot 与实体mention ej  所在的 slot 相同，且存在  ej  于实体簇 c 中，则将 Arg1 的向量设置为 c 中所有 span 向量的平均值：
 
 $$\vec{d}_{Arg1}(m_{vi}) = \frac{1}{|c|}\sum_{m\in c}\vec{s}(m)$$
 
