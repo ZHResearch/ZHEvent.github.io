@@ -36,11 +36,11 @@ authorurl: https://github.com/Ottohcc
 
 ### 3.Semantic dependency to other mentions（对于其他指代的语义依赖）
 
-对于一个给定事件 mention vi ，提取四个论元：Arg0，Arg1，location，time。如果 Arg1 所在的 slot 与实体mention ej  所在的 slot 相同，且存在  ej  于实体簇 c 中，则将 Arg1 的向量设置为 c 中所有 span 向量的平均值：
+对于一个给定事件 mention $$v_i$$ ，提取四个论元：$$Arg0$$，$$Arg1$$，$$location$$，$$time$$。如果 $$Arg1$$ 所在的 slot 与实体mention $$e_j$$  所在的 slot 相同，且存在  $$e_j$$  于实体簇 $$c$$ 中，则将 $$Arg1$$ 的向量设置为 $$c$$ 中所有 span 向量的平均值：
 
 $$\vec{d}_{Arg1}(m_{vi}) = \frac{1}{|c|}\sum_{m\in c}\vec{s}(m)$$
 
-否则，Arg1 的向量为0。
+否则，$$Arg1$$ 的向量为0。
 
 $$\vec{d}_{Arg1}(m_{vi}) = \vec{0}$$
 
@@ -62,7 +62,7 @@ $$\vec{v}(m) = [\vec{c}(m);\vec{s}(m);\vec{d}(m)]$$
 
 $$[\vec{v}(m_i);\vec{v}(m_j);\vec{v}(m_i)\circ\vec{v}(m_j)]$$
 
-圈乘代表的是按元素乘法。f(i,j) 是一个 50 维的二进制向量，表示两个 mention 是否有同指的参数或谓词。
+圈乘代表的是按元素乘法。$$f(i,j)$$ 是一个 50 维的二进制向量，表示两个 mention 是否有同指的参数或谓词。
 
 损失函数为二元交叉熵函数。
 
