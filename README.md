@@ -27,21 +27,21 @@
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
-| 2019 | ACL    | [Joint Event and Temporal Relation Extraction with Shared Representations and Structured Prediction](https://www.aclweb.org/anthology/D19-1041/) | Rujun Han |
-| 2019 | ACL    | [An Improved Neural Baseline for Temporal Relation Extraction](https://www.aclweb.org/anthology/D19-1642/) | Qiang Ning |
-| 2019 | ACL    | [Deep Structured Neural Network for Event Temporal Relation Extraction](https://www.aclweb.org/anthology/K19-1062/) | Rujun Han |
-| 2019 | ACL    | [Fine-Grained Temporal Relation Extraction](https://www.aclweb.org/anthology/S10-1010/) | Siddharth Vashishtha |
-| 2018 | EMNLP  | [Temporal Information Extraction by Predicting Relative Time-lines](https://www.aclweb.org/anthology/D18-1155/) | Artuur Leeuwenberg |
-| 2018 | ACL    | [Temporal Event Knowledge Acquisition via Identifying Narratives](https://www.aclweb.org/anthology/P18-1050/) | Wenlin Yao |
-| 2018 | ACL    | [Context-Aware Neural Model for Temporal Information Extraction](https://www.aclweb.org/anthology/P18-1049/) | Yuanliang Meng |
-| 2017 | BioNLP | [Representations of Time Expressions for Temporal Relation Extraction with Convolutional Neural Networks](https://www.aclweb.org/anthology/W17-2341/) | Chen Lin |
-| 2017 | EMNLP  | [A Sequential Model for Classifying Temporal Relations between Intra-Sentence Events](https://www.aclweb.org/anthology/D17-1190/) | Prafulla K. Choubey |
-| 2017 | EMNLP  | [A Structured Learning Approach to Temporal Relation Extraction](https://www.aclweb.org/anthology/D17-1108/) | Qiang Ning |
-| 2017 | EMNLP  | [Temporal Information Extraction for Question Answering Using Syntactic Dependencies in an LSTM-based Architecture](https://www.aclweb.org/anthology/D17-1092/) | Yuanliang Meng |
-| 2017 | ACL    | [Classifying Temporal Relations by Bidirectional LSTM over Dependency Paths](https://www.aclweb.org/anthology/P17-2001/) | cheng |
-| 2017 | ACL    | [Neural Architecture for Temporal Relation Extraction: A Bi-LSTM Approach for Detecting Narrative Containers](https://www.aclweb.org/anthology/P17-2035/) | Julien Tourille |
-| 2016 | COLING | [On the contribution of word embeddings to temporal relation classiﬁcation](https://www.aclweb.org/anthology/C16-1265/) | Paramita Mirza |
-| 2016 | COLING | [CATENA: CAusal and TEmporal relation extraction from NAtural language texts](https://www.aclweb.org/anthology/C16-1007/) | Paramita Mirza |
+| 2019 | ACL    | [Joint Event and Temporal Relation Extraction with Shared Representations and Structured Prediction](https://www.aclweb.org/anthology/D19-1041/) | Rujun Han |黄琮程|
+| 2019 | ACL    | [An Improved Neural Baseline for Temporal Relation Extraction](https://www.aclweb.org/anthology/D19-1642/) | Qiang Ning ||
+| 2019 | ACL    | [Deep Structured Neural Network for Event Temporal Relation Extraction](https://www.aclweb.org/anthology/K19-1062/) | Rujun Han ||
+| 2019 | ACL    | [Fine-Grained Temporal Relation Extraction](https://www.aclweb.org/anthology/S10-1010/) | Siddharth Vashishtha ||
+| 2018 | EMNLP  | [Temporal Information Extraction by Predicting Relative Time-lines](https://www.aclweb.org/anthology/D18-1155/) | Artuur Leeuwenberg ||
+| 2018 | ACL    | [Temporal Event Knowledge Acquisition via Identifying Narratives](https://www.aclweb.org/anthology/P18-1050/) | Wenlin Yao ||
+| 2018 | ACL    | [Context-Aware Neural Model for Temporal Information Extraction](https://www.aclweb.org/anthology/P18-1049/) | Yuanliang Meng ||
+| 2017 | BioNLP | [Representations of Time Expressions for Temporal Relation Extraction with Convolutional Neural Networks](https://www.aclweb.org/anthology/W17-2341/) | Chen Lin ||
+| 2017 | EMNLP  | [A Sequential Model for Classifying Temporal Relations between Intra-Sentence Events](https://www.aclweb.org/anthology/D17-1190/) | Prafulla K. Choubey ||
+| 2017 | EMNLP  | [A Structured Learning Approach to Temporal Relation Extraction](https://www.aclweb.org/anthology/D17-1108/) | Qiang Ning ||
+| 2017 | EMNLP  | [Temporal Information Extraction for Question Answering Using Syntactic Dependencies in an LSTM-based Architecture](https://www.aclweb.org/anthology/D17-1092/) | Yuanliang Meng ||
+| 2017 | ACL    | [Classifying Temporal Relations by Bidirectional LSTM over Dependency Paths](https://www.aclweb.org/anthology/P17-2001/) | cheng ||
+| 2017 | ACL    | [Neural Architecture for Temporal Relation Extraction: A Bi-LSTM Approach for Detecting Narrative Containers](https://www.aclweb.org/anthology/P17-2035/) | Julien Tourille ||
+| 2016 | COLING | [On the contribution of word embeddings to temporal relation classiﬁcation](https://www.aclweb.org/anthology/C16-1265/) | Paramita Mirza ||
+| 2016 | COLING | [CATENA: CAusal and TEmporal relation extraction from NAtural language texts](https://www.aclweb.org/anthology/C16-1007/) | Paramita Mirza ||
 
 ## 其他相关
 
