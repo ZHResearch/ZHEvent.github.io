@@ -215,7 +215,7 @@ $$\widehat {\mathbf s}_{i,j}=\cfrac{\tau_{i,j}-min(\tau_{i,j})}{max(\tau_{i,j}-m
 
 ![result1](/images/blog/Fine-Grained-Temporal-Relation-Extraction-7.png)
 
-以上结果是对自建的 UDS-T 测试集，大多数模型可以很好地预测事件开始和结束的相对位置（在 Relation 中的 $$\mathbb Rho$$ 值高）事件的相对持续时间也能很好地预测（相对较低的 rank diff）。总的来说使用二项分布的结果好。
+以上结果是对自建的 UDS-T 测试集，大多数模型可以很好地预测事件开始和结束的相对位置（在 Relation 中的 $$\rho$$ 值高）事件的相对持续时间也能很好地预测（相对较低的 rank diff）。总的来说使用二项分布的结果好。
 
 $$\mathrm{R1=1-\cfrac{MAE{model}}{MAE_{baseline}}}$$
 
@@ -243,4 +243,4 @@ $$\mathrm{R1=1-\cfrac{MAE{model}}{MAE_{baseline}}}$$
 </div>
 
 
-文本事件线（Document timelines）的表现并不理想，对于开始点的得分略高于持续时长，该模型仅基于每个silder 来确定相对的事件时间，在构建整条文本事件线时效果不理想可以理解，需要加入更多信息。
+文本事件线（Document timelines）的表现并不理想，对于开始点的得分略高于持续时长，该模型仅基于每个slider 来确定相对的事件时间，在构建整条文本事件线时效果不理想可以理解，需要加入更多信息。
