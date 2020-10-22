@@ -93,7 +93,7 @@ Tuner 是一个降维器，把 ELMo 降到 256 维。
 
 相对时间线模型包含三个组件：事件模型（Event model）、持续时长模型（Duration model）、关系模型（Relation model）。
 
-这些组件在 $$\mathbf H \in \R^{N\times D}$$ 这个 embedding 上使用多层点积注意力机制（dot-product attention）。
+这些组件在 $$\mathbf H \in \mathbb R^{N\times D}$$ 这个 embedding 上使用多层点积注意力机制（dot-product attention）。
 
 $$\mathbf H = \tanh(\mathrm{ELMo}(\mathbf s)\mathbf W^{\mathrm{TUNE}}+\mathbf b^\mathrm{TUNE})$$
 
@@ -101,11 +101,11 @@ $$\mathbf H = \tanh(\mathrm{ELMo}(\mathbf s)\mathbf W^{\mathrm{TUNE}}+\mathbf b^
 
 $$\mathbf s = [w_1,...,w_N]$$ 代表一个句子，这个句子会经由 ELMo 产生三个 M 维上下文 embedding，并进行串联。
 
-$$D$$ 代表 tuned embedding 的维数，$$\mathbf W^{\mathrm{TUNE}}\in \R^{3M\times D}$$ ，$$\mathbf b^\mathrm{TUNE}\in\R^{N\times D}$$
+$$D$$ 代表 tuned embedding 的维数，$$\mathbf W^{\mathrm{TUNE}}\in \mathbb R^{3M\times D}$$ ，$$\mathbf b^\mathrm{TUNE}\in\mathbb R^{N\times D}$$
 
 #### 事件模型（Event model）
 
-定义 $$\mathbf {g}_{\mathrm{pred}_k} \in \R^D$$ 表示谓词 $$k$$ 所指代的事件，使用点积注意力机制（dot-product attention）的变体建立。
+定义 $$\mathbf {g}_{\mathrm{pred}_k} \in \mathbb R^D$$ 表示谓词 $$k$$ 所指代的事件，使用点积注意力机制（dot-product attention）的变体建立。
 
 $$\mathrm {\mathbf a^{SPAN}_{pred_k}=tanh(\mathbf A^{SPAN}_{PRED}\mathbf h_{ROOT(pred_k)}+\mathbf b^{SPAN}_{PRED})}$$
 
@@ -113,7 +113,7 @@ $$\alpha_{\mathrm{pred}_k} = \mathrm{softmax}(\mathbf H_{\mathrm {span}_{(\mathr
 
 $$\mathbf {g}_{\mathrm{pred}_k} = [\mathbf h_{\mathrm{ROOT(pred}_k)};\alpha_{\mathrm {pred}_k}\mathbf H_{\mathrm {span}_{(\mathrm{pred}_k)}}]$$
 
-$$\mathrm {\mathbf A^{SPAN}_{PRED}}\in \R^{D\times D}$$ 、$$\mathbf b^\mathrm {SPAN}_\mathrm{PRED} \in\R^D$$
+$$\mathrm {\mathbf A^{SPAN}_{PRED}}\in \mathbb R^{D\times D}$$ 、$$\mathbf b^\mathrm {SPAN}_\mathrm{PRED} \in\mathbb R^D$$
 
 Eg. My dog has **been *sick* for** about 3 days **now**.
 
@@ -129,7 +129,7 @@ $$\alpha_{\mathrm{dur}_k} = \mathrm{softmax}(\mathbf H\mathrm{\mathbf a^{SENT}_{
 
 $$\mathbf {g}_{\mathrm{dur}_k} = [\mathbf g_{\mathrm{pred}_k};\alpha_{\mathrm {dur}_k}\mathbf H]$$
 
-$$\mathrm {\mathbf A^{SENT}_{DUR}}\in \R^{D\times \mathrm {size}(g_{\mathrm{pred}_k})}$$ 、$$\mathbf b^\mathrm {SENT}_\mathrm{DUR} \in\R^D$$
+$$\mathrm {\mathbf A^{SENT}_{DUR}}\in \mathbb R^{D\times \mathrm {size}(g_{\mathrm{pred}_k})}$$ 、$$\mathbf b^\mathrm {SENT}_\mathrm{DUR} \in\mathbb R^D$$
 
 $$\mathbf H$$ 指的是整句话的隐层表达。
 
@@ -163,7 +163,7 @@ $$\alpha_{\mathrm{rel}_{i,j}} = \mathrm{softmax}(\mathbf H\mathrm{\mathbf a^{SEN
 
 $$\mathbf {g}_{\mathrm{rel}_{i,j}} = [\mathbf g_{\mathrm{pred}_i};\mathbf g_{\mathrm{pred}_j};\alpha_{\mathrm {rel}_{i,j}}\mathbf H]$$
 
-$$\mathrm {\mathbf A^{SENT}_{REL}}\in \R^{D\times 2\mathrm {size}(g_{\mathrm{pred}_k})}$$ 、$$\mathbf b^\mathrm {SENT}_\mathrm{REL} \in\R^D$$
+$$\mathrm {\mathbf A^{SENT}_{REL}}\in \mathbb R^{D\times 2\mathrm {size}(g_{\mathrm{pred}_k})}$$ 、$$\mathbf b^\mathrm {SENT}_\mathrm{REL} \in\mathbb R^D$$
 
 作者在此时序模型中的核心思想就是将事件及其状态直接映射到时间轴 $$[0,1]$$ 上，且对于每个事件 $$k$$ ，开始端一定要小于结束端，即 $$e_k\ge b_k$$。
 
@@ -199,7 +199,7 @@ $$\pi_{\mathrm{dur}_k} = \widehat e_k-\widehat b_k$$
 
 #### 文本时间线（Document timelines）
 
-假设有一个文本隐层事件线 $$T\in\R^{n_d\times 2}_+$$，其中 $$n_d$$ 代表文档中事件总数，2 代表每个事件的开始和持续时长。
+假设有一个文本隐层事件线 $$T\in\mathbb R^{n_d\times 2}_+$$，其中 $$n_d$$ 代表文档中事件总数，2 代表每个事件的开始和持续时长。
 
 通过确定所有谓词发生的起点及时长，使本文潜在时间线与事件对的相对时间线相连，且文档中始终存在以 0 为起点的谓词，并为文档内每个事件的所有组合 $$i$$ 和 $$j$$ 定义辅助变量：
 
@@ -215,7 +215,7 @@ $$\widehat {\mathbf s}_{i,j}=\cfrac{\tau_{i,j}-min(\tau_{i,j})}{max(\tau_{i,j}-m
 
 ![result1](/images/blog/Fine-Grained-Temporal-Relation-Extraction-7.png)
 
-以上结果是对自建的 UDS-T 测试集，大多数模型可以很好地预测事件开始和结束的相对位置（在 Relation 中的 $$\rho$$ 值高）事件的相对持续时间也能很好地预测（相对较低的 rank diff）。总的来说使用二项分布的结果好。
+以上结果是对自建的 UDS-T 测试集，大多数模型可以很好地预测事件开始和结束的相对位置（在 Relation 中的 $$\mathbb Rho$$ 值高）事件的相对持续时间也能很好地预测（相对较低的 rank diff）。总的来说使用二项分布的结果好。
 
 $$\mathrm{R1=1-\cfrac{MAE{model}}{MAE_{baseline}}}$$
 
