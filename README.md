@@ -9,18 +9,33 @@
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
+| 2020 | AESPEN | [Seeing the Forest and the Trees: Detection and Cross-Document Coreference Resolution of Militarized Interstate Disputes](https://www.aclweb.org/anthology/2020.aespen-1.7.pdf) | Benjamin J. Radford |
+| 2020 | NUSE | [New Insights into Cross-Document Event Coreference: Systematic Comparison and a Simplified Approach](https://www.aclweb.org/anthology/2020.nuse-1.1.pdf) | Andres Cremisini |
 | 2019 | EMNLP | [BERT for Coreference Resolution: Baselines and Analysis](https://deepai.org/publication/bert-for-coreference-resolution-baselines-and-analysis) | Mandar Joshi |
 | 2019 | ACL   | [Revisiting Joint Modeling of Cross-document Entity and Event Coreference Resolution](https://www.aclweb.org/anthology/P19-1409.pdf) | Shany Barhom | [黄琮程](https://zhevent.github.io/2020/10/09/Joint-Modeling-Coreference-Resolution/) |
-| 2019 | ACL   | [Improving Event Coreference Resolution by Learning Argument Compatibility from Unlabeled Data](https://www.aclweb.org/anthology/N19-1085.pdf) | Yin Jou Huang |
+| 2019 | NAACL | [Improving Event Coreference Resolution by Learning Argument Compatibility from Unlabeled Data](https://www.aclweb.org/anthology/N19-1085.pdf) | Yin Jou Huang |
 | 2018 | ACL   | [Improving Event Coreference Resolution by Modeling Correlations between Event Coreference Chains and Document Topic Structures](https://www.aclweb.org/anthology/P18-1045.pdf) | Prafulla Kumar Choubey |
 | 2018 | ACL   | [Resolving Event Coreference with Supervised Representation Learning and Clustering-Oriented Regularization](https://www.aclweb.org/anthology/S18-2001.pdf) | Kian Kenyon-Dean |
+| 2018 | COLING | [Graph-Based Decoding for Event Coreference and Sequencing Resolution](https://www.aclweb.org/anthology/C18-1309.pdf) | Zhengzhong Liu |
+| 2018 | LREC | [Cross-Document, Cross-Language Event Coreference Annotation Using Event Hoppers](https://www.aclweb.org/anthology/L18-1558.pdf) | Zhiyi Song |
 | 2017 | ACL   | [End-to-end Neural Coreference Resolution](https://www.aclweb.org/anthology/D17-1018.pdf) | Kenton Lee |
+| 2017 | ACL | [Joint Learning for Event Coreference Resolution](https://www.aclweb.org/anthology/P17-1009.pdf) | Jing Lu |
+| 2017 | EMNLP | [Event Coreference Resolution by Iteratively Unfolding Inter-dependencies among Events](https://www.aclweb.org/anthology/D17-1226.pdf) | Prafulla Kumar Choubey |
 | 2016 | dblp  | [UTD’s Event Nugget Detection and Coreference System at KBP 2016](https://tac.nist.gov/publications/2016/participant.papers/TAC2016.UTD.proceedings.pdf) | Jing Lu |
 | 2016 | ACL   | [Joint Inference for Event Coreference Resolution](https://www.aclweb.org/anthology/C16-1308.pdf) | Jing Lu |
 | 2016 | ACL   | [Unsupervised Event Coreference for Abstract Words](https://www.aclweb.org/anthology/W16-6005.pdf) | Dheeraj Rajagopal |
 | 2016 | ACL   | [Richer Event Description: Integrating event coreference with temporal, causal and bridging annotation](https://www.aclweb.org/anthology/W16-5706.pdf) | Tim O’Gorman |
 | 2016 | ACL   | [Event Linking with Sentential Features from Convolutional Neural Networks](https://www.aclweb.org/anthology/K16-1024.pdf) | Sebastian Krause |
-| 2015 | EMNLP | [Joint Event Trigger Identification and Event Coreference Resolution with Structured Perceptron](https://www.researchgate.net/publication/301446036_Joint_Event_Trigger_Identification_and_Event_Coreference_Resolution_with_Structured_Perceptron) | Jun Araki |
+| 2016 | COLING | [Revisiting the Evaluation for Cross Document Event Coreference](https://www.aclweb.org/anthology/C16-1183.pdf) | Shyam Upadhyay |
+| 2016 | COLING | [Joint Inference for Event Coreference Resolution](https://www.aclweb.org/anthology/C16-1308.pdf) | Jing Lu |
+| 2016 | LREC | [Event Coreference Resolution with Multi-Pass Sieves](https://www.aclweb.org/anthology/L16-1631.pdf) | Jing Lu |
+| 2015 | EMNLP | [Joint Event Trigger Identification and Event Coreference Resolution with Structured Perceptron](https://www.aclweb.org/anthology/D15-1247.pdf) | Jun Araki |
+| 2015 | EMNLP | [Cross-document Event Coreference Resolution based on Cross-media Features](https://www.aclweb.org/anthology/D15-1020.pdf) | Tongtao Zhang |
+| 2015 | NAACL | [Chinese Event Coreference Resolution: An Unsupervised Probabilistic Model Rivaling Supervised Resolvers](https://www.aclweb.org/anthology/N15-1116.pdf) | Chen Chen |
+| 2015 | TACL | [A Hierarchical Distance-dependent Bayesian Model for Event Coreference Resolution](https://www.aclweb.org/anthology/Q15-1037.pdf) | Bishan Yang |
+| 2014 | ACL | [Supervised Within-Document Event Coreference using Information Propagation](http://www.lrec-conf.org/proceedings/lrec2014/pdf/646_Paper.pdf) | Zhengzhong Liu |
+| 2014 | ACL | [Using a sledgehammer to crack a nut? Lexical diversity and event coreference resolution.](http://www.lrec-conf.org/proceedings/lrec2014/pdf/840_Paper.pdf) | Agata Cybulska |
+| 2014 | ACL | [Detecting Subevent Structure for Event Coreference Resolution](http://www.cs.cmu.edu/~hovy/papers/14LREC-subevents.pdf) | Jun Araki |
 | 2013 | ACL   | [Easy Victories and Uphill Battles in Coreference Resolution](https://www.aclweb.org/anthology/D13-1203.pdf) | Greg Durrett |
 
 ## 事件时序识别
@@ -51,3 +66,4 @@
 | 2020 | ACL | [Extensively Matching for Few-shot Learning Event Detection](https://www.aclweb.org/anthology/2020.nuse-1.5.pdf) | Viet Dac Lai | [王亮](https://zhevent.github.io/2020/10/09/few-shot-learning-event-detection/) |
 | 2019 | ACL | [Multi-Level Matching and Aggregation Network for Few-Shot Relation Classification](https://www.aclweb.org/anthology/P19-1277.pdf) | Zhixiu Ye | [王亮](https://zhevent.github.io/2020/10/16/few-shot-relation-classification/) |
 | 2018 | 智能计算机与应用 | [神经网络事件抽取技术综述](http://www.cnki.com.cn/Article/CJFDTotal-DLXZ201803002.htm) | 秦彦霞 |
+| 2016 | EVENTS | [Event Nugget and Event Coreference Annotation](https://www.aclweb.org/anthology/W16-1005.pdf) | Zhiyi Song |
