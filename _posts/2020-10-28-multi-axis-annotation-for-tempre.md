@@ -60,9 +60,7 @@ TB 等专家标注的数据集的 IAA 仍然较低，例如，TB-Dense,RED,THYME
 
 TB-Dense 采用了80%的置信度规则，即标注者允许使用 80 %确定程度的标签。但是 80 %的置信度对于不同标注者的理解不同，故而最终结果仍然常常不一致。
 
-相比于这些困难，人们很容易理解新闻的含义。这说明标注任务和文本的真实表达的含义之间存在距离。比如例 1.人们关注的是：“Serbian police **tried** to restore order but **killed** 51 people”,而不关心“Serbian police tried to **restore** order but **killed**
-
-51 people”。
+相比于这些困难，人们很容易理解新闻的含义。这说明标注任务和文本的真实表达的含义之间存在距离。比如例 1.人们关注的是：“Serbian police **tried** to restore order but **killed** 51 people”,而不关心“Serbian police tried to **restore** order but **killed** 51 people”。
 
 因此，单一的轴对于表示复杂的 NON-GENERIC events 而言过于局限了，所以需要一个比通用图更具限制性的模型来让标注者集中在关系标注上，而非总是先寻找事件对。同时，歧义的关系不强制标注。具体而言，需要诸如意图、观点、假设之类的轴，如表 1，而例 1-3 可以被表示为图 1。该模型的目的是让标注者获取作者清晰的表达，而非强迫其在常见的歧义队上做选择。
 
