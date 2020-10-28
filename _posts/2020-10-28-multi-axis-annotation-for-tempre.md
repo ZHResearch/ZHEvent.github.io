@@ -48,7 +48,7 @@ TB 等专家标注的数据集的 IAA 仍然较低，例如，TB-Dense,RED,THYME
 
 # **2 Temporal Structure of Events**
 
- ##  **Motivation**
+## **Motivation**
 
 目前的 TB-Dense 迫使标注者使用许多歧义的标签，导致了较低的 IAA。
 
