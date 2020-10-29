@@ -42,23 +42,31 @@
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
-| 2019 | ACL    | [Joint Event and Temporal Relation Extraction with Shared Representations and Structured Prediction](https://www.aclweb.org/anthology/D19-1041/) | Rujun Han |[黄琮程](https://zhevent.github.io/2020/10/15/joint-event-and-temporal/)|
-| 2019 | ACL    | [An Improved Neural Baseline for Temporal Relation Extraction](https://www.aclweb.org/anthology/D19-1642/) | Qiang Ning ||
-| 2019 | ACL    | [Deep Structured Neural Network for Event Temporal Relation Extraction](https://www.aclweb.org/anthology/K19-1062/) | Rujun Han ||
-| 2019 | ACL    | [Fine-Grained Temporal Relation Extraction](https://www.aclweb.org/anthology/S10-1010/) | Siddharth Vashishtha |[黄琮程](https://zhevent.github.io/2020/10/22/Fine-Grained-Temporal-Relation-Extraction/)|
-| 2018 | EMNLP  | [Temporal Information Extraction by Predicting Relative Time-lines](https://www.aclweb.org/anthology/D18-1155/) | Artuur Leeuwenberg ||
-| 2018 | NAACL  | [Improving Temporal Relation Extraction with a Globally Acquired Statistical Resource](https://www.aclweb.org/anthology/N18-1077/) | Qiang Ning | [王亮](https://zhevent.github.io/2020/10/21/improving-TempRel_with-statistical-resource/#improving-global-methods) |
-| 2018 | ACL  | [A Multi-Axis Annotation Scheme for Event Temporal Relations](https://www.aclweb.org/anthology/P18-1122/) | Qiang Ning | [王亮](https://zhevent.github.io/2020/10/28/multi-axis-annotation-for-tempre/) |
-| 2018 | ACL    | [Temporal Event Knowledge Acquisition via Identifying Narratives](https://www.aclweb.org/anthology/P18-1050/) | Wenlin Yao ||
+| 2020 | BioNLP | [A BERT-based One-Pass Multi-Task Model for Clinical Temporal Relation Extraction](https://www.aclweb.org/anthology/2020.bionlp-1.7/) | Chen Lin |
+| 2019 | ACL    | [Fine-Grained Temporal Relation Extraction](https://www.aclweb.org/anthology/P19-1280/) | Siddharth Vashishtha |[黄琮程](https://zhevent.github.io/2020/10/22/Fine-Grained-Temporal-Relation-Extraction/)|
+| 2019 | EMNLP  | [Joint Event and Temporal Relation Extraction with Shared Representations and Structured Prediction](https://www.aclweb.org/anthology/D19-1041/) | Rujun Han |[黄琮程](https://zhevent.github.io/2020/10/15/joint-event-and-temporal/)|
+| 2019 | EMNLP  | [An Improved Neural Baseline for Temporal Relation Extraction](https://www.aclweb.org/anthology/D19-1642/) | Qiang Ning ||
+| 2019 | CoNLL  | [Deep Structured Neural Network for Event Temporal Relation Extraction](https://www.aclweb.org/anthology/K19-1062/) | Rujun Han ||
+| 2019 | ClinicalNLP  | [A BERT-based Universal Model for Both Within- and Cross-sentence Clinical Temporal Relation Extraction](https://www.aclweb.org/anthology/W19-1908/) | Chen Lin |
+| 2019 | ClinicalNLP | [Attention Neural Model for Temporal Relation Extraction](https://www.aclweb.org/anthology/W19-1917/) | Sijia Liu |
 | 2018 | ACL    | [Context-Aware Neural Model for Temporal Information Extraction](https://www.aclweb.org/anthology/P18-1049/) | Yuanliang Meng ||
-| 2017 | BioNLP | [Representations of Time Expressions for Temporal Relation Extraction with Convolutional Neural Networks](https://www.aclweb.org/anthology/W17-2341/) | Chen Lin ||
-| 2017 | EMNLP  | [A Sequential Model for Classifying Temporal Relations between Intra-Sentence Events](https://www.aclweb.org/anthology/D17-1190/) | Prafulla K. Choubey ||
-| 2017 | EMNLP  | [A Structured Learning Approach to Temporal Relation Extraction](https://www.aclweb.org/anthology/D17-1108/) | Qiang Ning ||
-| 2017 | EMNLP  | [Temporal Information Extraction for Question Answering Using Syntactic Dependencies in an LSTM-based Architecture](https://www.aclweb.org/anthology/D17-1092/) | Yuanliang Meng ||
-| 2017 | ACL    | [Classifying Temporal Relations by Bidirectional LSTM over Dependency Paths](https://www.aclweb.org/anthology/P17-2001/) | cheng ||
+| 2018 | ACL  | [A Multi-Axis Annotation Scheme for Event Temporal Relations](https://www.aclweb.org/anthology/P18-1122/) | Qiang Ning | [王亮](https://zhevent.github.io/2020/10/28/multi-axis-annotation-for-tempre/) |
+| 2018 | ACL | [Joint Reasoning for Temporal and Causal Relations](https://www.aclweb.org/anthology/P18-1212/) | Qiang Ning |
+| 2018 | EMNLP | [Self-training improves Recurrent Neural Networks performance for Temporal Relation Extraction](https://www.aclweb.org/anthology/W18-5619/) | Chen Lin |
+| 2018 | NAACL  | [Improving Temporal Relation Extraction with a Globally Acquired Statistical Resource](https://www.aclweb.org/anthology/N18-1077/) | Qiang Ning | [王亮](https://zhevent.github.io/2020/10/21/improving-TempRel_with-statistical-resource/#improving-global-methods) |
+| 2018 | *SEMEVAL | [Exploiting Partially Annotated Data in Temporal Relation Extraction](https://www.aclweb.org/anthology/S18-2018/) | Qiang Ning |
+| 2017 | ACL    | [Classifying Temporal Relations by Bidirectional LSTM over Dependency Paths](https://www.aclweb.org/anthology/P17-2001/) | Fei Cheng ||
 | 2017 | ACL    | [Neural Architecture for Temporal Relation Extraction: A Bi-LSTM Approach for Detecting Narrative Containers](https://www.aclweb.org/anthology/P17-2035/) | Julien Tourille ||
-| 2016 | COLING | [On the contribution of word embeddings to temporal relation classiﬁcation](https://www.aclweb.org/anthology/C16-1265/) | Paramita Mirza ||
+| 2017 | EACL | [Structured Learning for Temporal Relation Extraction from Clinical Records](https://www.aclweb.org/anthology/E17-1108/) | Artuur Leeuwenberg |
+| 2017 | EACL | [Neural Temporal Relation Extraction](https://www.aclweb.org/anthology/E17-2118/) | Dmitriy Dligach |
+| 2017 | EMNLP  | [A Structured Learning Approach to Temporal Relation Extraction](https://www.aclweb.org/anthology/D17-1108/) | Qiang Ning ||
+| 2017 | EMNLP  | [A Sequential Model for Classifying Temporal Relations between Intra-Sentence Events](https://www.aclweb.org/anthology/D17-1190/) | Prafulla K. Choubey ||
+| 2017 | EMNLP  | [Temporal Information Extraction for Question Answering Using Syntactic Dependencies in an LSTM-based Architecture](https://www.aclweb.org/anthology/D17-1092/) | Yuanliang Meng ||
+| 2017 | BioNLP | [Representations of Time Expressions for Temporal Relation Extraction with Convolutional Neural Networks](https://www.aclweb.org/anthology/W17-2341/) | Chen Lin ||
+| 2017 | RANLP | [A Weakly Supervised Approach to Train Temporal Relation Classifiers and Acquire Regular Event Pairs Simultaneously](https://www.aclweb.org/anthology/R17-1103/) | Wenlin Yao |
 | 2016 | COLING | [CATENA: CAusal and TEmporal relation extraction from NAtural language texts](https://www.aclweb.org/anthology/C16-1007/) | Paramita Mirza ||
+| 2016 | COLING | [Global Inference to Chinese Temporal Relation Extraction](https://www.aclweb.org/anthology/C16-1137/) | Peifeng Li |
+| 2016 | COLING | [On the contribution of word embeddings to temporal relation classiﬁcation](https://www.aclweb.org/anthology/C16-1265/) | Paramita Mirza ||
 
 ## 其他相关
 
