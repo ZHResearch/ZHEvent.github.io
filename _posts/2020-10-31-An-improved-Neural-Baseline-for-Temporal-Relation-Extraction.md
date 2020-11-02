@@ -26,9 +26,6 @@ authorurl: https://github.com/LevyLee18
 <img src="/images/blog/An-Improved-Neural-Baseline-for-Temporal-Relation-Extraction-model.jpg" width="750px"/>
 </div>
 
-
-
-
 ### 1.常识编码器（CSE）
 
 人们在判断两个事件的发生先后关系时常常需要借助一些时间连词如：when, until等等，这些词通常表达的时序关系都较为明确。然而，即使在没有这些明确的时间连词的情况下，人们也可以使用常识来很容易地进行判断。比如，我们知道大部分情况下attack（攻击）是发生在die（死亡）之前的。
