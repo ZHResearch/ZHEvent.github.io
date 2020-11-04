@@ -64,7 +64,7 @@ authorurl: https://github.com/NeoAlice
 
 
 
-# **3 Phase One: Weakly Supervised **Narrative Identification
+# **3 Phase One: Weakly Supervised Narrative Identification**
 
  为了获得丰富的事件时序知识，开发了一种弱监督的方法，可以快速适应从各种文本来源识别叙事段落。
 
