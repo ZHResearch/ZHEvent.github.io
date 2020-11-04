@@ -21,7 +21,6 @@
 | 2017 | ACL | [Joint Learning for Event Coreference Resolution](https://www.aclweb.org/anthology/P17-1009.pdf) | Jing Lu ||
 | 2017 | EMNLP | [Event Coreference Resolution by Iteratively Unfolding Inter-dependencies among Events](https://www.aclweb.org/anthology/D17-1226.pdf) | Prafulla Kumar Choubey ||
 | 2016 | dblp  | [UTD’s Event Nugget Detection and Coreference System at KBP 2016](https://tac.nist.gov/publications/2016/participant.papers/TAC2016.UTD.proceedings.pdf) | Jing Lu ||
-| 2016 | ACL   | [Joint Inference for Event Coreference Resolution](https://www.aclweb.org/anthology/C16-1308.pdf) | Jing Lu ||
 | 2016 | ACL   | [Unsupervised Event Coreference for Abstract Words](https://www.aclweb.org/anthology/W16-6005.pdf) | Dheeraj Rajagopal ||
 | 2016 | ACL   | [Richer Event Description: Integrating event coreference with temporal, causal and bridging annotation](https://www.aclweb.org/anthology/W16-5706.pdf) | Tim O’Gorman ||
 | 2016 | ACL   | [Event Linking with Sentential Features from Convolutional Neural Networks](https://www.aclweb.org/anthology/K16-1024.pdf) | Sebastian Krause ||
@@ -75,5 +74,7 @@
 | :- | :-: | :- | :- | :- |
 | 2020 | ACL | [Extensively Matching for Few-shot Learning Event Detection](https://www.aclweb.org/anthology/2020.nuse-1.5.pdf) | Viet Dac Lai | [王亮](https://zhevent.github.io/2020/10/09/few-shot-learning-event-detection/) |
 | 2019 | ACL | [Multi-Level Matching and Aggregation Network for Few-Shot Relation Classification](https://www.aclweb.org/anthology/P19-1277.pdf) | Zhixiu Ye | [王亮](https://zhevent.github.io/2020/10/16/few-shot-relation-classification/) |
+| 2019 | NAACL | [Event Detection without Triggers](https://www.aclweb.org/anthology/N19-1080/) | Shulin Liu |
+| 2019 | NAACL | [Modeling Document-level Causal Structures for Event Causal Relation Identification](https://www.aclweb.org/anthology/N19-1179/) | Lei Gao |
 | 2018 | 智能计算机与应用 | [神经网络事件抽取技术综述](http://www.cnki.com.cn/Article/CJFDTotal-DLXZ201803002.htm) | 秦彦霞 |
 | 2016 | EVENTS | [Event Nugget and Event Coreference Annotation](https://www.aclweb.org/anthology/W16-1005.pdf) | Zhiyi Song |
