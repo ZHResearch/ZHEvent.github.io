@@ -92,7 +92,9 @@ $$s.t. x_{ij}\in\{0,1\}$$
 
 #### 2.3 主同指链与主题过渡句的相关性建模
 
-设 $$\Omega$$  代表文章中所有满足 $$(n-m)\ge\cfrac{|S|}{\theta_s}$$ 的句子对集合，$$s_{mn}$$ 代表两个句子之间的相似程度，$$w_{mn}$$ 代表这两个句子是否是文章的主题过渡句。
+设 $$\Omega$$  代表文章中所有满足条件的句子对集合，$$s_{mn}$$ 代表两个句子之间的相似程度，$$w_{mn}$$ 代表这两个句子是否是文章的主题过渡句。
+
+$$(n-m)\ge\cfrac{|S|}{\theta_s}$$
 
 $$\Theta_T = \sum_{m,n\in\Omega}-log(s_{mn})w_{mn}-log(1-s_{mn})(\neg w_{mn})$$
 
@@ -114,7 +116,7 @@ $$n-m$$ 代表两个句子之间的距离，｜S｜代表文章中句子的总�
 
 $$\Theta_G = -\sum_{i,j\in\mu} \gamma_{ij}$$
 
-$$\sigma_{ij} = \sum_{k<i}\neg x_{ki} \and \sum_{j<l}\neg x_{jl}\and x_{ij} \  \  \ ,  \  \  \ \sigma_{i,j}\in\{0,1\}$$
+$$\sigma_{ij} = \sum_{k<i}\neg x_{ki} \land \sum_{j<l}\neg x_{jl}\land x_{ij} \  \  \ ,  \  \  \ \sigma_{i,j}\in\{0,1\}$$
 
 $$\Gamma_i = \sum_{k,i\in \Lambda}x_{ki}+\sum_{i,j\in \Lambda}x_{ij}$$
 
