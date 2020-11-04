@@ -49,6 +49,7 @@
 | 2019 | ClinicalNLP  | [A BERT-based Universal Model for Both Within- and Cross-sentence Clinical Temporal Relation Extraction](https://www.aclweb.org/anthology/W19-1908/) | Chen Lin ||
 | 2019 | ClinicalNLP | [Attention Neural Model for Temporal Relation Extraction](https://www.aclweb.org/anthology/W19-1917/) | Sijia Liu ||
 | 2018 | EMNLP | [CogCompTime-A tool for understanding Time in Natural Language](https://www.aclweb.org/anthology/D18-2013/) | Qiang Ning ||
+| 2018 | ACL  | [Temporal Event Knowledge Acquisition via Identifying Narratives](https://www.aclweb.org/anthology/P18-1050//) | Wenlin Yao | [王亮](https://zhevent.github.io/2020/11/04/temporal-knowledge-via-Narratives/) |
 | 2018 | ACL    | [Context-Aware Neural Model for Temporal Information Extraction](https://www.aclweb.org/anthology/P18-1049/) | Yuanliang Meng ||
 | 2018 | ACL  | [A Multi-Axis Annotation Scheme for Event Temporal Relations](https://www.aclweb.org/anthology/P18-1122/) | Qiang Ning | [王亮](https://zhevent.github.io/2020/10/28/multi-axis-annotation-for-tempre/) |
 | 2018 | ACL | [Joint Reasoning for Temporal and Causal Relations](https://www.aclweb.org/anthology/P18-1212/) | Qiang Ning ||
