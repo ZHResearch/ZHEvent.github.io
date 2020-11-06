@@ -9,6 +9,7 @@
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
+| 2020 | ACL | [Discourse as a Function of Event: Profiling Discourse Structure in News Articles around the Main Event](https://www.aclweb.org/anthology/2020.acl-main.478.pdf) | Prafulla Kumar Choubey ||
 | 2020 | AESPEN | [Seeing the Forest and the Trees: Detection and Cross-Document Coreference Resolution of Militarized Interstate Disputes](https://www.aclweb.org/anthology/2020.aespen-1.7.pdf) | Benjamin J. Radford ||
 | 2020 | NUSE | [New Insights into Cross-Document Event Coreference: Systematic Comparison and a Simplified Approach](https://www.aclweb.org/anthology/2020.nuse-1.1.pdf) | Andres Cremisini ||
 | 2019 | ACL   | [Revisiting Joint Modeling of Cross-document Entity and Event Coreference Resolution](https://www.aclweb.org/anthology/P19-1409.pdf) | Shany Barhom | [黄琮程](https://zhevent.github.io/2020/10/09/Joint-Modeling-Coreference-Resolution/) |
