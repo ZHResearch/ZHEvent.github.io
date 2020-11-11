@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2020 ACL《Discourse as a Function of Event: Profiling Discourse Structure in News Articles around the Main Event》
+title: 2020 ACL《Discourse as a Function of Event: Profiling Discourse Structure in News around the Main Event》
 categories: [Note, Event Coreference]
 description: 分析新闻文章与其主事件的篇章结构
 keywords: Coreference Resolution,Discourse Structure
