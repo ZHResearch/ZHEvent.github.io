@@ -56,6 +56,7 @@
 | 2018 | ACL | [Joint Reasoning for Temporal and Causal Relations](https://www.aclweb.org/anthology/P18-1212/) | Qiang Ning ||
 | 2018 | EMNLP | [Self-training improves Recurrent Neural Networks performance for Temporal Relation Extraction](https://www.aclweb.org/anthology/W18-5619/) | Chen Lin ||
 | 2018 | NAACL  | [Improving Temporal Relation Extraction with a Globally Acquired Statistical Resource](https://www.aclweb.org/anthology/N18-1077/) | Qiang Ning | [王亮](https://zhevent.github.io/2020/10/21/improving-TempRel_with-statistical-resource/#improving-global-methods) |
+| 2018 | NAACL  | [Inducing Temporal Relations from Time Anchor Annotation](https://www.aclweb.org/anthology/N18-1166/) | Fei Cheng | [王亮](https://zhevent.github.io/2020/11/12/temprel-from-time-anchor-annotation/) |
 | 2018 | *SEMEVAL | [Exploiting Partially Annotated Data in Temporal Relation Extraction](https://www.aclweb.org/anthology/S18-2018/) | Qiang Ning ||
 | 2017 | ACL    | [Classifying Temporal Relations by Bidirectional LSTM over Dependency Paths](https://www.aclweb.org/anthology/P17-2001/) | Fei Cheng ||
 | 2017 | ACL    | [Neural Architecture for Temporal Relation Extraction: A Bi-LSTM Approach for Detecting Narrative Containers](https://www.aclweb.org/anthology/P17-2035/) | Julien Tourille ||
