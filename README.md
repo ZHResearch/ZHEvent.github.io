@@ -15,7 +15,7 @@
 | 2019 | ACL   | [Revisiting Joint Modeling of Cross-document Entity and Event Coreference Resolution](https://www.aclweb.org/anthology/P19-1409.pdf) | Shany Barhom | [黄琮程](https://zhevent.github.io/2020/10/09/Joint-Modeling-Coreference-Resolution/) |
 | 2019 | NAACL | [Improving Event Coreference Resolution by Learning Argument Compatibility from Unlabeled Data](https://www.aclweb.org/anthology/N19-1085.pdf) | Yin Jou Huang |[黄琮程](https://zhevent.github.io/2020/10/28/Event-Coreference-Resolution-by-Learning-Argument-Compatibility/)|
 | 2018 | ACL   | [Improving Event Coreference Resolution by Modeling Correlations between Event Coreference Chains and Document Topic Structures](https://www.aclweb.org/anthology/P18-1045.pdf) | Prafulla Kumar Choubey |[黄琮程](https://zhevent.github.io/2020/11/04/event-coreference-chains-and-topic-structure/)|
-| 2018 | ACL   | [Resolving Event Coreference with Supervised Representation Learning and Clustering-Oriented Regularization](https://www.aclweb.org/anthology/S18-2001.pdf) | Kian Kenyon-Dean ||
+| 2018 | SEMEVAL | [Resolving Event Coreference with Supervised Representation Learning and Clustering-Oriented Regularization](https://www.aclweb.org/anthology/S18-2001.pdf) | Kian Kenyon-Dean ||
 | 2018 | COLING | [Graph-Based Decoding for Event Coreference and Sequencing Resolution](https://www.aclweb.org/anthology/C18-1309.pdf) | Zhengzhong Liu ||
 | 2018 | LREC | [Cross-Document, Cross-Language Event Coreference Annotation Using Event Hoppers](https://www.aclweb.org/anthology/L18-1558.pdf) | Zhiyi Song ||
 | 2017 | ACL | [Joint Learning for Event Coreference Resolution](https://www.aclweb.org/anthology/P17-1009.pdf) | Jing Lu ||
