@@ -18,7 +18,6 @@
 | 2018 | ACL   | [Resolving Event Coreference with Supervised Representation Learning and Clustering-Oriented Regularization](https://www.aclweb.org/anthology/S18-2001.pdf) | Kian Kenyon-Dean ||
 | 2018 | COLING | [Graph-Based Decoding for Event Coreference and Sequencing Resolution](https://www.aclweb.org/anthology/C18-1309.pdf) | Zhengzhong Liu ||
 | 2018 | LREC | [Cross-Document, Cross-Language Event Coreference Annotation Using Event Hoppers](https://www.aclweb.org/anthology/L18-1558.pdf) | Zhiyi Song ||
-| 2017 | ACL   | [End-to-end Neural Coreference Resolution](https://www.aclweb.org/anthology/D17-1018.pdf) | Kenton Lee ||
 | 2017 | ACL | [Joint Learning for Event Coreference Resolution](https://www.aclweb.org/anthology/P17-1009.pdf) | Jing Lu ||
 | 2017 | EMNLP | [Event Coreference Resolution by Iteratively Unfolding Inter-dependencies among Events](https://www.aclweb.org/anthology/D17-1226.pdf) | Prafulla Kumar Choubey ||
 | 2016 | dblp  | [UTD’s Event Nugget Detection and Coreference System at KBP 2016](https://tac.nist.gov/publications/2016/participant.papers/TAC2016.UTD.proceedings.pdf) | Jing Lu ||
