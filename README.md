@@ -45,7 +45,7 @@
 | 2019 | ACL    | [Fine-Grained Temporal Relation Extraction](https://www.aclweb.org/anthology/P19-1280/) | Siddharth Vashishtha |[黄琮程](https://zhevent.github.io/2020/10/22/Fine-Grained-Temporal-Relation-Extraction/)|
 | 2019 | EMNLP  | [Joint Event and Temporal Relation Extraction with Shared Representations and Structured Prediction](https://www.aclweb.org/anthology/D19-1041/) | Rujun Han |[黄琮程](https://zhevent.github.io/2020/10/15/joint-event-and-temporal/)|
 | 2019 | EMNLP  | [An Improved Neural Baseline for Temporal Relation Extraction](https://www.aclweb.org/anthology/D19-1642/) | Qiang Ning |[李婧](https://zhevent.github.io/2020/10/31/An-improved-Neural-Baseline-for-Temporal-Relation-Extraction/)|
-| 2019 | CoNLL  | [Deep Structured Neural Network for Event Temporal Relation Extraction](https://www.aclweb.org/anthology/K19-1062/) | Rujun Han ||
+| 2019 | CoNLL  | [Deep Structured Neural Network for Event Temporal Relation Extraction](https://www.aclweb.org/anthology/K19-1062/) | Rujun Han | 王亮 |
 | 2019 | ClinicalNLP  | [A BERT-based Universal Model for Both Within- and Cross-sentence Clinical Temporal Relation Extraction](https://www.aclweb.org/anthology/W19-1908/) | Chen Lin ||
 | 2019 | ClinicalNLP | [Attention Neural Model for Temporal Relation Extraction](https://www.aclweb.org/anthology/W19-1917/) | Sijia Liu ||
 | 2018 | EMNLP | [CogCompTime-A tool for understanding Time in Natural Language](https://www.aclweb.org/anthology/D18-2013/) | Qiang Ning ||
