@@ -9,6 +9,7 @@
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
+| 2020 |  | [End-to-End Neural Event Coreference Resolution](https://arxiv.org/pdf/2009.08153.pdf) | Yaojie Lu |[黄琮程](https://zhevent.github.io/2020/11/19/End-to-End-Neural-Event-Coreference-Resolution/)|
 | 2020 | ACL | [Discourse as a Function of Event: Profiling Discourse Structure in News Articles around the Main Event](https://www.aclweb.org/anthology/2020.acl-main.478.pdf) | Prafulla Kumar Choubey |[黄琮程](https://zhevent.github.io/2020/11/11/Profiling-Discourse-Structure-in-News-Articles-around-the-Main-Event/)|
 | 2020 | AESPEN | [Seeing the Forest and the Trees: Detection and Cross-Document Coreference Resolution of Militarized Interstate Disputes](https://www.aclweb.org/anthology/2020.aespen-1.7.pdf) | Benjamin J. Radford ||
 | 2020 | NUSE | [New Insights into Cross-Document Event Coreference: Systematic Comparison and a Simplified Approach](https://www.aclweb.org/anthology/2020.nuse-1.1.pdf) | Andres Cremisini ||
