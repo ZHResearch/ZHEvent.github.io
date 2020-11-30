@@ -42,6 +42,7 @@
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
 | 2020 | ACL | [Temporal Common Sense Acquisition with Minimal Supervision](https://www.aclweb.org/anthology/2020.acl-main.678/) | Ben Zhou |  |
+| 2020 | EMNLP  | [Domain Knowledge Empowered Structured Neural Net for End-to-End Event Temporal Relation Extraction](https://www.aclweb.org/anthology/2020.emnlp-main.461/) | Rujun Han | [王亮](https://zhevent.github.io/2020/11/30/domain-knowledge/) |
 | 2020 | BioNLP | [A BERT-based One-Pass Multi-Task Model for Clinical Temporal Relation Extraction](https://www.aclweb.org/anthology/2020.bionlp-1.7/) | Chen Lin ||
 | 2019 | ACL    | [Fine-Grained Temporal Relation Extraction](https://www.aclweb.org/anthology/P19-1280/) | Siddharth Vashishtha |[黄琮程](https://zhevent.github.io/2020/10/22/Fine-Grained-Temporal-Relation-Extraction/)|
 | 2019 | EMNLP  | [Joint Event and Temporal Relation Extraction with Shared Representations and Structured Prediction](https://www.aclweb.org/anthology/D19-1041/) | Rujun Han |[黄琮程](https://zhevent.github.io/2020/10/15/joint-event-and-temporal/)|
