@@ -1,3 +1,17 @@
+---
+layout: post
+title: 2020 EMNLP《Domain Knowledge Empowered Structured Neural Net for End-to-End Event Temporal Relation Extraction》
+categories: [Note, Temporal Relation, Domain Knowledge]
+description: 基于域知识加强结构化神经网络的端到端事件时序关系抽取
+keywords: Temporal Relation, Domain Knowledge
+mathjax: true
+original: true
+author: 王亮
+authorurl: https://github.com/NeoAlice
+---
+
+> 2020 EMNLP《基于域知识加强结构化神经网络的端到端事件时序关系抽取》[(Domain Knowledge Empowered Structured Neural Net for End-to-End Event Temporal Relation Extraction)](https://www.aclweb.org/anthology/2020.emnlp-main.461/)的阅读笔记
+
 # **Abstract**
 
 目前的系统利用深度学习和预训练的语言模型来提高任务的性能。存在两个缺点：1) 在根据神经模型执行最大后验 (MAP) 推理时，以前的系统只使用被认为是绝对正确的结构化知识，即硬约束；2) 在有限数据量的训练中有偏差的预测。本文提出了一个框架，它增强了由概率域知识构造的具有分布约束的深层神经网络。通过拉格朗日松弛来解决约束推理问题，并将其应用于端到端事件时序关系抽取任务。实验结果表明能够改进基线神经网络模型，在新闻和临床领域两个广泛使用的数据集上具有很强的统计意义。 
