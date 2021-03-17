@@ -25,10 +25,16 @@
 | 2020 | arXiv | [Cross-Document Event Coreference Resolution Beyond Corpus-Tailored Systems](https://arxiv.org/abs/2011.12249) | Michael Bugert ||
 | 2019 | ACL   | [Revisiting Joint Modeling of Cross-document Entity and Event Coreference Resolution](https://www.aclweb.org/anthology/P19-1409/) | Shany Barhom | [黄琮程](https://zhevent.github.io/2020/10/09/Joint-Modeling-Coreference-Resolution/) |
 | 2019 | NAACL | [Improving Event Coreference Resolution by Learning Argument Compatibility from Unlabeled Data](https://www.aclweb.org/anthology/N19-1085/) | Yin Jou Huang |[黄琮程](https://zhevent.github.io/2020/10/28/Event-Coreference-Resolution-by-Learning-Argument-Compatibility/)|
+| 2019 | IALP | [Employing Gated Attention and Multi-similarities to Resolve Document-level Chinese Event Coreference](https://ieeexplore.ieee.org/abstract/document/9037674) | Haoyi Cheng ||
 | 2018 | ACL   | [Improving Event Coreference Resolution by Modeling Correlations between Event Coreference Chains and Document Topic Structures](https://www.aclweb.org/anthology/P18-1045/) | Prafulla Kumar Choubey |[黄琮程](https://zhevent.github.io/2020/11/04/event-coreference-chains-and-topic-structure/)|
+| 2018 | IJCAI | [Event Coreference Resolution: A Survey of Two Decades of Research](https://www.ijcai.org/Proceedings/2018/0773/) | Jing Lu ||
 | 2018 | COLING | [Graph-Based Decoding for Event Coreference and Sequencing Resolution](https://www.aclweb.org/anthology/C18-1309/) | Zhengzhong Liu ||
 | 2018 | LREC | [Cross-Document, Cross-Language Event Coreference Annotation Using Event Hoppers](https://www.aclweb.org/anthology/L18-1558/) | Zhiyi Song ||
+| 2018 | NAACL | [Identifying the Most Dominant Event in a News Article by Mining Event Coreference Relations](https://www.aclweb.org/anthology/N18-2055/) | Prafulla Kumar Choubey ||
 | 2018 | SEMEVAL | [Resolving Event Coreference with Supervised Representation Learning and Clustering-Oriented Regularization](https://www.aclweb.org/anthology/S18-2001/) | Kian Kenyon-Dean ||
+| 2018 | NLPCC | [Employing Multiple Decomposable Attention Networks to Resolve Event Coreference](https://link.springer.com/chapter/10.1007/978-3-319-99501-4_21) | Jie Fang ||
+| 2018 | KDD | [An Extensible Event Extraction System With Cross-Media Event Resolution](https://dl.acm.org/doi/abs/10.1145/3219819.3219827) | Fabio Petroni ||
+| 2018 | arXiv | [Event Coreference Resolution Using Neural Network Classifiers](https://arxiv.org/abs/1810.04216) | Arun Pandian ||
 | 2017 | ACL | [Joint Learning for Event Coreference Resolution](https://www.aclweb.org/anthology/P17-1009/) | Jing Lu ||
 | 2017 | EMNLP | [Event Coreference Resolution by Iteratively Unfolding Inter-dependencies among Events](https://www.aclweb.org/anthology/D17-1226/) | Prafulla Kumar Choubey ||
 | 2016 | ACL   | [Unsupervised Event Coreference for Abstract Words](https://www.aclweb.org/anthology/W16-6005/) | Dheeraj Rajagopal ||
@@ -90,8 +96,10 @@
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
+| 2020 | ACL | [GAIA: A Fine-grained Multimedia Knowledge Extraction System](https://www.aclweb.org/anthology/2020.acl-demos.11/) | Manling Li ||
 | 2020 | ACL | [Extensively Matching for Few-shot Learning Event Detection](https://www.aclweb.org/anthology/2020.nuse-1.5/) | Viet Dac Lai | [王亮](https://zhevent.github.io/2020/10/09/few-shot-learning-event-detection/) |
 | 2019 | ACL | [Multi-Level Matching and Aggregation Network for Few-Shot Relation Classification](https://www.aclweb.org/anthology/P19-1277/) | Zhixiu Ye | [王亮](https://zhevent.github.io/2020/10/16/few-shot-relation-classification/) |
+| 2019 | NACL | [Multilingual Entity, Relation, Event and Human Value Extraction](https://www.aclweb.org/anthology/N19-4019/) | Manling Li ||
 | 2019 | NAACL | [Event Detection without Triggers](https://www.aclweb.org/anthology/N19-1080/) | Shulin Liu |
 | 2019 | NAACL | [Modeling Document-level Causal Structures for Event Causal Relation Identification](https://www.aclweb.org/anthology/N19-1179/) | Lei Gao |
 | 2018 | 智能计算机与应用 | [神经网络事件抽取技术综述](http://www.cnki.com.cn/Article/CJFDTotal-DLXZ201803002.htm) | 秦彦霞 |
