@@ -9,12 +9,20 @@
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
+| 2021 | AAAI | [Span-Based Event Coreference Resolution](https://www.aaai.org/AAAI21Papers/AAAI-9086.LJ.pdf) | Jing Lu ||
+| 2021 | arXiv | [Within-Document Event Coreference with BERT-Based Contextualized Representations](https://arxiv.org/abs/2102.09600) | Shafiuddin Rehan Ahmed ||
 | 2020 | ACL | [Discourse as a Function of Event: Profiling Discourse Structure in News Articles around the Main Event](https://www.aclweb.org/anthology/2020.acl-main.478/) | Prafulla Kumar Choubey |[黄琮程](https://zhevent.github.io/2020/11/11/Profiling-Discourse-Structure-in-News-Articles-around-the-Main-Event/)|
+| 2020 | COLING | [Event Coreference Resolution with their Paraphrases and Argument-aware Embeddings](https://www.aclweb.org/anthology/2020.coling-main.275/) | Yutao Zeng ||
 | 2020 | AACL | [Event Coreference Resolution with Non-Local Information](https://www.aclweb.org/anthology/2020.aacl-main.66/) | Jing Lu ||
 | 2020 | AESPEN | [Seeing the Forest and the Trees: Detection and Cross-Document Coreference Resolution of Militarized Interstate Disputes](https://www.aclweb.org/anthology/2020.aespen-1.7/) | Benjamin J. Radford ||
+| 2020 | AESPEN | [Event Clustering within News Articles](https://www.aclweb.org/anthology/2020.aespen-1.11/) | Faik Kerem Örs ||
 | 2020 | NUSE | [New Insights into Cross-Document Event Coreference: Systematic Comparison and a Simplified Approach](https://www.aclweb.org/anthology/2020.nuse-1.1/) | Andres Cremisini ||
+| 2020 | Text2Story | [Breaking the Subtopic Barrier in Cross-Document Event Coreference Resolution](https://public.ukp.informatik.tu-darmstadt.de/UKP_Webpage/publications/2020/2020_Text2Story_MB_cross-doc-event-coref-corpus.pdf) | Michael Bugert ||
+| 2020 | NLPCC | [Data Augmentation with Reinforcement Learning for Document-Level Event Coreference Resolution](https://link.springer.com/chapter/10.1007/978-3-030-60450-9_59) | Jie Fang ||
+| 2020 | ICCT | [Event Coreference Fusion Based on Deep Residual Network and Structure Representation](https://ieeexplore.ieee.org/abstract/document/9295831) | Jinfeng Meng ||
 | 2020 | arXiv | [Paired Representation Learning for Event and Entity Coreference](https://arxiv.org/abs/2010.12808) | Xiaodong Yu || 
 | 2020 | arXiv | [End-to-End Neural Event Coreference Resolution](https://arxiv.org/abs/2009.08153) | Yaojie Lu |[黄琮程](https://zhevent.github.io/2020/11/19/End-to-End-Neural-Event-Coreference-Resolution/)|
+| 2020 | arXiv | [Cross-Document Event Coreference Resolution Beyond Corpus-Tailored Systems](https://arxiv.org/abs/2011.12249) | Michael Bugert ||
 | 2019 | ACL   | [Revisiting Joint Modeling of Cross-document Entity and Event Coreference Resolution](https://www.aclweb.org/anthology/P19-1409/) | Shany Barhom | [黄琮程](https://zhevent.github.io/2020/10/09/Joint-Modeling-Coreference-Resolution/) |
 | 2019 | NAACL | [Improving Event Coreference Resolution by Learning Argument Compatibility from Unlabeled Data](https://www.aclweb.org/anthology/N19-1085/) | Yin Jou Huang |[黄琮程](https://zhevent.github.io/2020/10/28/Event-Coreference-Resolution-by-Learning-Argument-Compatibility/)|
 | 2018 | ACL   | [Improving Event Coreference Resolution by Modeling Correlations between Event Coreference Chains and Document Topic Structures](https://www.aclweb.org/anthology/P18-1045/) | Prafulla Kumar Choubey |[黄琮程](https://zhevent.github.io/2020/11/04/event-coreference-chains-and-topic-structure/)|
