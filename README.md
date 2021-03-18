@@ -37,9 +37,11 @@
 | 2018 | arXiv | [Event Coreference Resolution Using Neural Network Classifiers](https://arxiv.org/abs/1810.04216) | Arun Pandian ||
 | 2017 | ACL | [Joint Learning for Event Coreference Resolution](https://www.aclweb.org/anthology/P17-1009/) | Jing Lu ||
 | 2017 | EMNLP | [Event Coreference Resolution by Iteratively Unfolding Inter-dependencies among Events](https://www.aclweb.org/anthology/D17-1226/) | Prafulla Kumar Choubey ||
+| 2017 | ICMLA | [Learning Antecedent Structures for Event Coreference Resolution](https://ieeexplore.ieee.org/abstract/document/8260622) | Jing Lu ||
 | 2016 | ACL   | [Unsupervised Event Coreference for Abstract Words](https://www.aclweb.org/anthology/W16-6005/) | Dheeraj Rajagopal ||
 | 2016 | ACL   | [Richer Event Description: Integrating event coreference with temporal, causal and bridging annotation](https://www.aclweb.org/anthology/W16-5706/) | Tim O’Gorman ||
 | 2016 | ACL   | [Event Linking with Sentential Features from Convolutional Neural Networks](https://www.aclweb.org/anthology/K16-1024/) | Sebastian Krause ||
+| 2016 | AAAI | [Joint Inference over a Lightly Supervised Information Extraction Pipeline: Towards Event Coreference Resolution for Resource-Scarce Languages](https://ojs.aaai.org/index.php/AAAI/article/view/10392) | Chen Chen ||
 | 2016 | COLING | [Revisiting the Evaluation for Cross Document Event Coreference](https://www.aclweb.org/anthology/C16-1183/) | Shyam Upadhyay ||
 | 2016 | COLING | [Joint Inference for Event Coreference Resolution](https://www.aclweb.org/anthology/C16-1308/) | Jing Lu ||
 | 2016 | LREC | [Event Coreference Resolution with Multi-Pass Sieves](https://www.aclweb.org/anthology/L16-1631/) | Jing Lu ||
