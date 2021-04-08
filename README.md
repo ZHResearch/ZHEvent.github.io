@@ -4,6 +4,7 @@
 
 - 事件同指消解（Event Coreference Resolution）
 - 事件时序识别（Temporal Relation Extraction）
+- 多模态事件抽取（Multimedia Event Extraction）
 
 ## 事件同指消解
 
@@ -94,6 +95,12 @@
 | 2016 | COLING | [Global Inference to Chinese Temporal Relation Extraction](https://www.aclweb.org/anthology/C16-1137/) | Peifeng Li ||
 | 2016 | COLING | [On the contribution of word embeddings to temporal relation classiﬁcation](https://www.aclweb.org/anthology/C16-1265/) | Paramita Mirza ||
 
+## 多模态事件抽取
+
+| 年份 | 来源 | 名称 | 作者 | 笔记 |
+| :- | :-: | :- | :- | :- |
+| 2017 | ACM Multimedia | [Improving Event Extraction via Multimodal Integration](https://dl.acm.org/doi/10.1145/3123266.3123294) | Tongtao Zhang ||
+
 ## 其他相关
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
@@ -106,9 +113,3 @@
 | 2019 | NAACL | [Modeling Document-level Causal Structures for Event Causal Relation Identification](https://www.aclweb.org/anthology/N19-1179/) | Lei Gao |
 | 2018 | 智能计算机与应用 | [神经网络事件抽取技术综述](http://www.cnki.com.cn/Article/CJFDTotal-DLXZ201803002.htm) | 秦彦霞 |
 | 2016 | EVENTS | [Event Nugget and Event Coreference Annotation](https://www.aclweb.org/anthology/W16-1005/) | Zhiyi Song |
-
-## 多模态事件抽取
-
-| 年份 | 来源 | 名称 | 作者 | 笔记 |
-| :- | :-: | :- | :- | :- |
-| 2017 | ACM Multimedia | [Improving Event Extraction via Multimodal Integration](https://dl.acm.org/doi/10.1145/3123266.3123294) | Tongtao Zhang ||
