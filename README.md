@@ -100,6 +100,7 @@
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
 | 2017 | ACM Multimedia | [Improving Event Extraction via Multimodal Integration](https://dl.acm.org/doi/10.1145/3123266.3123294) | Tongtao Zhang ||
+| 2020 | ACL (demo) | [GAIA: A Fine-grained Multimedia Knowledge Extraction System](https://www.aclweb.org/anthology/2020.acl-demos.11/) | Manling Li ||
 
 ## 其他相关
 
