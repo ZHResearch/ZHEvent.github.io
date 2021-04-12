@@ -103,6 +103,8 @@
 | 2020 | ACL (demo) | [GAIA: A Fine-grained Multimedia Knowledge Extraction System](https://www.aclweb.org/anthology/2020.acl-demos.11/) | Manling Li ||
 | 2020 | ACL | [Cross-media Structured Common Space for Multimedia Event Extraction](https://www.aclweb.org/anthology/2020.acl-main.230//) | Manling Li ||
 | 2020 | EMNLP | [Incorporating Multimodal Information in Open-Domain Web Keyphrase Extraction](https://www.aclweb.org/anthology/2020.emnlp-main.140/) | Yansen Wang ||
+| 2018 | NAACL | [Multimodal Named Entity Recognition for Short Social Media Posts](https://www.aclweb.org/anthology/N18-1078/) | Seungwhan Moon||
+
 
 ## 其他相关
 
