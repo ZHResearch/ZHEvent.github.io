@@ -104,7 +104,7 @@
 | 2020 | ACL | [Cross-media Structured Common Space for Multimedia Event Extraction](https://www.aclweb.org/anthology/2020.acl-main.230//) | Manling Li ||
 | 2020 | EMNLP | [Incorporating Multimodal Information in Open-Domain Web Keyphrase Extraction](https://www.aclweb.org/anthology/2020.emnlp-main.140/) | Yansen Wang ||
 | 2018 | NAACL | [Multimodal Named Entity Recognition for Short Social Media Posts](https://www.aclweb.org/anthology/N18-1078/) | Seungwhan Moon||
-
+| 2020 | ACL | [Improving Multimodal Named Entity Recognition via Entity Span Detection with Unified Multimodal Transformer](https://www.aclweb.org/anthology/2020.acl-main.306/) | Jianfei Yu||
 
 ## 其他相关
 
