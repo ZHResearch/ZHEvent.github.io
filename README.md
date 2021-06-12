@@ -65,6 +65,7 @@
 | 2021 | arxiv | [Clinical Temporal Relation Extraction with Probabilistic Soft Logic Regularization and Global Inference](https://arxiv.org/pdf/2012.08790) | Yichao Zhou |  |
 | 2021 | NAACL | [Temporal Reasoning on Implicit Events from Distant Supervision](https://www.aclweb.org/anthology/2021.naacl-main.107/) | Ben Zhou |  |
 | 2021 | NAACL | [EventPlus: A Temporal Event Understanding Pipeline](https://www.aclweb.org/anthology/2021.naacl-demos.7/) | Mingyu Derek Ma |  |
+| 2020 | EMNLP | [Joint Constrained Learning for Event-Event Relation Extraction](https://www.aclweb.org/anthology/2020.emnlp-main.51/) | Haoyu Wang |  |
 | 2020 | EMNLP | [TORQUE: A Reading Comprehension Dataset of Temporal Ordering Questions](https://www.aclweb.org/anthology/2020.emnlp-main.88/) | Qiang Ning |  |
 | 2020 | EMNLP | [Dynamically Updating Event Representations for Temporal RelationClassification with Multi-category Learning](https://www.aclweb.org/anthology/2020.findings-emnlp.121/) | Fei Cheng |  |
 | 2020 | ACL | [Temporal Common Sense Acquisition with Minimal Supervision](https://www.aclweb.org/anthology/2020.acl-main.678/) | Ben Zhou |  |
