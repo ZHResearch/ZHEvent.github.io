@@ -101,6 +101,7 @@
 | 2016 | COLING | [CATENA: CAusal and TEmporal relation extraction from NAtural language texts](https://www.aclweb.org/anthology/C16-1007/) | Paramita Mirza ||
 | 2016 | COLING | [Global Inference to Chinese Temporal Relation Extraction](https://www.aclweb.org/anthology/C16-1137/) | Peifeng Li ||
 | 2016 | COLING | [On the contribution of word embeddings to temporal relation classiﬁcation](https://www.aclweb.org/anthology/C16-1265/) | Paramita Mirza ||
+| 2014 | TACL | [Dense Event Ordering with a Multi-Pass Architecture](https://www.aclweb.org/anthology/Q14-1022/) | Nathanael Chambers ||
 
 ## 多模态事件抽取
 
