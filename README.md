@@ -61,11 +61,17 @@
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
+| 2021 | arxiv | [DEER: A Data Efficient Language Model for Event Temporal Reasoning](https://arxiv.org/pdf/2012.15283) | Rujun Han |  |
+| 2021 | arxiv | [Clinical Temporal Relation Extraction with Probabilistic Soft Logic Regularization and Global Inference](https://arxiv.org/pdf/2012.08790) | Yichao Zhou |  |
+| 2021 | NAACL | [Temporal Reasoning on Implicit Events from Distant Supervision](https://www.aclweb.org/anthology/2021.naacl-main.107/) | Ben Zhou |  |
+| 2021 | NAACL | [EventPlus: A Temporal Event Understanding Pipeline](https://www.aclweb.org/anthology/2021.naacl-demos.7/) | Mingyu Derek Ma |  |
+| 2020 | EMNLP | [TORQUE: A Reading Comprehension Dataset of Temporal Ordering Questions](https://www.aclweb.org/anthology/2020.emnlp-main.88/) | Qiang Ning |  |
+| 2020 | EMNLP | [Dynamically Updating Event Representations for Temporal RelationClassification with Multi-category Learning](https://www.aclweb.org/anthology/2020.findings-emnlp.121/) | Fei Cheng |  |
 | 2020 | ACL | [Temporal Common Sense Acquisition with Minimal Supervision](https://www.aclweb.org/anthology/2020.acl-main.678/) | Ben Zhou |  |
 | 2020 | EMNLP  | [Domain Knowledge Empowered Structured Neural Net for End-to-End Event Temporal Relation Extraction](https://www.aclweb.org/anthology/2020.emnlp-main.461/) | Rujun Han | [王亮](https://zhevent.github.io/2020/11/30/domain-knowledge/) |
 | 2020 | EMNLP  | [Severing the Edge Between Before and After:Neural Architectures for Temporal Ordering of Events](https://www.aclweb.org/anthology/2020.emnlp-main.436/) | Hayley Ross | [王亮](https://zhevent.github.io/2020/12/09/tdp/) |
 | 2020 | EMNLP  | [Exploring Contextualized Neural Language Models for Temporal Dependency Parsing](https://www.aclweb.org/anthology/2020.emnlp-main.689/) | Miguel Ballesteros | [王亮](https://zhevent.github.io/2020/12/03/smtl/) |
-| 2020 | arXiv | [Effective Distant Supervision for Temporal Relation Extraction](https://arxiv.org/abs/2010.12755) | Xinyu Zhao | [王亮](https://zhevent.github.io/2020/12/17/Distant-Supervision-for-temprel/) |
+| 2020 | EACL | [Effective Distant Supervision for Temporal Relation Extraction](https://arxiv.org/abs/2010.12755) | Xinyu Zhao | [王亮](https://zhevent.github.io/2020/12/17/Distant-Supervision-for-temprel/) |
 | 2020 | BioNLP | [A BERT-based One-Pass Multi-Task Model for Clinical Temporal Relation Extraction](https://www.aclweb.org/anthology/2020.bionlp-1.7/) | Chen Lin ||
 | 2019 | ACL    | [Fine-Grained Temporal Relation Extraction](https://www.aclweb.org/anthology/P19-1280/) | Siddharth Vashishtha |[黄琮程](https://zhevent.github.io/2020/10/22/Fine-Grained-Temporal-Relation-Extraction/)|
 | 2019 | EMNLP  | [Joint Event and Temporal Relation Extraction with Shared Representations and Structured Prediction](https://www.aclweb.org/anthology/D19-1041/) | Rujun Han |[黄琮程](https://zhevent.github.io/2020/10/15/joint-event-and-temporal/)|
