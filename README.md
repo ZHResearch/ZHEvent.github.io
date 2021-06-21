@@ -10,8 +10,7 @@
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
-| 2021 | NAACL | [A Context-Dependent Gated Module for Incorporating Symbolic
-Semantics into Event Coreference Resolution](https://arxiv.org/pdf/2104.01697.pdf) | Tuan Lai ||
+| 2021 | NAACL | [A Context-Dependent Gated Module for Incorporating Symbolic Semantics into Event Coreference Resolution](https://arxiv.org/pdf/2104.01697.pdf) | Tuan Lai ||
 | 2021 | NAACL | [Constrained Multi-Task Learning for Event Coreference Resolution](https://www.aclweb.org/anthology/2021.naacl-main.356.pdf) | Jing Lu ||
 | 2021 | AAAI | [Span-Based Event Coreference Resolution](https://www.aaai.org/AAAI21Papers/AAAI-9086.LJ.pdf) | Jing Lu ||
 | 2021 | arXiv | [Within-Document Event Coreference with BERT-Based Contextualized Representations](https://arxiv.org/abs/2102.09600) | Shafiuddin Rehan Ahmed ||
