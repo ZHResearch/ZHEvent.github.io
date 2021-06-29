@@ -2,12 +2,12 @@
 
 专注于事件以及事件关系抽取任务：
 
-- 事件抽取（Event Detection）
-- 事件同指消解（Event Coreference Resolution）
-- 事件时序关系识别（Temporal Relation Extraction）
+- [事件抽取（Event Detection）](#event-detection)
+- [事件同指消解（Event Coreference Resolution）](#event-coreference-resolution)
+- [事件时序关系识别（Temporal Relation Extraction）](#temporal-relation-extraction)
 - 事件因果关系识别（Causal Relation Identification）
 - 事件空间关系识别（Spatial Relation Extraction）
-- 事件相关及应用（Other）
+- [事件相关及应用（Other）](#other)
 
 ## Event Detection
 
