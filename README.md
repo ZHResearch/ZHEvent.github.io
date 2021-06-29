@@ -1,12 +1,30 @@
-# 事件关系论文阅读笔记
+# 事件论文阅读笔记
 
-专注于事件关系抽取任务：
+专注于事件以及事件关系抽取任务：
 
+- 事件抽取（Event Detection）
 - 事件同指消解（Event Coreference Resolution）
-- 事件时序识别（Temporal Relation Extraction）
-- 多模态事件抽取（Multimedia Event Extraction）
+- 事件时序关系识别（Temporal Relation Extraction）
+- 事件因果关系识别（Causal Relation Identification）
+- 事件空间关系识别（Spatial Relation Extraction）
+- 事件相关及应用（Other）
 
-## 事件同指消解
+## Event Detection
+
+| 年份 | 来源 | 名称 | 作者 | 笔记 |
+| :- | :-: | :- | :- | :- |
+| 2021 | NAACL | [Document-Level Event Argument Extraction by Conditional Generation](https://www.aclweb.org/anthology/2021.naacl-main.69/) | Sha Li ||
+| 2020 | ACL | [Extensively Matching for Few-shot Learning Event Detection](https://www.aclweb.org/anthology/2020.nuse-1.5/) | Viet Dac Lai | [王亮](https://zhevent.github.io/2020/10/09/few-shot-learning-event-detection/) |
+| 2020 | ACL | [Improving Multimodal Named Entity Recognition via Entity Span Detection with Unified Multimodal Transformer](https://www.aclweb.org/anthology/2020.acl-main.306/) | Jianfei Yu||
+| 2020 | ACL | [Cross-media Structured Common Space for Multimedia Event Extraction](https://www.aclweb.org/anthology/2020.acl-main.230//) | Manling Li ||
+| 2020 | ACL-demo | [GAIA: A Fine-grained Multimedia Knowledge Extraction System](https://www.aclweb.org/anthology/2020.acl-demos.11/) | Manling Li ||
+| 2020 | EMNLP | [Incorporating Multimodal Information in Open-Domain Web Keyphrase Extraction](https://www.aclweb.org/anthology/2020.emnlp-main.140/) | Yansen Wang ||
+| 2019 | NAACL | [Event Detection without Triggers](https://www.aclweb.org/anthology/N19-1080/) | Shulin Liu |
+| 2018 | NAACL | [Multimodal Named Entity Recognition for Short Social Media Posts](https://www.aclweb.org/anthology/N18-1078/) | Seungwhan Moon||
+| 2018 | 智能计算机与应用 | [神经网络事件抽取技术综述](http://www.cnki.com.cn/Article/CJFDTotal-DLXZ201803002.htm) | 秦彦霞 |
+| 2017 | ACM Multimedia | [Improving Event Extraction via Multimodal Integration](https://dl.acm.org/doi/10.1145/3123266.3123294) | Tongtao Zhang ||
+
+## Event Coreference Resolution
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
@@ -61,7 +79,7 @@
 | 2013 | EMNLP | [Easy Victories and Uphill Battles in Coreference Resolution](https://www.aclweb.org/anthology/D13-1203/) | Greg Durrett ||
 | 2012 | EMNLP | [Joint Entity and Event Coreference Resolution across Documents](https://www.aclweb.org/anthology/D12-1045/) | Heeyoung Lee ||
 
-## 事件时序识别
+## Temporal Relation Extraction
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
@@ -107,26 +125,12 @@
 | 2016 | COLING | [On the contribution of word embeddings to temporal relation classiﬁcation](https://www.aclweb.org/anthology/C16-1265/) | Paramita Mirza ||
 | 2014 | TACL | [Dense Event Ordering with a Multi-Pass Architecture](https://www.aclweb.org/anthology/Q14-1022/) | Nathanael Chambers ||
 
-## 多模态事件抽取
-
-| 年份 | 来源 | 名称 | 作者 | 笔记 |
-| :- | :-: | :- | :- | :- |
-| 2017 | ACM Multimedia | [Improving Event Extraction via Multimodal Integration](https://dl.acm.org/doi/10.1145/3123266.3123294) | Tongtao Zhang ||
-| 2020 | ACL (demo) | [GAIA: A Fine-grained Multimedia Knowledge Extraction System](https://www.aclweb.org/anthology/2020.acl-demos.11/) | Manling Li ||
-| 2020 | ACL | [Cross-media Structured Common Space for Multimedia Event Extraction](https://www.aclweb.org/anthology/2020.acl-main.230//) | Manling Li ||
-| 2020 | EMNLP | [Incorporating Multimodal Information in Open-Domain Web Keyphrase Extraction](https://www.aclweb.org/anthology/2020.emnlp-main.140/) | Yansen Wang ||
-| 2018 | NAACL | [Multimodal Named Entity Recognition for Short Social Media Posts](https://www.aclweb.org/anthology/N18-1078/) | Seungwhan Moon||
-| 2020 | ACL | [Improving Multimodal Named Entity Recognition via Entity Span Detection with Unified Multimodal Transformer](https://www.aclweb.org/anthology/2020.acl-main.306/) | Jianfei Yu||
-
-## 其他相关
+## Other
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
 | 2020 | ACL | [GAIA: A Fine-grained Multimedia Knowledge Extraction System](https://www.aclweb.org/anthology/2020.acl-demos.11/) | Manling Li ||
-| 2020 | ACL | [Extensively Matching for Few-shot Learning Event Detection](https://www.aclweb.org/anthology/2020.nuse-1.5/) | Viet Dac Lai | [王亮](https://zhevent.github.io/2020/10/09/few-shot-learning-event-detection/) |
 | 2019 | ACL | [Multi-Level Matching and Aggregation Network for Few-Shot Relation Classification](https://www.aclweb.org/anthology/P19-1277/) | Zhixiu Ye | [王亮](https://zhevent.github.io/2020/10/16/few-shot-relation-classification/) |
 | 2019 | NACL | [Multilingual Entity, Relation, Event and Human Value Extraction](https://www.aclweb.org/anthology/N19-4019/) | Manling Li ||
-| 2019 | NAACL | [Event Detection without Triggers](https://www.aclweb.org/anthology/N19-1080/) | Shulin Liu |
 | 2019 | NAACL | [Modeling Document-level Causal Structures for Event Causal Relation Identification](https://www.aclweb.org/anthology/N19-1179/) | Lei Gao |
-| 2018 | 智能计算机与应用 | [神经网络事件抽取技术综述](http://www.cnki.com.cn/Article/CJFDTotal-DLXZ201803002.htm) | 秦彦霞 |
 | 2016 | EVENTS | [Event Nugget and Event Coreference Annotation](https://www.aclweb.org/anthology/W16-1005/) | Zhiyi Song |
