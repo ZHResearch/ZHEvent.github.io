@@ -7,6 +7,7 @@
 - [事件时序关系识别（Temporal Relation Extraction）](#temporal-relation-extraction)
 - 事件因果关系识别（Causal Relation Identification）
 - 事件空间关系识别（Spatial Relation Extraction）
+- [事件包含关系（Subevent Relation Extraction）](#subevent-relation-extraction)
 - [事件相关及应用（Other）](#other)
 
 ## Event Detection
@@ -124,6 +125,13 @@
 | 2016 | COLING | [Global Inference to Chinese Temporal Relation Extraction](https://www.aclweb.org/anthology/C16-1137/) | Peifeng Li ||
 | 2016 | COLING | [On the contribution of word embeddings to temporal relation classiﬁcation](https://www.aclweb.org/anthology/C16-1265/) | Paramita Mirza ||
 | 2014 | TACL | [Dense Event Ordering with a Multi-Pass Architecture](https://www.aclweb.org/anthology/Q14-1022/) | Nathanael Chambers ||
+
+## Subevent Relation Extraction
+
+| 年份 | 来源 | 名称 | 作者 | 笔记 |
+| :- | :-: | :- | :- | :- |
+| 2019 | ACL | [Detecting Subevents using Discourse and Narrative Features](https://www.aclweb.org/anthology/P19-1471/) | Mohammed Aldawsari ||
+| 2018 | COLING | [Graph Based Decoding for Event Sequencing and Coreference Resolution](https://www.aclweb.org/anthology/C18-1309/) | Zhengzhong Liu ||
 
 ## Other
 
