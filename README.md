@@ -133,6 +133,14 @@
 | 2019 | ACL | [Detecting Subevents using Discourse and Narrative Features](https://www.aclweb.org/anthology/P19-1471/) | Mohammed Aldawsari ||
 | 2018 | COLING | [Graph Based Decoding for Event Sequencing and Coreference Resolution](https://www.aclweb.org/anthology/C18-1309/) | Zhengzhong Liu ||
 
+## Event Causality Identification
+
+| 年份 | 来源 | 名称 | 作者 | 笔记 |
+| :- | :-: | :- | :- | :- |
+| 2021 | ACL | [Graph Convolutional Networks for Event Causality Identification with Rich Document-level Structures](https://aclanthology.org/2021.naacl-main.273.pdf) | Minh Tran Phu ||
+| 2020 | IJCAI | [Knowledge Enhanced Event Causality Identification with Mention Masking Generalizations](https://www.ijcai.org/proceedings/2020/0499.pdf) | Jian Liu(Institute of Automation) ||
+| 2020 | COLING | [KnowDis: Knowledge Enhanced Data Augmentation for Event Causality Detection via Distant Supervision](https://aclanthology.org/2020.coling-main.135.pdf) | Xinyu Zuo(Institute of Automation) ||
+
 ## Other
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
