@@ -17,7 +17,7 @@
 | :- | :-: | :- | :- | :- |
 | 2021 | NAACL | [Document-Level Event Argument Extraction by Conditional Generation](https://www.aclweb.org/anthology/2021.naacl-main.69/) | Sha Li ||
 | 2020 | ACL | [Extensively Matching for Few-shot Learning Event Detection](https://www.aclweb.org/anthology/2020.nuse-1.5/) | Viet Dac Lai | [王亮](https://zhevent.github.io/2020/10/09/few-shot-learning-event-detection/) |
-| 2020 | ACL | [Improving Multimodal Named Entity Recognition via Entity Span Detection with Unified Multimodal Transformer](https://www.aclweb.org/anthology/2020.acl-main.306/) | Jianfei Yu||
+| 2020 | ACL | [Document-Level Event Role Filler Extraction using Multi-Granularity Contextualized Encoding](https://aclanthology.org/2020.acl-main.714/) | Xinya Du ||
 | 2020 | ACL | [Cross-media Structured Common Space for Multimedia Event Extraction](https://www.aclweb.org/anthology/2020.acl-main.230//) | Manling Li ||
 | 2020 | ACL-demo | [GAIA: A Fine-grained Multimedia Knowledge Extraction System](https://www.aclweb.org/anthology/2020.acl-demos.11/) | Manling Li ||
 | 2020 | EMNLP | [Incorporating Multimodal Information in Open-Domain Web Keyphrase Extraction](https://www.aclweb.org/anthology/2020.emnlp-main.140/) | Yansen Wang ||
@@ -147,6 +147,7 @@
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
 | 2020 | ACL | [GAIA: A Fine-grained Multimedia Knowledge Extraction System](https://www.aclweb.org/anthology/2020.acl-demos.11/) | Manling Li ||
+| 2020 | ACL | [Improving Multimodal Named Entity Recognition via Entity Span Detection with Unified Multimodal Transformer](https://www.aclweb.org/anthology/2020.acl-main.306/) | Jianfei Yu||
 | 2020 | LREC | [Towards Few-Shot Event Mention Retrieval: An Evaluation Framework and A Siamese Network Approach](https://www.aclweb.org/anthology/2020.lrec-1.216/) | Bonan Min ||
 | 2019 | ACL | [Multi-Level Matching and Aggregation Network for Few-Shot Relation Classification](https://www.aclweb.org/anthology/P19-1277/) | Zhixiu Ye | [王亮](https://zhevent.github.io/2020/10/16/few-shot-relation-classification/) |
 | 2019 | NACL | [Multilingual Entity, Relation, Event and Human Value Extraction](https://www.aclweb.org/anthology/N19-4019/) | Manling Li ||
