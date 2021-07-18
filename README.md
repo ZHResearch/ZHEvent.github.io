@@ -154,4 +154,5 @@
 | 2019 | ACL | [Multi-Level Matching and Aggregation Network for Few-Shot Relation Classification](https://www.aclweb.org/anthology/P19-1277/) | Zhixiu Ye | [王亮](https://zhevent.github.io/2020/10/16/few-shot-relation-classification/) |
 | 2019 | NACL | [Multilingual Entity, Relation, Event and Human Value Extraction](https://www.aclweb.org/anthology/N19-4019/) | Manling Li ||
 | 2019 | NAACL | [Modeling Document-level Causal Structures for Event Causal Relation Identification](https://www.aclweb.org/anthology/N19-1179/) | Lei Gao |
+| 2018 | LREC | [EventWiki: A Knowledge Base of Major Events](https://aclanthology.org/L18-1079/) | Tao Ge ||
 | 2016 | EVENTS | [Event Nugget and Event Coreference Annotation](https://www.aclweb.org/anthology/W16-1005/) | Zhiyi Song |
