@@ -5,7 +5,7 @@
 - [事件抽取（Event Detection）](#event-detection)
 - [事件同指消解（Event Coreference Resolution）](#event-coreference-resolution)
 - [事件时序关系（Temporal Relation Extraction）](#temporal-relation-extraction)
-- [事件因果关系（Causal Relation Extraction）](#causality-relation-extraction)
+- [事件因果关系（Causal Relation Extraction）](#causal-relation-extraction)
 - [事件包含关系（Subevent Relation Extraction）](#subevent-relation-extraction)
 - [事件空间关系（Spatial Relation Extraction）](#spatial-relation-extraction)
 - [事件相关及应用（Other）](#other)
