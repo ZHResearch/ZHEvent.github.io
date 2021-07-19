@@ -5,9 +5,9 @@
 - [事件抽取（Event Detection）](#event-detection)
 - [事件同指消解（Event Coreference Resolution）](#event-coreference-resolution)
 - [事件时序关系（Temporal Relation Extraction）](#temporal-relation-extraction)
-- 事件空间关系（Spatial Relation Extraction）
+- [事件因果关系（Causal Relation Extraction）](#causality-relation-extraction)
 - [事件包含关系（Subevent Relation Extraction）](#subevent-relation-extraction)
-- [事件因果关系（Causal Relation Identification）](#event-causality-identification)
+- [事件空间关系（Spatial Relation Extraction）](#spatial-relation-extraction)
 - [事件相关及应用（Other）](#other)
 
 ## Event Detection
@@ -127,6 +127,14 @@
 | 2016 | COLING | [On the contribution of word embeddings to temporal relation classiﬁcation](https://www.aclweb.org/anthology/C16-1265/) | Paramita Mirza ||
 | 2014 | TACL | [Dense Event Ordering with a Multi-Pass Architecture](https://www.aclweb.org/anthology/Q14-1022/) | Nathanael Chambers ||
 
+## Causal Relation Extraction
+
+| 年份 | 来源 | 名称 | 作者 | 笔记 |
+| :- | :-: | :- | :- | :- |
+| 2021 | NAACL | [Graph Convolutional Networks for Event Causality Identification with Rich Document-level Structures](https://aclanthology.org/2021.naacl-main.273.pdf) | Minh Tran Phu ||
+| 2020 | IJCAI | [Knowledge Enhanced Event Causality Identification with Mention Masking Generalizations](https://www.ijcai.org/proceedings/2020/0499.pdf) | Jian Liu ||
+| 2020 | COLING | [KnowDis: Knowledge Enhanced Data Augmentation for Event Causality Detection via Distant Supervision](https://aclanthology.org/2020.coling-main.135.pdf) | Xinyu Zuo ||
+
 ## Subevent Relation Extraction
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
@@ -135,13 +143,11 @@
 | 2019 |  NAACL-HLT | [Sub-Event Detection from Twitter Streams as a Sequence Labeling Problem](https://aclanthology.org/N19-1081/) | Giannis Bekoulis ||
 | 2018 | COLING | [Graph Based Decoding for Event Sequencing and Coreference Resolution](https://www.aclweb.org/anthology/C18-1309/) | Zhengzhong Liu ||
 
-## Event Causality Identification
+## Spatial Relation Extraction
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
-| 2021 | NAACL | [Graph Convolutional Networks for Event Causality Identification with Rich Document-level Structures](https://aclanthology.org/2021.naacl-main.273.pdf) | Minh Tran Phu ||
-| 2020 | IJCAI | [Knowledge Enhanced Event Causality Identification with Mention Masking Generalizations](https://www.ijcai.org/proceedings/2020/0499.pdf) | Jian Liu ||
-| 2020 | COLING | [KnowDis: Knowledge Enhanced Data Augmentation for Event Causality Detection via Distant Supervision](https://aclanthology.org/2020.coling-main.135.pdf) | Xinyu Zuo ||
+| 2018 | NAACL-HLT | [Visually Guided Spatial Relation Extraction from Text](https://aclanthology.org/N18-2124/) | Taher Rahgooy ||
 
 ## Other
 
