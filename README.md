@@ -4,11 +4,10 @@
 
 - [事件抽取（Event Detection）](#event-detection)
 - [事件同指消解（Event Coreference Resolution）](#event-coreference-resolution)
-- [事件时序关系识别（Temporal Relation Extraction）](#temporal-relation-extraction)
-- 事件因果关系识别（Causal Relation Identification）
-- 事件空间关系识别（Spatial Relation Extraction）
+- [事件时序关系（Temporal Relation Extraction）](#temporal-relation-extraction)
+- 事件空间关系（Spatial Relation Extraction）
 - [事件包含关系（Subevent Relation Extraction）](#subevent-relation-extraction)
-- [事件因果关系（Event Causality Identification）](#event-causality-identification)
+- [事件因果关系（Causal Relation Identification）](#event-causality-identification)
 - [事件相关及应用（Other）](#other)
 
 ## Event Detection
@@ -133,6 +132,7 @@
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
 | 2019 | ACL | [Detecting Subevents using Discourse and Narrative Features](https://www.aclweb.org/anthology/P19-1471/) | Mohammed Aldawsari ||
+| 2019 |  NAACL-HLT | [Sub-Event Detection from Twitter Streams as a Sequence Labeling Problem](https://aclanthology.org/N19-1081/) | Giannis Bekoulis ||
 | 2018 | COLING | [Graph Based Decoding for Event Sequencing and Coreference Resolution](https://www.aclweb.org/anthology/C18-1309/) | Zhengzhong Liu ||
 
 ## Event Causality Identification
