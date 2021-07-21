@@ -157,6 +157,7 @@
 | 2020 | ACL | [GAIA: A Fine-grained Multimedia Knowledge Extraction System](https://www.aclweb.org/anthology/2020.acl-demos.11/) | Manling Li ||
 | 2020 | ACL | [Improving Multimodal Named Entity Recognition via Entity Span Detection with Unified Multimodal Transformer](https://www.aclweb.org/anthology/2020.acl-main.306/) | Jianfei Yu||
 | 2020 | LREC | [Towards Few-Shot Event Mention Retrieval: An Evaluation Framework and A Siamese Network Approach](https://www.aclweb.org/anthology/2020.lrec-1.216/) | Bonan Min ||
+| 2020 | CODI | [Joint Modeling of Arguments for Event Understanding](https://aclanthology.org/2020.codi-1.10/) | Yunmo Chen ||
 | 2019 | ACL | [Multi-Level Matching and Aggregation Network for Few-Shot Relation Classification](https://www.aclweb.org/anthology/P19-1277/) | Zhixiu Ye | [王亮](https://zhevent.github.io/2020/10/16/few-shot-relation-classification/) |
 | 2019 | NACL | [Multilingual Entity, Relation, Event and Human Value Extraction](https://www.aclweb.org/anthology/N19-4019/) | Manling Li ||
 | 2019 | NAACL | [Modeling Document-level Causal Structures for Event Causal Relation Identification](https://www.aclweb.org/anthology/N19-1179/) | Lei Gao |
