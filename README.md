@@ -21,6 +21,7 @@
 | 2020 | ACL | [Cross-media Structured Common Space for Multimedia Event Extraction](https://www.aclweb.org/anthology/2020.acl-main.230//) | Manling Li ||
 | 2020 | ACL-demo | [GAIA: A Fine-grained Multimedia Knowledge Extraction System](https://www.aclweb.org/anthology/2020.acl-demos.11/) | Manling Li ||
 | 2020 | EMNLP | [Incorporating Multimodal Information in Open-Domain Web Keyphrase Extraction](https://www.aclweb.org/anthology/2020.emnlp-main.140/) | Yansen Wang ||
+| 2020 | AACL | [Reconstructing Event Regions for Event Extraction via Graph Attention Networks](https://aclanthology.org/2020.aacl-main.81/) | Pei Chen ||
 | 2019 | NAACL | [Event Detection without Triggers](https://www.aclweb.org/anthology/N19-1080/) | Shulin Liu |
 | 2018 | NAACL | [Multimodal Named Entity Recognition for Short Social Media Posts](https://www.aclweb.org/anthology/N18-1078/) | Seungwhan Moon||
 | 2018 | 智能计算机与应用 | [神经网络事件抽取技术综述](http://www.cnki.com.cn/Article/CJFDTotal-DLXZ201803002.htm) | 秦彦霞 |
