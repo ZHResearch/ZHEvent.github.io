@@ -14,6 +14,7 @@
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
+| 2021 | EACL | [GRIT: Generative Role-filler Transformers for Document-level Event Entity Extraction](https://aclanthology.org/2021.eacl-main.52/) | Xinya Du ||
 | 2021 | NAACL | [Document-Level Event Argument Extraction by Conditional Generation](https://www.aclweb.org/anthology/2021.naacl-main.69/) | Sha Li ||
 | 2020 | ACL | [Extensively Matching for Few-shot Learning Event Detection](https://www.aclweb.org/anthology/2020.nuse-1.5/) | Viet Dac Lai | [王亮](https://zhevent.github.io/2020/10/09/few-shot-learning-event-detection/) |
 | 2020 | ACL | [Document-Level Event Role Filler Extraction using Multi-Granularity Contextualized Encoding](https://aclanthology.org/2020.acl-main.714/) | Xinya Du ||
