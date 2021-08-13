@@ -2,32 +2,13 @@
 
 专注于事件以及事件关系抽取任务：
 
-- [事件抽取（Event Detection）](#event-detection)
+- [事件抽取（Event Detection）](EventDetection.md)
 - [事件同指消解（Event Coreference Resolution）](#event-coreference-resolution)
 - [事件时序关系（Temporal Relation Extraction）](#temporal-relation-extraction)
 - [事件因果关系（Causal Relation Extraction）](#causal-relation-extraction)
 - [事件包含关系（Subevent Relation Extraction）](#subevent-relation-extraction)
 - [事件空间关系（Spatial Relation Extraction）](#spatial-relation-extraction)
 - [事件相关及应用（Other）](#other)
-
-## Event Detection
-
-| 年份 | 来源 | 名称 | 作者 | 笔记 |
-| :- | :-: | :- | :- | :- |
-| 2021 | EACL | [GRIT: Generative Role-filler Transformers for Document-level Event Entity Extraction](https://aclanthology.org/2021.eacl-main.52/) | Xinya Du ||
-| 2021 | NAACL | [Document-Level Event Argument Extraction by Conditional Generation](https://www.aclweb.org/anthology/2021.naacl-main.69/) | Sha Li ||
-| 2020 | ACL | [Extensively Matching for Few-shot Learning Event Detection](https://www.aclweb.org/anthology/2020.nuse-1.5/) | Viet Dac Lai | [王亮](https://zhevent.github.io/2020/10/09/few-shot-learning-event-detection/) |
-| 2020 | ACL | [Document-Level Event Role Filler Extraction using Multi-Granularity Contextualized Encoding](https://aclanthology.org/2020.acl-main.714/) | Xinya Du ||
-| 2020 | ACL | [A Two-Step Approach for Implicit Event Argument Detection](https://aclanthology.org/2020.acl-main.667/) | Zhisong Zhang ||
-| 2020 | ACL | [Cross-media Structured Common Space for Multimedia Event Extraction](https://www.aclweb.org/anthology/2020.acl-main.230//) | Manling Li ||
-| 2020 | ACL-demo | [GAIA: A Fine-grained Multimedia Knowledge Extraction System](https://www.aclweb.org/anthology/2020.acl-demos.11/) | Manling Li ||
-| 2020 | EMNLP | [Incorporating Multimodal Information in Open-Domain Web Keyphrase Extraction](https://www.aclweb.org/anthology/2020.emnlp-main.140/) | Yansen Wang ||
-| 2020 | EMNLP | [Event Extraction by Answering (Almost) Natural Questions](https://aclanthology.org/2020.emnlp-main.49/) | Xinya Du ||
-| 2020 | AACL | [Reconstructing Event Regions for Event Extraction via Graph Attention Networks](https://aclanthology.org/2020.aacl-main.81/) | Pei Chen ||
-| 2019 | NAACL | [Event Detection without Triggers](https://www.aclweb.org/anthology/N19-1080/) | Shulin Liu |
-| 2018 | NAACL | [Multimodal Named Entity Recognition for Short Social Media Posts](https://www.aclweb.org/anthology/N18-1078/) | Seungwhan Moon||
-| 2018 | 智能计算机与应用 | [神经网络事件抽取技术综述](http://www.cnki.com.cn/Article/CJFDTotal-DLXZ201803002.htm) | 秦彦霞 |
-| 2017 | ACM Multimedia | [Improving Event Extraction via Multimodal Integration](https://dl.acm.org/doi/10.1145/3123266.3123294) | Tongtao Zhang ||
 
 ## Event Coreference Resolution
 
