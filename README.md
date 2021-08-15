@@ -14,6 +14,7 @@
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
+| 2021 | IJCNLP | [Exploiting Document Structures and Cluster Consistencies for Event Coreference Resolution](https://aclanthology.org/2021.acl-long.374/) | Hieu Minh Tran ||
 | 2021 | EACL | [Automatic Data Acquisition for Event Coreference Resolution](https://www.aclweb.org/anthology/2021.eacl-main.101/) | Prafulla Kumar Choubey ||
 | 2021 | NAACL | [A Context-Dependent Gated Module for Incorporating Symbolic Semantics into Event Coreference Resolution](https://arxiv.org/pdf/2104.01697.pdf) | Tuan Lai ||
 | 2021 | NAACL | [Constrained Multi-Task Learning for Event Coreference Resolution](https://www.aclweb.org/anthology/2021.naacl-main.356/) | Jing Lu ||
