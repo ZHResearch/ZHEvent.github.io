@@ -3,7 +3,7 @@
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
 | 2021 | arxiv | [DEER: A Data Efficient Language Model for Event Temporal Reasoning](https://arxiv.org/pdf/2012.15283) | Rujun Han |  |
-| 2021 | arxiv | [Clinical Temporal Relation Extraction with Probabilistic Soft Logic Regularization and Global Inference](https://arxiv.org/pdf/2012.08790) | Yichao Zhou |  |
+| 2021 | AAAI | [Clinical Temporal Relation Extraction with Probabilistic Soft Logic Regularization and Global Inference](https://arxiv.org/pdf/2012.08790) | Yichao Zhou |  |
 | 2021 | NAACL | [Temporal Reasoning on Implicit Events from Distant Supervision](https://www.aclweb.org/anthology/2021.naacl-main.107/) | Ben Zhou |  |
 | 2021 | NAACL | [EventPlus: A Temporal Event Understanding Pipeline](https://www.aclweb.org/anthology/2021.naacl-demos.7/) | Mingyu Derek Ma |  |
 | 2020 | EMNLP | [Joint Constrained Learning for Event-Event Relation Extraction](https://www.aclweb.org/anthology/2020.emnlp-main.51/) | Haoyu Wang |  |
