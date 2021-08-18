@@ -2,12 +2,13 @@
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
-| 2021 | arxiv | [DEER: A Data Efficient Language Model for Event Temporal Reasoning](https://arxiv.org/pdf/2012.15283) | Rujun Han |  |
-| 2021 | AAAI | [Clinical Temporal Relation Extraction with Probabilistic Soft Logic Regularization and Global Inference](https://arxiv.org/pdf/2012.08790) | Yichao Zhou |  |
-| 2021 | NAACL | [Temporal Reasoning on Implicit Events from Distant Supervision](https://www.aclweb.org/anthology/2021.naacl-main.107/) | Ben Zhou |  |
-| 2021 | NAACL | [EventPlus: A Temporal Event Understanding Pipeline](https://www.aclweb.org/anthology/2021.naacl-demos.7/) | Mingyu Derek Ma |  |
-| 2020 | EMNLP | [Joint Constrained Learning for Event-Event Relation Extraction](https://www.aclweb.org/anthology/2020.emnlp-main.51/) | Haoyu Wang |  |
-| 2020 | EMNLP | [TORQUE: A Reading Comprehension Dataset of Temporal Ordering Questions](https://www.aclweb.org/anthology/2020.emnlp-main.88/) | Qiang Ning |  |
+| 2021 | ACL | [TIMERS: Document-level Temporal Relation Extraction](https://aclanthology.org/2021.acl-short.67/) | Puneet Mathur | Note <br> `Code` |
+| 2021 | arxiv | [DEER: A Data Efficient Language Model for Event Temporal Reasoning](https://arxiv.org/pdf/2012.15283) | Rujun Han | Note <br> `Code` |
+| 2021 | AAAI | [Clinical Temporal Relation Extraction with Probabilistic Soft Logic Regularization and Global Inference](https://arxiv.org/pdf/2012.08790) | Yichao Zhou | Note <br> [`Code`](https://github.com/yuyanislearning/CTRL-PG) |
+| 2021 | NAACL | [Temporal Reasoning on Implicit Events from Distant Supervision](https://www.aclweb.org/anthology/2021.naacl-main.107/) | Ben Zhou | Note <br> `Code` |
+| 2021 | NAACL | [EventPlus: A Temporal Event Understanding Pipeline](https://www.aclweb.org/anthology/2021.naacl-demos.7/) | Mingyu Derek Ma | Note <br> [`Code`](https://github.com/PlusLabNLP/EventPlus) |
+| 2020 | EMNLP | [Joint Constrained Learning for Event-Event Relation Extraction](https://www.aclweb.org/anthology/2020.emnlp-main.51/) | Haoyu Wang | Note <br> [`Code`](https://cogcomp.seas.upenn.edu/page/publication_view/914) |
+| 2020 | EMNLP | [TORQUE: A Reading Comprehension Dataset of Temporal Ordering Questions](https://www.aclweb.org/anthology/2020.emnlp-main.88/) | Qiang Ning | Note <br> [`Code`](https://allennlp.org/torque.html) |
 | 2020 | EMNLP | [Dynamically Updating Event Representations for Temporal RelationClassification with Multi-category Learning](https://www.aclweb.org/anthology/2020.findings-emnlp.121/) | Fei Cheng |  |
 | 2020 | ACL | [Temporal Common Sense Acquisition with Minimal Supervision](https://www.aclweb.org/anthology/2020.acl-main.678/) | Ben Zhou |  |
 | 2020 | EMNLP  | [Domain Knowledge Empowered Structured Neural Net for End-to-End Event Temporal Relation Extraction](https://www.aclweb.org/anthology/2020.emnlp-main.461/) | Rujun Han | [王亮](https://zhevent.github.io/2020/11/30/domain-knowledge/) |
