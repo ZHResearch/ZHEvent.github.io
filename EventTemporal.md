@@ -1,6 +1,6 @@
 ## Temporal Relation Extraction
 
-| 年份 | 来源 | 名称 | 作者 | 笔记 |
+| Year | Publisher | Title | Author | Function |
 | :- | :-: | :- | :- | :- |
 | 2021 | ACL | [TIMERS: Document-level Temporal Relation Extraction](https://aclanthology.org/2021.acl-short.67/) | Puneet Mathur | Note <br> `Code` |
 | 2021 | arxiv | [DEER: A Data Efficient Language Model for Event Temporal Reasoning](https://arxiv.org/pdf/2012.15283) | Rujun Han | Note <br> `Code` |
