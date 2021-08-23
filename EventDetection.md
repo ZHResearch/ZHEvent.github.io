@@ -13,6 +13,7 @@
 | 2020 | EMNLP | [Incorporating Multimodal Information in Open-Domain Web Keyphrase Extraction](https://www.aclweb.org/anthology/2020.emnlp-main.140/) | Yansen Wang | Note <br> [`Code`](https://github.com/victorywys/SMART-KPE) |
 | 2020 | EMNLP | [Event Extraction by Answering (Almost) Natural Questions](https://aclanthology.org/2020.emnlp-main.49/) | Xinya Du | Note <br> [`Code`](https://github.com/xinyadu/eeqa) |
 | 2020 | EMNLP Findings | [Event Extraction as Multi-turn Question Answering](https://aclanthology.org/2020.findings-emnlp.73/) | Fayuan Li | Note <br> `Code` |
+| 2020 | EMNLP Findings | [How Does Context Matter? On the Robustness of Event Detection with Context-Selective Mask Generalization](https://aclanthology.org/2020.findings-emnlp.229/) | Jian Liu | Note <br> `Code` |
 | 2020 | AACL | [Reconstructing Event Regions for Event Extraction via Graph Attention Networks](https://aclanthology.org/2020.aacl-main.81/) | Pei Chen | Note <br> `Code` |
 | 2019 | NAACL | [Event Detection without Triggers](https://www.aclweb.org/anthology/N19-1080/) | Shulin Liu | Note <br> [`Code`](https://github.com/liushulinle/event_detection_without_triggers) |
 | 2018 | NAACL | [Multimodal Named Entity Recognition for Short Social Media Posts](https://www.aclweb.org/anthology/N18-1078/) | Seungwhan Moon| Note <br> `Code` |
