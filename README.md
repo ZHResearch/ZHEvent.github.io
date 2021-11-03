@@ -37,6 +37,7 @@
 | :- | :-: | :- | :- | :- |
 | 2018 | NAACL-HLT | [Visually Guided Spatial Relation Extraction from Text](https://aclanthology.org/N18-2124/) | Taher Rahgooy ||
 | 2015 | SemEval | [A WordNet-based approach towards the Automatic Recognition of Spatial Information following the ISO-Space Annotation Scheme](https://aclanthology.org/S15-2145.pdf) | Haritz Salaberri, Olatz Arregi, Beñat Zapirain ||
+| 2015 | SemEval | [Ensemble-Based Spatial Relation Extraction](https://aclanthology.org/S15-2146.pdf) | Jennifer D’Souz, Vincent Ng ||
 
 ## Other
 
