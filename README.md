@@ -45,7 +45,7 @@
 | 2015 | SemEval | [A WordNet-based approach towards the Automatic Recognition of Spatial Information following the ISO-Space Annotation Scheme](https://aclanthology.org/S15-2145.pdf) | Haritz Salaberri, Olatz Arregi, Beñat Zapirain ||
 | 2015 | ACL | [SemEval-2015 Task 8: SpaceEval](https://aclanthology.org/S15-2149.pdf) | James Pustejovsky||
 | 2015 | SemEval | [Ensemble-Based Spatial Relation Extraction](https://aclanthology.org/S15-2146.pdf) | Jennifer D’Souz, Vincent Ng ||
-| 2015 | SemEval | [SpRL-CWW: Spatial Relation Classification with Independent Multi-class Models](https://aclanthology.org/S15-2146.pdf) | Eric Nichols ||
+| 2015 | SemEval | [SpRL-CWW: Spatial Relation Classification with Independent Multi-class Models](https://aclanthology.org/S15-2150.pdf) | Eric Nichols ||
 
 
 ## Other
