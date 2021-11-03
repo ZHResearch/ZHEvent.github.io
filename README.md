@@ -35,10 +35,12 @@
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
+| 2021 | MDAI | [Spatial Role Labeling System Capturing Both Characters and Word Information Using BiLSTM and CRF](http://www.mdai.cat/mdai2021/proceedings.MDAI2021.usb.pdf#page=63) | Alaeddine Moussa ||
 | 2018 | NAACL-HLT | [Visually Guided Spatial Relation Extraction from Text](https://aclanthology.org/N18-2124/) | Taher Rahgooy ||
 | 2016 | ACM | [Extracting new spatial entities and relations from short messages](https://dl.acm.org/doi/pdf/10.1145/3012071.3012079) | Sarah Zenasni ||
 | 2015 | SemEval | [A WordNet-based approach towards the Automatic Recognition of Spatial Information following the ISO-Space Annotation Scheme](https://aclanthology.org/S15-2145.pdf) | Haritz Salaberri, Olatz Arregi, Beñat Zapirain ||
 | 2015 | SemEval | [Ensemble-Based Spatial Relation Extraction](https://aclanthology.org/S15-2146.pdf) | Jennifer D’Souz, Vincent Ng ||
+| 2015 | SemEval | [SpRL-CWW: Spatial Relation Classification with Independent Multi-class Models](https://aclanthology.org/S15-2146.pdf) | Eric Nichols ||
 
 
 ## Other
