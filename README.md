@@ -40,6 +40,7 @@
 | 2016 | COLING | [Extracting Spatial Entities and Relations in Korean Text](https://aclanthology.org/C16-1225.pdf) | Bogyum Kim and Jae Sung Lee ||
 | 2016 | ACM | [Extracting new spatial entities and relations from short messages](https://dl.acm.org/doi/pdf/10.1145/3012071.3012079) | Sarah Zenasni ||
 | 2015 | SemEval | [A WordNet-based approach towards the Automatic Recognition of Spatial Information following the ISO-Space Annotation Scheme](https://aclanthology.org/S15-2145.pdf) | Haritz Salaberri, Olatz Arregi, Beñat Zapirain ||
+| 2015 | ACL | [SemEval-2015 Task 8: SpaceEval](https://aclanthology.org/S15-2149.pdf) | James Pustejovsky||
 | 2015 | SemEval | [Ensemble-Based Spatial Relation Extraction](https://aclanthology.org/S15-2146.pdf) | Jennifer D’Souz, Vincent Ng ||
 | 2015 | SemEval | [SpRL-CWW: Spatial Relation Classification with Independent Multi-class Models](https://aclanthology.org/S15-2146.pdf) | Eric Nichols ||
 
