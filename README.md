@@ -37,7 +37,7 @@
 | :- | :-: | :- | :- | :- |
 | 2021 | MDAI | [Spatial Role Labeling System Capturing Both Characters and Word Information Using BiLSTM and CRF](http://www.mdai.cat/mdai2021/proceedings.MDAI2021.usb.pdf#page=63) | Alaeddine Moussa ||
 | 2021 | IEEE | [Coarse-to-Fine Spatial-Temporal Relationship Inference for Temporal Sentence Grounding](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9475486) | SHANSHAN QI ||
-| 2020 | ACL | [BERT-based Spatial Information Extraction](https://aclanthology.org/2020.splu-1.2.pdf) | Hyeong Jin Shin* ||
+| 2020 | EMNLP | [BERT-based Spatial Information Extraction](https://aclanthology.org/2020.splu-1.2.pdf) | Hyeong Jin Shin* ||
 | 2020 | EMNLP | [Decoding Language Spatial Relations to 2D Spatial Arrangements](https://aclanthology.org/2020.findings-emnlp.408.pdf) | Gorjan Radevski ||
 | 2018 | ICLR | [Interactive Grounded Language Acquisition and Generalization in a 2D World](https://arxiv.org/pdf/1802.01433.pdf) | Haonan Yu ||
 | 2018 | NAACL-HLT | [Visually Guided Spatial Relation Extraction from Text](https://aclanthology.org/N18-2124/) | Taher Rahgooy ||
