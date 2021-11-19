@@ -2,6 +2,7 @@
 
 | Year | Publisher  | Title                                                        | Author                 |                           Function                           |
 | :--- | :--------: | :----------------------------------------------------------- | :--------------------- | :----------------------------------------------------------: |
+| 2021 | EMNLP | [Conundrums in Event Coreference Resolution: Making Sense of the State of the Art](https://aclanthology.org/2021.emnlp-main.103/) | Jing Lu | Note <br> `Code` |
 | 2021 |   IJCNLP   | [Exploiting Document Structures and Cluster Consistencies for Event Coreference Resolution](https://aclanthology.org/2021.acl-long.374/) | Hieu Minh Tran         |                       Note <br> `Code`                       |
 | 2021 |    EACL    | [Automatic Data Acquisition for Event Coreference Resolution](https://www.aclweb.org/anthology/2021.eacl-main.101/) | Prafulla Kumar Choubey | Note <br/> [`Code`](https://github.com/prafulla77/Event-Coref-EACL-2021) |
 | 2021 |   NAACL    | [A Context-Dependent Gated Module for Incorporating Symbolic Semantics into Event Coreference Resolution](https://arxiv.org/pdf/2104.01697.pdf) | Tuan Lai               | Note <br/> [`Code`](https://github.com/laituan245/eventcoref) |
