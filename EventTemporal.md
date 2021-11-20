@@ -3,7 +3,6 @@
 | Year | Publisher | Title | Author | Function |
 | :- | :-: | :- | :- | :- |
 | 2021 | ACL | [Fine-grained Temporal Relation Extraction with Ordered-Neuron LSTM and Graph Convolutional Networks](https://aclanthology.org/2021.wnut-1.5/) | Minh Tran Phu | Note <br> `Code` |
-| 2021 | ACM |[Learning Temporal Causal Sequence Relationships from Real-Time Time-Series](https://dl.acm.org/doi/10.1613/jair.1.12395) | Antonio | Note <br> `Code` |
 | 2021 | JCIP | [Social Influence Enhanced Temporal Summarization for Hot Events](http://jcip.cipsc.org.cn/CN/abstract/abstract3166.shtml) | Fang Luo | Note <br> `Code` |
 | 2021 | ACL | [TIMERS: Document-level Temporal Relation Extraction](https://aclanthology.org/2021.acl-short.67/) | Puneet Mathur | Note <br> `Code` |
 | 2021 | arxiv | [DEER: A Data Efficient Language Model for Event Temporal Reasoning](https://arxiv.org/pdf/2012.15283) | Rujun Han | Note <br> `Code` |
