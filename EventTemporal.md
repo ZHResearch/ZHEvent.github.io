@@ -26,7 +26,6 @@
 | 2019 | ACL | [Deep Structured Neural Network for Event Temporal Relation Extraction](https://aclanthology.org/K19-1062/) | Rujun Han | Note <br> `Code` |
 | 2019 | CCF | [Event Temporal Relation Classification Based on Graph Convolutional Networks](https://link.springer.com/chapter/10.1007%2F978-3-030-32236-6_35) | Qianwen Dai | Note <br> `Code` |
 | 2019 | ECIR | [Extracting Temporal Event Relations Based on Event Networks](https://link.springer.com/chapter/10.1007%2F978-3-030-15712-8_61) | Duc-Thuan Vo | Note <br> `Code` |
-| 2019 | ACL |[Fine-Grained Temporal Relation Extraction](https://aclanthology.org/P19-1280/)| Siddharth Vashishtha | Note <br> `Code` |
 | 2019 | CS | [Relation extraction between the clinical entities based on the shortest dependency path based LSTM](https://arxiv.org/abs/1903.09941) | Dhanachandra Ningthoujam | Note <br> `Code` |
 | 2019 | ASC | [Temporal event searches based on event maps and relationships](https://www.sciencedirect.com/science/article/pii/S1568494619305319?via%3Dihub) | YiCai | Note <br> `Code` |
 | 2019 | CCIS | [Temporal Relationship Recognition of Chinese and Vietnamese Bilingual News Events Based on BLCATT](https://link.springer.com/chapter/10.1007%2F978-981-15-1377-0_39)| Jidi Wang | Note <br> `Code` |
