@@ -4,10 +4,7 @@
 | :- | :-: | :- | :- | :- |
 | 2021 | ACL | [Fine-grained Temporal Relation Extraction with Ordered-Neuron LSTM and Graph Convolutional Networks](https://aclanthology.org/2021.wnut-1.5/) | Minh Tran Phu | Note <br> `Code` |
 | 2021 | ACM |[Learning Temporal Causal Sequence Relationships from Real-Time Time-Series](https://dl.acm.org/doi/10.1613/jair.1.12395) | Antonio | Note <br> `Code` |
-| 2021 | Patent | [Event time sequence relationship recognition method based on relation graph attention neural network](https://worldwide.espacenet.com/publicationDetails/biblio?FT=D&date=20210316&DB=EPODOC&CC=CN&NR=112507077A) | Xiaoliang Xu | Note <br> `Code` |
-| 2021 | Patent | [Chinese-Vietnamese news event time sequence relationship identification method based on bidirectional cross attention mechanism](https://worldwide.espacenet.com/publicationDetails/biblio?FT=D&date=20210511&DB=EPODOC&CC=CN&NR=110334213B) | Shengxiang Gao | Note <br> `Code` |
 | 2021 | JCIP | [Social Influence Enhanced Temporal Summarization for Hot Events](http://jcip.cipsc.org.cn/CN/abstract/abstract3166.shtml) | Fang Luo | Note <br> `Code` |
-| 2021 | Patent | [Event time sequence relation identification method fusing dependency relation and chapter rhetoric relation](https://worldwide.espacenet.com/publicationDetails/biblio?FT=D&date=20210209&DB=EPODOC&CC=CN&NR=110069636B) | Fang Kong | Note <br> `Code` |
 | 2021 | ACL | [TIMERS: Document-level Temporal Relation Extraction](https://aclanthology.org/2021.acl-short.67/) | Puneet Mathur | Note <br> `Code` |
 | 2021 | arxiv | [DEER: A Data Efficient Language Model for Event Temporal Reasoning](https://arxiv.org/pdf/2012.15283) | Rujun Han | Note <br> `Code` |
 | 2021 | AAAI | [Clinical Temporal Relation Extraction with Probabilistic Soft Logic Regularization and Global Inference](https://arxiv.org/pdf/2012.08790) | Yichao Zhou | Note <br> [`Code`](https://github.com/yuyanislearning/CTRL-PG) |
