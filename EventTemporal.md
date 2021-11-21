@@ -22,6 +22,7 @@
 | 2020 | EMNLP  | [Exploring Contextualized Neural Language Models for Temporal Dependency Parsing](https://www.aclweb.org/anthology/2020.emnlp-main.689/) | Miguel Ballesteros | [Note](https://zhevent.github.io/2020/12/03/smtl/) <br> [`Code`](https://github.com/bnmin/tdp_ranking) |
 | 2020 | EACL | [Effective Distant Supervision for Temporal Relation Extraction](https://arxiv.org/abs/2010.12755) | Xinyu Zhao | [Note](https://zhevent.github.io/2020/12/17/Distant-Supervision-for-temprel/) <br> [`Code`](https://github.com/xyz-zy/distant-temprel) |
 | 2020 | BioNLP | [A BERT-based One-Pass Multi-Task Model for Clinical Temporal Relation Extraction](https://www.aclweb.org/anthology/2020.bionlp-1.7/) | Chen Lin | Note <br> `Code` |
+| 2019 | ICLR | [Ordered Neurons: Integrating Tree Structures into Recurrent Neural Networks](https://arxiv.org/abs/1810.09536v1) | Yikang Shen | Note <br> `Code` |
 | 2019 |  EMNLP/IJCNLP | [An Improved Neural Baseline for Temporal Relation Extraction](https://aclanthology.org/D19-1642/) | Qiang Ning | Note <br> `Code` |
 | 2019 | ACL | [Deep Structured Neural Network for Event Temporal Relation Extraction](https://aclanthology.org/K19-1062/) | Rujun Han | Note <br> `Code` |
 | 2019 | CCF | [Event Temporal Relation Classification Based on Graph Convolutional Networks](https://link.springer.com/chapter/10.1007%2F978-3-030-32236-6_35) | Qianwen Dai | Note <br> `Code` |
