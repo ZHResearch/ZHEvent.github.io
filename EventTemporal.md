@@ -3,11 +3,15 @@
 | Year | Publisher | Title | Author | Function |
 | :- | :-: | :- | :- | :- |
 | 2021 | ACL | [Fine-grained Temporal Relation Extraction with Ordered-Neuron LSTM and Graph Convolutional Networks](https://aclanthology.org/2021.wnut-1.5/) | Minh Tran Phu | Note <br> `Code` |
+| 2021 | Thesis | [面向突发事件的时序关系识别及其应用研究](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CMFD&dbname=CMFDTEMP&filename=1021124653.nh&uniplatform=NZKPT&v=um-isWMcV_sduoSP0tRmxckY5b_2MeRRJTITGyxwhN264cpDRxpReDwDa2cjEptg) | 陈红 | Note <br> `Code`|
+| 2021 | Thesis | [基于深度学习的事件及其时序关系抽取的研究](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CMFD&dbname=CMFDTEMP&filename=1021696916.nh&uniplatform=NZKPT&v=jRVOKPgFg4PWtKFrYHyy_dTV_yhSNzEhX5agOyR5i99faboOAAvRj8we2jBhCNP9) | 黄梦佐 | Note <br> `Code`|
+| 2021 | Periodical | [融合上下文信息的篇章级事件时序关系抽取方法](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDAUTO&filename=JFYZ202111013&uniplatform=NZKPT&v=8SqcXNnYzq0dUrazlv6qjEeF5wbnk8c0mGnDJHcn05Op7kGO0j6QTrp-VpRIVY4M) | 王俊 | Note <br> `Code` |
 | 2021 | ACL | [TIMERS: Document-level Temporal Relation Extraction](https://aclanthology.org/2021.acl-short.67/) | Puneet Mathur | Note <br> `Code` |
 | 2021 | arxiv | [DEER: A Data Efficient Language Model for Event Temporal Reasoning](https://arxiv.org/pdf/2012.15283) | Rujun Han | Note <br> `Code` |
 | 2021 | AAAI | [Clinical Temporal Relation Extraction with Probabilistic Soft Logic Regularization and Global Inference](https://arxiv.org/pdf/2012.08790) | Yichao Zhou | Note <br> [`Code`](https://github.com/yuyanislearning/CTRL-PG) |
 | 2021 | NAACL | [Temporal Reasoning on Implicit Events from Distant Supervision](https://www.aclweb.org/anthology/2021.naacl-main.107/) | Ben Zhou | Note <br> `Code` |
 | 2021 | NAACL | [EventPlus: A Temporal Event Understanding Pipeline](https://www.aclweb.org/anthology/2021.naacl-demos.7/) | Mingyu Derek Ma | Note <br> [`Code`](https://github.com/PlusLabNLP/EventPlus) |
+| 2020 | Thesis | [事件时序关系识别关键技术研究](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CMFD&dbname=CMFD202101&filename=1020153014.nh&uniplatform=NZKPT&v=I1E33Ir8--6w2Q6WUiVo_a3f3rkbslF1S3vYk8_vr5p5xdJwXGe-5NaFI0M5qMuL) | 戴倩雯 | Note <br> `Code` |
 | 2020 |  Inf.Process.Manag | [Extracting temporal and causal relations based on event networks](https://www.sciencedirect.com/science/article/abs/pii/S0306457320308141?via%3Dihub) | Duc-ThuanVo | Note <br> `Code` |
 | 2020 | IEEE | [Temporal Relationship Extraction for Natrual Language Texts by Using Deep Bidirectional Language Model](https://ieeexplore.ieee.org/document/9070691) | Chae-Gyun Lim | Note <br> `Code` |
 | 2020 | Journal of Fuyang Normal University(Natural Science) | [Event temporal relation recognition based on multi-feature and rule constraint](https://d.wanfangdata.com.cn/periodical/ChlQZXJpb2RpY2FsQ0hJTmV3UzIwMjExMTE2EhdmeXNmeHl4Yi16cmt4YjIwMjAwMzAxNRoIMXlucmh0NW4%3D) | LIAO Tao | Note <br> `Code` |
@@ -22,6 +26,7 @@
 | 2020 | EMNLP  | [Exploring Contextualized Neural Language Models for Temporal Dependency Parsing](https://www.aclweb.org/anthology/2020.emnlp-main.689/) | Miguel Ballesteros | [Note](https://zhevent.github.io/2020/12/03/smtl/) <br> [`Code`](https://github.com/bnmin/tdp_ranking) |
 | 2020 | EACL | [Effective Distant Supervision for Temporal Relation Extraction](https://arxiv.org/abs/2010.12755) | Xinyu Zhao | [Note](https://zhevent.github.io/2020/12/17/Distant-Supervision-for-temprel/) <br> [`Code`](https://github.com/xyz-zy/distant-temprel) |
 | 2020 | BioNLP | [A BERT-based One-Pass Multi-Task Model for Clinical Temporal Relation Extraction](https://www.aclweb.org/anthology/2020.bionlp-1.7/) | Chen Lin | Note <br> `Code` |
+| 2019 | Thesis | [基于神经网络的事件时序关系识别方法研究](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CMFD&dbname=CMFD202001&filename=1019258811.nh&uniplatform=NZKPT&v=Oi1KRhzKzeH1YLZtFbgAXz3o9YDuin8WVgdGH0uur9M544v1FROTRSCiKkqiOtYm) | 张义杰 | Note <br> `Code` |
 | 2019 | ICLR | [Ordered Neurons: Integrating Tree Structures into Recurrent Neural Networks](https://arxiv.org/abs/1810.09536v1) | Yikang Shen | Note <br> `Code` |
 | 2019 |  EMNLP/IJCNLP | [An Improved Neural Baseline for Temporal Relation Extraction](https://aclanthology.org/D19-1642/) | Qiang Ning | Note <br> `Code` |
 | 2019 | ACL | [Deep Structured Neural Network for Event Temporal Relation Extraction](https://aclanthology.org/K19-1062/) | Rujun Han | Note <br> `Code` |
