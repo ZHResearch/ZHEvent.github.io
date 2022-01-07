@@ -53,6 +53,7 @@
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
+| 2021 | ACL-SRW | [Joint Detection and Coreference Resolution of Entities and Events with Document-level Context Aggregation](https://aclanthology.org/2021.acl-srw.18/) | Samuel Kriman | Note <br/> [`Code`](https://github.com/sam1373/long_ie) |
 | 2020 | EMNLP Findings | [Weakly-Supervised Modeling of Contextualized Event Embedding for Discourse Relations](https://aclanthology.org/2020.findings-emnlp.446/) | I-Ta Lee ||
 | 2020 | ACL | [GAIA: A Fine-grained Multimedia Knowledge Extraction System](https://www.aclweb.org/anthology/2020.acl-demos.11/) | Manling Li ||
 | 2020 | ACL | [Improving Multimodal Named Entity Recognition via Entity Span Detection with Unified Multimodal Transformer](https://www.aclweb.org/anthology/2020.acl-main.306/) | Jianfei Yu||
