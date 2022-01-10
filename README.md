@@ -19,7 +19,7 @@
 | 2021 | ACL | [ExCAR: Event Graph Knowledge Enhanced Explainable Causal Reasoning](https://aclanthology.org/2021.acl-long.183/) | Li Du ||
 | 2021 | ACL | [Knowledge-Enriched Event Causality Identification via Latent Structure Induction Networks](https://aclanthology.org/2021.acl-long.376/) | Pengfei Cao ||
 | 2021 | NAACL | [Graph Convolutional Networks for Event Causality Identification with Rich Document-level Structures](https://aclanthology.org/2021.naacl-main.273.pdf) | Minh Tran Phu ||
-| 2020 | IJCAI | [Knowledge Enhanced Event Causality Identification with Mention Masking Generalizations](https://www.ijcai.org/proceedings/2020/0499.pdf) | Jian Liu ||
+| 2020 | IJCAI | [Knowledge Enhanced Event Causality Identification with Mention Masking Generalizations](https://www.ijcai.org/proceedings/2020/0499.pdf) | Jian Liu | Note <br/> [`Code`](https://github.com/jianliu-ml/EventCausalityIdentification) |
 | 2020 | COLING | [KnowDis: Knowledge Enhanced Data Augmentation for Event Causality Detection via Distant Supervision](https://aclanthology.org/2020.coling-main.135.pdf) | Xinyu Zuo ||
 | 2019 | NAACL | [Modeling Document-level Causal Structures for Event Causal Relation Identiﬁcation](https://aclanthology.org/N19-1179/) | Lei Gao ||
 
