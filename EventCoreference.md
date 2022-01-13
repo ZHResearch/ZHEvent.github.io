@@ -56,3 +56,9 @@
 | 2014 |    LREC    | [Detecting Subevent Structure for Event Coreference Resolution](https://www.aclweb.org/anthology/L14-1725/) | Jun Araki              |                      Note <br/> `Code`                       |
 | 2013 |   EMNLP    | [Easy Victories and Uphill Battles in Coreference Resolution](https://www.aclweb.org/anthology/D13-1203/) | Greg Durrett           |                      Note <br/> `Code`                       |
 | 2012 |   EMNLP    | [Joint Entity and Event Coreference Resolution across Documents](https://www.aclweb.org/anthology/D12-1045/) | Heeyoung Lee           |                      Note <br/> `Code`                       |
+
+## Entity Coreference Resolution
+
+| Year | Publisher  | Title                                                        | Author                 |                           Function                           |
+| :--- | :--------: | :----------------------------------------------------------- | :--------------------- | :----------------------------------------------------------: |
+| 2018 | NAACL-HLT | [Higher-order Coreference Resolution with Coarse-to-ﬁne Inference](https://aclanthology.org/N18-2108/) | Kenton Lee | Note <br/> `Code` |
