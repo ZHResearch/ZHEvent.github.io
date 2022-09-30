@@ -37,7 +37,7 @@
 | 2022 | ACL | [Continual Few-shot Relation Learning via Embedding Space Regularization and Data Augmentation](https://aclanthology.org/2022.acl-long.198/) | Chengwei Qin ||
 | 2022 |  ACL | [Pre-training to Match for Unified Low-shot Relation Extraction](https://aclanthology.org/2022.acl-long.397/) | Fangchao Liu ||
 | 2022 |  ACL | [Leveraging Prompts to Generate Synthetic Data for Zero-Shot Relation Triplet Extraction](https://aclanthology.org/2022.findings-acl.5.pdf) | Yew Ken Chia ||
-| 2022 |  ACL | [A Hierarchical Contrastive Learning Framework for Distantly Supervised Relation Extraction]([https://aclanthology.org/2022.findings-acl.5.pdf](https://aclanthology.org/2022.findings-acl.202.pdf)) | Dongyang Li ||
+| 2022 |  ACL | [A Hierarchical Contrastive Learning Framework for Distantly Supervised Relation Extraction]((https://aclanthology.org/2022.findings-acl.202.pdf) | Dongyang Li ||
 
 ## Spatial Relation Extraction
 
