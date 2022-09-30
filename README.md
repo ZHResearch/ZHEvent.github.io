@@ -30,6 +30,13 @@
 | 2019 | ACL | [Detecting Subevents using Discourse and Narrative Features](https://www.aclweb.org/anthology/P19-1471/) | Mohammed Aldawsari ||
 | 2019 |  NAACL-HLT | [Sub-Event Detection from Twitter Streams as a Sequence Labeling Problem](https://aclanthology.org/N19-1081/) | Giannis Bekoulis ||
 
+## Few-shot Relation Extraction
+
+| 年份 | 来源 | 名称 | 作者 | 笔记 |
+| :- | :-: | :- | :- | :- |
+| 2022 | ACL | [Continual Few-shot Relation Learning via Embedding Space Regularization and Data Augmentation](https://aclanthology.org/2022.acl-long.198/) | Chengwei Qin ||
+| 2022 |  ACL | [Pre-training to Match for Unified Low-shot Relation Extraction](https://aclanthology.org/2022.acl-long.397/) | Fangchao Liu ||
+
 ## Spatial Relation Extraction
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
