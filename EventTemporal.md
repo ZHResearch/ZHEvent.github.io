@@ -2,6 +2,7 @@
 
 | Year | Publisher | Title | Author | Function |
 | :- | :-: | :- | :- | :- |
+| 2021 | EMNLP | [Utilizing Relative Event Time to Enhance Event-Event Temporal Relation Extraction](https://aclanthology.org/2021.emnlp-main.815/) | Haoyang Wen | Note <br> `Code` |
 | 2021 | ACL | [Fine-grained Temporal Relation Extraction with Ordered-Neuron LSTM and Graph Convolutional Networks](https://aclanthology.org/2021.wnut-1.5/) | Minh Tran Phu | Note <br> `Code` |
 | 2021 | Thesis | [面向突发事件的时序关系识别及其应用研究](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CMFD&dbname=CMFDTEMP&filename=1021124653.nh&uniplatform=NZKPT&v=um-isWMcV_sduoSP0tRmxckY5b_2MeRRJTITGyxwhN264cpDRxpReDwDa2cjEptg) | 陈红 | Note <br> `Code`|
 | 2021 | Thesis | [基于深度学习的事件及其时序关系抽取的研究](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CMFD&dbname=CMFDTEMP&filename=1021696916.nh&uniplatform=NZKPT&v=jRVOKPgFg4PWtKFrYHyy_dTV_yhSNzEhX5agOyR5i99faboOAAvRj8we2jBhCNP9) | 黄梦佐 | Note <br> `Code`|
