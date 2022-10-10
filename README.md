@@ -63,6 +63,7 @@
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
+| 2022 | ACL | [Event-Event Relation Extraction using Probabilistic Box Embedding](https://aclanthology.org/2022.acl-short.26/) | EunJeong Hwang | Note <br/> `Code` |
 | 2021 | ACL-SRW | [Joint Detection and Coreference Resolution of Entities and Events with Document-level Context Aggregation](https://aclanthology.org/2021.acl-srw.18/) | Samuel Kriman | Note <br/> `Code` |
 | 2021 | arXiv | [What is Event Knowledge Graph: A Survey](https://arxiv.org/abs/2112.15280) | Saiping Guan | Note <br/> [`Code`](https://github.com/sam1373/long_ie) |
 | 2020 | EMNLP Findings | [Weakly-Supervised Modeling of Contextualized Event Embedding for Discourse Relations](https://aclanthology.org/2020.findings-emnlp.446/) | I-Ta Lee ||
