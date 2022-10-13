@@ -2,6 +2,7 @@
 
 | Year | Publisher  | Title                                                        | Author                 |                           Function                           |
 | :--- | :--------: | :----------------------------------------------------------- | :--------------------- | :----------------------------------------------------------: |
+| 2022 | ACL | [Adapting Coreference Resolution Models through Active Learning](https://aclanthology.org/2022.acl-long.519/) | Michelle Yuan | Note <br> `Code` |
 | 2021 |    AAAI    | [Span-Based Event Coreference Resolution](https://www.aaai.org/AAAI21Papers/AAAI-9086.LJ.pdf) | Jing Lu                |                      Note <br/> `Code`                       |
 | 2021 | EMNLP | [Conundrums in Event Coreference Resolution: Making Sense of the State of the Art](https://aclanthology.org/2021.emnlp-main.103/) | Jing Lu | Note <br> `Code` |
 | 2021 |   IJCNLP   | [Exploiting Document Structures and Cluster Consistencies for Event Coreference Resolution](https://aclanthology.org/2021.acl-long.374/) | Hieu Minh Tran         |                       Note <br> `Code`                       |
