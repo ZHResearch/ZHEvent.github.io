@@ -63,6 +63,7 @@
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
+| 2022 | AAAI | [Selecting Optimal Context Sentences for Event-Event Relation Extraction](https://www.aaai.org/AAAI22Papers/AAAI-3912.ManH.pdf) | Hieu Man Duc Trong | Note <br> [`Code`] |
 | 2022 | ACL | [Legal Judgment Prediction via Event Extraction with Constraints](https://aclanthology.org/2022.acl-long.48/) | Yi Feng | Note <br> [`Code`](https://github.com/wapay/epm) |
 | 2022 | ACL | [Event-Event Relation Extraction using Probabilistic Box Embedding](https://aclanthology.org/2022.acl-short.26/) | EunJeong Hwang | Note <br/> [`Code`](https://github.com/iesl/CE2ERE) |
 | 2021 | ACL-SRW | [Joint Detection and Coreference Resolution of Entities and Events with Document-level Context Aggregation](https://aclanthology.org/2021.acl-srw.18/) | Samuel Kriman | Note <br/> `Code` |
