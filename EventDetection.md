@@ -2,6 +2,7 @@
 
 | Year | Publisher | Title | Author | Function |
 | :-: | :-: | :- | :- | :-: |
+| 2022 | NAACL | [DEGREE: A Data-Efficient Generation-Based Event Extraction Model](https://aclanthology.org/2022.naacl-main.138/) | I-Hung Hsu | Note <br> `Code` |
 | 2021 | ACL | [TEXT2EVENT: Controllable Sequence-to-Structure Generation for End-to-end Event Extraction](https://aclanthology.org/2021.acl-long.217/) | Yaojie Lu | Note <br> [`Code`](https://github.com/luyaojie/text2event) |
 | 2021 | ACL | [CLEVE: Contrastive Pre-training for Event Extraction](https://aclanthology.org/2021.acl-long.491/) | Ziqi Wang | Note <br> [`Code`](https://github.com/THU-KEG/CLEVE) |
 | 2021 | ACL | [Capturing Event Argument Interaction via A Bi-Directional Entity-Level Recurrent Decoder](https://aclanthology.org/2021.acl-long.18/) | Xi Xiangyu | Note <br> `Code` |
