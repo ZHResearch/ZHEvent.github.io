@@ -2,7 +2,7 @@
 
 | Year | Publisher  | Title                                                        | Author                 |                           Function                           |
 | :--- | :--------: | :----------------------------------------------------------- | :--------------------- | :----------------------------------------------------------: |
-| 2022 | NAACL | [Pairwise Representation Learning for Event Coreference](https://aclanthology.org/2022.starsem-1.6/) | Xiaodong Yu | Note <br> `Code` |
+| 2022 | NAACL | [Pairwise Representation Learning for Event Coreference](https://aclanthology.org/2022.starsem-1.6/) | Xiaodong Yu | Note <br> [`Code`](https://cogcomp.seas.upenn.edu/page/publication_view/979) |
 | 2021 |    AAAI    | [Span-Based Event Coreference Resolution](https://www.aaai.org/AAAI21Papers/AAAI-9086.LJ.pdf) | Jing Lu                |                      Note <br/> `Code`                       |
 | 2021 | EMNLP | [Conundrums in Event Coreference Resolution: Making Sense of the State of the Art](https://aclanthology.org/2021.emnlp-main.103/) | Jing Lu | Note <br> `Code` |
 | 2021 |   IJCNLP   | [Exploiting Document Structures and Cluster Consistencies for Event Coreference Resolution](https://aclanthology.org/2021.acl-long.374/) | Hieu Minh Tran         |                       Note <br> `Code`                       |
@@ -62,4 +62,19 @@
 
 | Year | Publisher  | Title                                                        | Author                 |                           Function                           |
 | :--- | :--------: | :----------------------------------------------------------- | :--------------------- | :----------------------------------------------------------: |
+| 2022 |    arXiv     | [LINGMESS: Linguistically Informed Multi Expert Scorers for Coreference Resolution](https://arxiv.org/abs/2205.12644) | Shon Otmazgin         | Note <br/>[`Code`](https://github.com/shon-otmazgin/lingmess-coref) |
+| 2021 | ACL-IJCNLP | [Coreference Resolution without Span Representations](https://aclanthology.org/2021.acl-short.3/) | Yuval Kirstain | Note <br/>[`Code`](https://github.com/yuvalkirstain/s2e-coref) |
+| 2021 | EMNLP | [Focus on what matters: Applying Discourse Coherence Theory to Cross Document Coreference](https://aclanthology.org/2021.emnlp-main.106/) | William Held | Note <br/>[`Code`](https://github.com/Helw150/event_entity_coref_ecb_plus) |
+| 2021 | EMNLP | [Word-Level Coreference Resolution](https://aclanthology.org/2021.emnlp-main.605/) | Vladimir Dobrovolskii | Note <br/>[`Code`](https://github.com/vdobrovolskii/wl-coref) |
+| 2021 | EMNLP | [Sequential Cross-Document Coreference Resolution](https://aclanthology.org/2021.emnlp-main.382/) | Emily Allaway | Note <br/>`Code` |
+| 2020 | ACL | [CorefQA: Coreference Resolution as Query-based Span Prediction](https://aclanthology.org/2020.acl-main.622/) | Wei Wu | Note <br/>[`Code`](https://github.com/ShannonAI/CorefQA) |
+| 2020 | EMNLP | [Learning to Ignore: Long Document Coreference with Bounded Memory Neural Networks](https://aclanthology.org/2020.emnlp-main.685/) | Shubham Toshniwal | Note <br/>[`Code`](https://github.com/shtoshni/long-doc-coref) |
+| 2020 | EMNLP | [Incremental Neural Coreference Resolution in Constant Memory](https://aclanthology.org/2020.emnlp-main.695/) | Patrick Xia | Note <br/>[`Code`](https://nlp.jhu.edu/incremental-coref/) |
+| 2020 | arXiv | [A Neural Entity Coreference Resolution review](https://arxiv.org/abs/1910.09329) | Nikolaos Stylianou | Note <br/>`Code` |
+| 2020 | EMNLP | [Revealing the Myth of Higher-Order Inference in Coreference Resolution](https://aclanthology.org/2020.emnlp-main.686/) | Liyan Xu | Note <br/>[`Code`](https://github.com/emorynlp/coref-hoi) |
+| 2019 | EMNLP-IJCNLP | [BERT for Coreference Resolution: Baselines and Analysis](https://aclanthology.org/D19-1588/) | Mandar Joshi | Note <br/>[`Code`](https://github.com/mandarjoshi90/coref) |
+| 2019 | ACL | [Coreference Resolution with Entity Equalization](https://aclanthology.org/P19-1066/) | Ben Kantor | Note <br/>[`Code`](https://github.com/bkntr/coref-ee) |
+| 2018 | ACL | [Neural Coreference Resolution with Deep Biafﬁne Attention by Joint Mention Detection and Mention Clustering](https://aclanthology.org/P18-2017/) | Rui Zhang | Note <br/>`Code` |
 | 2018 | NAACL-HLT | [Higher-order Coreference Resolution with Coarse-to-ﬁne Inference](https://aclanthology.org/N18-2108/) | Kenton Lee | Note <br/> `Code` |
+| 2017 |    EMNLP     | [End-to-end Neural Coreference Resolution](https://aclanthology.org/D17-1018/) | Kenton Lee            |                      Note <br/> `Code`                       |
+| 2016 |     ACL      | [Improving Coreference Resolution by Learning Entity-Level Distributed Representations](https://aclanthology.org/P16-1061/) | Kevin Clark           |                      Note <br/> `Code`                       |

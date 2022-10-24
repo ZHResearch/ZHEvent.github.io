@@ -10,8 +10,6 @@
 - [事件空间关系（Spatial Relation Extraction）](#spatial-relation-extraction)
 - [事件相关及应用（Other）](#other)
 
-
-
 ## Causal Relation Extraction
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
@@ -63,7 +61,7 @@
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
-| 2022 | AAAI | [Selecting Optimal Context Sentences for Event-Event Relation Extraction](https://www.aaai.org/AAAI22Papers/AAAI-3912.ManH.pdf) | Hieu Man Duc Trong | Note <br> [`Code`] |
+| 2022 | AAAI | [Selecting Optimal Context Sentences for Event-Event Relation Extraction](https://ojs.aaai.org/index.php/AAAI/article/view/21354) | Hieu Man | Note <br> `Code` |
 | 2022 | ACL | [Legal Judgment Prediction via Event Extraction with Constraints](https://aclanthology.org/2022.acl-long.48/) | Yi Feng | Note <br> [`Code`](https://github.com/wapay/epm) |
 | 2022 | ACL | [Event-Event Relation Extraction using Probabilistic Box Embedding](https://aclanthology.org/2022.acl-short.26/) | EunJeong Hwang | Note <br/> [`Code`](https://github.com/iesl/CE2ERE) |
 | 2021 | ACL-SRW | [Joint Detection and Coreference Resolution of Entities and Events with Document-level Context Aggregation](https://aclanthology.org/2021.acl-srw.18/) | Samuel Kriman | Note <br/> `Code` |
@@ -77,6 +75,6 @@
 | 2019 | ACL | [Multi-Level Matching and Aggregation Network for Few-Shot Relation Classification](https://www.aclweb.org/anthology/P19-1277/) | Zhixiu Ye | [王亮](https://zhevent.github.io/2020/10/16/few-shot-relation-classification/) |
 | 2019 | EMNLP | [A Regularization Approach for Incorporating Event Knowledge and Coreference Relations into Neural Discourse Parsing](https://aclanthology.org/D19-1295/) | Zeyu Dai ||
 | 2019 | NACL | [Multilingual Entity, Relation, Event and Human Value Extraction](https://www.aclweb.org/anthology/N19-4019/) | Manling Li ||
-| 2019 | NAACL | [Modeling Document-level Causal Structures for Event Causal Relation Identification](https://www.aclweb.org/anthology/N19-1179/) | Lei Gao |
+| 2019 | NAACL | [Modeling Document-level Causal Structures for Event Causal Relation Identification](https://www.aclweb.org/anthology/N19-1179/) | Lei Gao ||
 | 2018 | LREC | [EventWiki: A Knowledge Base of Major Events](https://aclanthology.org/L18-1079/) | Tao Ge ||
-| 2016 | EVENTS | [Event Nugget and Event Coreference Annotation](https://www.aclweb.org/anthology/W16-1005/) | Zhiyi Song |
+| 2016 | EVENTS | [Event Nugget and Event Coreference Annotation](https://www.aclweb.org/anthology/W16-1005/) | Zhiyi Song ||
