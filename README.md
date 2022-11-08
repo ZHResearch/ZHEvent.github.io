@@ -27,7 +27,7 @@
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
-| 2021 | EMNLP | [Learning Constraints and Descriptive Segmentation for Subevent Detection](https://aclanthology.org/2021.emnlp-main.423/) | Haoyu Wang ||
+| 2021 | EMNLP | [Learning Constraints and Descriptive Segmentation for Subevent Detection](https://aclanthology.org/2021.emnlp-main.423/) | Haoyu Wang | Note <br/> [`Code`](https://github.com/CogComp/Subevent_EventSeg) |
 | 2019 | ACL | [Detecting Subevents using Discourse and Narrative Features](https://www.aclweb.org/anthology/P19-1471/) | Mohammed Aldawsari ||
 | 2019 |  NAACL-HLT | [Sub-Event Detection from Twitter Streams as a Sequence Labeling Problem](https://aclanthology.org/N19-1081/) | Giannis Bekoulis ||
 
