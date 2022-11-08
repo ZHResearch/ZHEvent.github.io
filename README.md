@@ -14,6 +14,7 @@
 
 | 年份 | 来源 | 名称 | 作者 | 笔记 |
 | :- | :-: | :- | :- | :- |
+| 2022 | COLING | [Event Causality Identification via Derivative Prompt Joint Learning](https://aclanthology.org/2022.coling-1.200/) | Shirong Shen ||
 | 2021 | ACL | [ExCAR: Event Graph Knowledge Enhanced Explainable Causal Reasoning](https://aclanthology.org/2021.acl-long.183/) | Li Du ||
 | 2021 | ACL | [Knowledge-Enriched Event Causality Identification via Latent Structure Induction Networks](https://aclanthology.org/2021.acl-long.376/) | Pengfei Cao ||
 | 2021 | NAACL | [Graph Convolutional Networks for Event Causality Identification with Rich Document-level Structures](https://aclanthology.org/2021.naacl-main.273.pdf) | Minh Tran Phu ||
